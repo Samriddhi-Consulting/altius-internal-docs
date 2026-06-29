@@ -13,7 +13,34 @@ Manual SQL below remains for support edge cases.
 
 ---
 
-## Symptom
+## Symptom — Persona never replies (persist-failed session)
+
+Learner sent messages but the persona never responded. Transcript may show only the opening line plus multiple learner messages in a row. `turn_count` stays **0** in admin reports.
+
+**Cause (fixed 2026-06-29):** Cloudflare Worker dropped detached `waitUntil` work in chat `onFinish` before assistant rows were saved. Groq still returned 200.
+
+**Learner self-heal (post-fix):** Opening `/sim/{sessionId}` for a persist-failed session auto-completes the broken session and redirects to a fresh one (clean opening only).
+
+**Ops — find affected sessions:**
+
+```sql
+SELECT s.id, u.email, sc.title, s.turn_count,
+  SUM(CASE WHEN m.role = 'user' THEN 1 ELSE 0 END) AS user_msgs
+FROM sessions s
+JOIN users u ON u.id = s.user_id
+JOIN scenarios sc ON sc.id = s.scenario_id
+JOIN messages m ON m.session_id = s.id
+WHERE s.status = 'active'
+  AND s.turn_count = 0
+GROUP BY s.id, u.email, sc.title, s.turn_count
+HAVING SUM(CASE WHEN m.role = 'user' THEN 1 ELSE 0 END) > 0;
+```
+
+**Ops fix:** Ask learner to refresh or re-open the sim URL (auto-recovery), or use **Full redo** on the reset UI.
+
+---
+
+## Symptom — Session lockout
 
 Learner reports the chat will not send messages. The UI shows:
 

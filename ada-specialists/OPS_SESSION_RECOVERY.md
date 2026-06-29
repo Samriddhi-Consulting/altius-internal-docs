@@ -17,7 +17,7 @@ Manual SQL below remains for support edge cases.
 
 Learner sent messages but the persona never responded. Transcript may show only the opening line plus multiple learner messages in a row. `turn_count` stays **0** in admin reports.
 
-**Cause (fixed 2026-06-29):** Cloudflare Worker dropped detached `waitUntil` work in chat `onFinish` before assistant rows were saved. Groq still returned 200.
+**Cause (fixed 2026-06-29):** Cloudflare Workers did not reliably complete `streamText` + `onFinish` — Groq returned 200 with output tokens, but the client received an empty text stream and assistant rows were never saved. Chat now uses `generateText` with awaited persist before the HTTP response.
 
 **Learner self-heal (post-fix):** Opening `/sim/{sessionId}` for a persist-failed session auto-completes the broken session and redirects to a fresh one (clean opening only).
 

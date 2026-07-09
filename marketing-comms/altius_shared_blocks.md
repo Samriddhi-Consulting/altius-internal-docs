@@ -147,6 +147,7 @@ Maintain with [Altius SEO + AEO Strategy.md](./Altius%20SEO%20+%20AEO%20Strategy
 | LinkedIn — A Degree Above | Done | `https://www.linkedin.com/company/a-degree-above/` |
 | LinkedIn — Altius showcase | Done | `https://www.linkedin.com/showcase/altius-by-ada/` |
 | GitHub — public docs mirror | Done | `https://github.com/Samriddhi-Consulting/altius-public-docs` (auto-sync via `sync-public-docs.yml`) |
-| Google Business Profile | Pending | A Degree Above; service-area business |
-| Wikidata | Pending | ADA org item (+ Altius software optional) |
+| Google Business Profile | Done | [Maps listing](https://www.google.com/maps/place/A+Degree+Above/data=!4m2!3m1!1s0x0:0x1c0738c025962a93) — service-area; `adegreeabove.org`; first post 2026-07-09 |
+| Wikidata — A Degree Above | Done | [Q140329925](https://www.wikidata.org/wiki/Q140329925) |
+| Wikidata — Altius | Done | [Q140469863](https://www.wikidata.org/wiki/Q140469863) |
 | Crunchbase | Pending | A Degree Above |

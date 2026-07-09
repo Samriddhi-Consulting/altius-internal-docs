@@ -19,7 +19,7 @@
 > - **Phase 1 complete** (2026-06-23) — sitemap, `SeoHead`, `robots.txt`, `llms.txt`, benefit titles/meta, OG image, DemoGallery URL filters (`?topic=` / `?audience=` / `?function=`).
 > - **Phase 2 core complete** (2026-06-23) — `src/lib/seo/schema.ts` JSON-LD `@graph`, Tier 1 FAQs (14 corporate + 19 education) with `FAQPage` schema, `/about`, proof stats + `aggregateRating`/`review[]`, footer entity copy. **Deferred within Phase 2:** HowTo on home, ItemList on `/demos`, Service types optional.
 > - **GSC:** `https://altius.adegreeabove.org/sitemap-index.xml` submitted (June 2026).
-> - **Off-site entity (partial):** LinkedIn company page live; Altius showcase URL shared (`linkedin.com/showcase/altius-by-ada/`). Wikidata, Google Business Profile, Crunchbase — pending. Log: Part 4.4.
+> - **Off-site entity (partial):** LinkedIn + Wikidata + GBP live (ADA [Q140329925](https://www.wikidata.org/wiki/Q140329925), Altius [Q140469863](https://www.wikidata.org/wiki/Q140469863), [GBP Maps](https://www.google.com/maps/place/A+Degree+Above/data=!4m2!3m1!1s0x0:0x1c0738c025962a93)); `sameAs` in `schema.ts`. Crunchbase — pending. Log: Part 4.4.
 
 ---
 
@@ -408,10 +408,10 @@ Add FAQPage schema per page with 5–8 Q&As targeting the exact questions IQAC c
 4.3 Knowledge Graph Integration Tactics
 Getting into Google's knowledge graph requires authority signals across multiple platforms:
 
-**Google Business Profile** for **A Degree Above** (online-only / service-area business OK) — anchors verified business identity; website `https://adegreeabove.org`. Do not list Samriddhi as the operating business on GBP.
+**Google Business Profile** for **A Degree Above** (online-only / service-area business OK) — anchors verified business identity; website `https://adegreeabove.org`. Do not list Samriddhi as the operating business on GBP. **Status: done (July 2026)** — [Maps listing](https://www.google.com/maps/place/A+Degree+Above/data=!4m2!3m1!1s0x0:0x1c0738c025962a93); description, logo, phone, first post live (public crawl may lag).
 **LinkedIn company page** (A Degree Above) — live with logo, description, website → `adegreeabove.org`. **About Us copy:** [altius_shared_blocks.md](./altius_shared_blocks.md) § Value proposition. **Status: live.**
 **Altius showcase page** — `https://www.linkedin.com/showcase/altius-by-ada/` linked to microsite; matches `Brand.sameAs` in JSON-LD. **Status: URL shared publicly (June 2026).**
-**Wikidata** — create items for A Degree Above (organization) and optionally Altius (software); properties: `P856` official website, `P4264` LinkedIn, `P31` instance of organization/software; link Altius → developer → ADA. Do not add Samriddhi as parent unless deliberately chosen for Wikidata (site Tier B avoids this). **Status: pending.**
+**Wikidata** — ADA [Q140329925](https://www.wikidata.org/wiki/Q140329925) + Altius [Q140469863](https://www.wikidata.org/wiki/Q140469863); linked via `developer` / `product or material produced`. **Status: done (July 2026).**
 **Crunchbase / AngelList** listing for A Degree Above — free tier sufficient for cross-reference. **Status: pending.**
 **Wikipedia** — strongest signal when secondary coverage exists. Not yet feasible.
 **Press coverage / PR** — Ashok Leyland pilot is the natural hook (ET L&D, YourStory, HR Katha).
@@ -424,8 +424,9 @@ Getting into Google's knowledge graph requires authority signals across multiple
 | Google Search Console | Microsite | Property: `altius.adegreeabove.org` | **Done** | Sitemap submitted June 2026 |
 | LinkedIn company | A Degree Above | `linkedin.com/company/a-degree-above/` | **Done** | `sameAs` in schema |
 | LinkedIn showcase | Altius | `linkedin.com/showcase/altius-by-ada/` | **Done** | Shared publicly; `Brand.sameAs` |
-| Google Business Profile | A Degree Above | — | Pending | Service-area; no fake address |
-| Wikidata | A Degree Above (+ Altius optional) | QID TBD | Pending | ~1 hour; add QIDs here when live |
+| Google Business Profile | A Degree Above | [Maps listing](https://www.google.com/maps/place/A+Degree+Above/data=!4m2!3m1!1s0x0:0x1c0738c025962a93) | **Done** | Service-area; `adegreeabove.org`; first post 2026-07-09 |
+| Wikidata | A Degree Above | [Q140329925](https://www.wikidata.org/wiki/Q140329925) | **Done** | P856, P973 org `/about/`, P4264 company, P1056 → Altius |
+| Wikidata | Altius | [Q140469863](https://www.wikidata.org/wiki/Q140469863) | **Done** | P178 → ADA, P973 product `/about`, P4264 `altius-by-ada` showcase |
 | Crunchbase | A Degree Above | — | Pending | Optional |
 | `adegreeabove.org` | Parent org site | Organization markup on parent host | Future | Reinforces `@id` |
 Part 5: AEO — Answer Engine Optimization
@@ -615,8 +616,8 @@ Core Web Vitals pass: LCP preload, image dimensions, lazy load — **pending**
 Month 3+ (Content at scale + knowledge graph):
 
 Complete corporate + education sub-page set
-Wikidata entry for A Degree Above (+ Altius product optional)
-Google Business Profile (A Degree Above, service-area)
+Wikidata entry for A Degree Above (+ Altius product optional) — **done**
+Google Business Profile (A Degree Above, service-area) — **done**
 Begin PR outreach (ET L&D beat, YourStory, HR Katha) anchored on Ashok Leyland story
 HTML sitemap at /sitemap
 Phase 5B evaluation: per-scenario pages based on GSC data

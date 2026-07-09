@@ -17,7 +17,7 @@
 >
 > **Implementation status (SEO infra):**
 > - **Phase 1 complete** (2026-06-23) — sitemap, `SeoHead`, `robots.txt`, `llms.txt`, benefit titles/meta, OG image, DemoGallery URL filters (`?topic=` / `?audience=` / `?function=`).
-> - **Phase 2 core complete** (2026-06-23) — `src/lib/seo/schema.ts` JSON-LD `@graph`, Tier 1 FAQs (14 corporate + 19 education) with `FAQPage` schema, `/about`, proof stats + `aggregateRating`/`review[]`, footer entity copy. **Deferred within Phase 2:** HowTo on home, ItemList on `/demos`, Service types optional.
+> - **Phase 2 core complete** (2026-06-23) — `src/lib/seo/schema.ts` JSON-LD `@graph`, Tier 1 FAQs (14 corporate + 19 education) with `FAQPage` schema, `/about`, proof stats + `aggregateRating`/`review[]`, footer entity copy. **HowTo + ItemList shipped** (2026-07-09). **Optional / deferred:** Service types on corporate/education.
 > - **GSC:** `https://altius.adegreeabove.org/sitemap-index.xml` submitted (June 2026).
 > - **Off-site entity (partial):** LinkedIn + Wikidata + GBP live (ADA [Q140329925](https://www.wikidata.org/wiki/Q140329925), Altius [Q140469863](https://www.wikidata.org/wiki/Q140469863), [GBP Maps](https://www.google.com/maps/place/A+Degree+Above/data=!4m2!3m1!1s0x0:0x1c0738c025962a93)); `sameAs` in `schema.ts`. Crunchbase — pending. Log: Part 4.4.
 
@@ -184,7 +184,7 @@ DemoGallery.tsx is the primary offender — it is a React island with full re-re
 Verify SSR output (critical blocker):
 
 astro build && grep -c "scenario-card" dist/demos/index.html
-If this returns 0, all 25 scenarios are client-only rendered and invisible to crawlers. This must be confirmed before any other SEO work.
+If this returns 0, all scenarios in `SCENARIOS` are client-only rendered and invisible to crawlers. This must be confirmed before any other SEO work.
 
 3.2 Crawl Infrastructure
 XML Sitemap (via @astrojs/sitemap)
@@ -333,6 +333,9 @@ Home — HowTo schema (maps to How It Works section):
 {
 "@type": "HowTo",
 "name": "How to run an AI conversation simulation with Altius",
+"description": "Run an Altius simulation in four steps: brief, conversation, coaching debrief, dashboard.",
+"image": "https://altius.adegreeabove.org/altius-how-it-works.png",
+"inLanguage": "en-IN",
 "step": [
 {
 "@type": "HowToStep",
@@ -386,8 +389,8 @@ Add FAQPage schema sourced from the 5 problems section and the accreditation map
 {
 "@type": "ItemList",
 "name": "Altius AI Conversation Scenario Library",
-"description": "25 AI-powered professional conversation scenarios across sales, leadership, operations, and academic disciplines.",
-"numberOfItems": 25,
+"description": "{N} AI-powered professional conversation scenarios across sales, leadership, operations, and academic disciplines.",
+"numberOfItems": "{N}",
 "itemListElement": [
 // One ListItem per scenario with name, description, url
 ]
@@ -593,11 +596,11 @@ GSC sitemap submitted ✓
 Week 3–4 (Schema foundation + AEO) — **core done (2026-06-23); partial deferrals:**
 
 Site-wide Organization + WebSite + Brand JSON-LD ✓
-Home: WebApplication + aggregateRating (corporate cohort) ✓; **HowTo — deferred**
+Home: WebApplication + aggregateRating (corporate cohort) ✓; HowTo ✓ (2026-07-09)
 Corporate + Education: FAQPage schema (14 + 19 Q&As) ✓; Service type optional
 /about entity page ✓
 Title/meta cleanup on core pages ✓
-Demos: ItemList schema — **deferred**
+Demos: ItemList schema ✓ (2026-07-09)
 
 Month 2 (Content architecture) — **pending:**
 

@@ -26,11 +26,11 @@ Any **confirmed org or faculty request** (pattern: SCN-001 / Spacematrix) jumps 
 
 | Bucket | Count | Slugs |
 |--------|------:|-------|
-| **Live (seeded)** | 6 | `vikram-sales`, `vikram-parts`, `vikram-service`, `flowbridge-discovery`, `design-build-gcc-norway`, `difficult-feedback` |
-| **On `/demos` gallery** | 25 | All entries in `scenarios.ts` |
-| **Gallery + playable** | 2 | `design-build-gcc-norway`, `difficult-feedback` |
+| **Live (seeded)** | 7 | `vikram-sales`, `vikram-parts`, `vikram-service`, `flowbridge-discovery`, `design-build-gcc-norway`, `difficult-feedback`, `fmcg-distributor-negotiation` |
+| **On `/demos` gallery** | 24 | All entries in `scenarios.ts` |
+| **Gallery + playable** | 3 | `design-build-gcc-norway`, `difficult-feedback`, `fmcg-distributor-negotiation` |
 | **Live but not on gallery** *(intentional)* | 4 | Vikram trilogy + Flowbridge — featured via homepage/corporate/education CTAs |
-| **Aspirational (gallery only)** | 23 | Every other card in `scenarios.ts` |
+| **Aspirational (gallery only)** | 21 | Every other card in `scenarios.ts` |
 
 **Gallery sync (SCN-GAL):** deferred by design — live slugs stay off the public gallery catalog. Track in [BACKLOG.md](../../BACKLOG.md) only.
 
@@ -65,7 +65,7 @@ Homepage DemoTeaser and/or `/education` featured blocks link here today; sign-in
 | ID | Slug | Title | Intake |
 |----|------|-------|--------|
 | SCN-003 | `difficult-feedback` | Giving Difficult Feedback | Corporate |
-| SCN-004 | `fmcg-shelf-space` | FMCG: Shelf Space Negotiation | Corporate |
+| SCN-004 | `fmcg-distributor-negotiation` | The Promise | Corporate |
 | SCN-005 | `patient-communication` | Patient Communication (Medical) | Education |
 | SCN-006 | `client-counselling-law` | Client Counselling (Law) | Education |
 
@@ -148,7 +148,7 @@ Gallery rows from `scenarios.ts`. **Live** modules also include four slugs not l
 |----|------|---------------|----------|------|--------|--------|
 | SCN-001 | `design-build-gcc-norway` | The Nordic Standard | Revenue & Commercial | — | Corporate | **done** |
 | SCN-003 | `difficult-feedback` | Giving Difficult Feedback | Leadership & People | 1 | Corporate | **done** |
-| SCN-004 | `fmcg-shelf-space` | FMCG: Shelf Space Negotiation | Revenue & Commercial | 1 | Corporate | backlog |
+| SCN-004 | `fmcg-distributor-negotiation` | The Promise | Revenue & Commercial | 1 | Corporate | **done** |
 | SCN-005 | `patient-communication` | Patient Communication (Medical) | Academic | 1 | Education | backlog |
 | SCN-006 | `client-counselling-law` | Client Counselling (Law) | Academic | 1 | Education | backlog |
 | SCN-007 | `sales-objection-handling` | Sales: Objection Handling & Discovery | Revenue & Commercial | 2 | Corporate | backlog |
@@ -195,4 +195,5 @@ Expand item-specific detail blocks in this file (or in `BACKLOG.md`) only when a
 |------|--------|
 | 2026-06-21 | Initial catalog from microsite `scenarios.ts`. Waves 1–5 by market demand. SCN-GAL deferred (gallery sync intentional). |
 | 2026-06-24 | SCN-003 `in_progress` — SME intake initiated. |
+| 2026-07-09 | SCN-004 shipped — `fmcg-distributor-negotiation` published (`The Promise`); 7 live · 3 gallery-playable. |
 | 2026-06-24 | SCN-003 shipped — `difficult-feedback` (`The Green RAG`); 6 live · 2 gallery-playable. |

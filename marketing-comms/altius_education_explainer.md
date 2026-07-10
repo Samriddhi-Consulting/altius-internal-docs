@@ -145,12 +145,12 @@ The rubric is custom-designed for each scenario. The evaluator persona (e.g., "e
 
 ### Step 4: The Faculty Dashboard
 
-The faculty member or programme director sees aggregate and individual data.
+The faculty member or programme director sees operational progress.
 
 - Which students have completed the simulation and which haven't.
-- Individual transcripts and debriefs. You can read exactly what any student said and how the AI responded.
-- Cohort patterns. "32 out of 58 students scored below 3 on probing depth" is a concrete input for your next lecture.
-- Exportable data for programme-level reporting and accreditation documentation.
+- Full transcripts. You can read exactly what any student said and how the AI responded.
+- The scored coaching debrief is not in the faculty dashboard. Faculty or a programme specialist delivers it from the Altius analysis.
+- Cohort patterns still land for the programme. "32 out of 58 students scored below 3 on probing depth" is a concrete input for your next lecture, from that analysis. Accreditation artefacts (transcripts, criterion scores, cohort summaries) come from the same path.
 
 ---
 
@@ -239,6 +239,19 @@ Altius is not a proposal. It is live and tested.
 
 ---
 
+## How We Set This Up
+
+This is the faculty path from brief to accreditation-ready artefacts. (The four steps above are the student session.)
+
+1. **Brief.** You name the conversation students must be able to hold, the counterpart, and the competences or Course Outcomes you need to assess. What does a strong student do that a weak one doesn't?
+2. **Design.** We build the persona, the student briefing, and a rubric mapped to those outcomes. Days, not a semester project.
+3. **Review.** Faculty play-test and sign off. In regulated fields (law, medicine), you remain the authority on professional accuracy; Altius assesses how students communicate under pressure. Live in one to two weeks from a clear brief.
+4. **Cohort.** We invite the batch by email. Magic link. Browser on phone or laptop. No app. No LMS required.
+5. **Run.** Students practise asynchronously: a full batch of 30 to 60 in the same week, privately, without 60 live role-plays. You see completion and can open any transcript.
+6. **Debrief & evidence.** Faculty or a programme specialist delivers the coaching debrief from the Altius analysis. You keep timestamped transcripts, criterion scores, and cohort patterns you can file for IQAC, CO/PO attainment, or AoL: not just attendance logs.
+
+A typical first run is one batch of 30 to 60 on a single scenario.
+
 ## How It Works For Your Institution
 
 |  | Detail |
@@ -247,7 +260,7 @@ Altius is not a proposal. It is live and tested.
 | **Faculty involvement** | You describe the conversation, the counterpart, and the competences you want assessed. We design the persona, write the briefing, and build the rubric. You review and we iterate until it's right. |
 | **Student access** | Browser-based. Phone or laptop. No app to install. No LMS integration required, though we can discuss integration if needed. |
 | **Infrastructure** | None. Cloud-hosted. Works on any device with internet access. |
-| **Cohort management** | Invite students by email. Track completion, scores, and patterns from the faculty dashboard. |
+| **Cohort management** | We invite the batch by email. You track completion and transcripts. Scores and debriefs support your assessment and accreditation file via the specialist or faculty coaching path. |
 | **Data and privacy** | Student data is institution-isolated. You see only your students' data. Transcripts and scores are stored securely and exportable for accreditation documentation. |
 | **Pricing** | Per-scenario, per-cohort. No platform licence. No annual contract unless you want one. |
 

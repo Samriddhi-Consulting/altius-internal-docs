@@ -119,12 +119,12 @@ The rubric is custom-built for your scenario, measuring the exact behaviours you
 
 ### Step 4: Your Dashboard
 
-As the L&D leader, HRBP, or functional head, you see everything.
+As the L&D leader, HRBP, or functional head, you see operational progress.
 
 - Who has completed the simulation and who hasn't.
-- Individual scorecards. You can drill into any person's full transcript and coaching debrief.
-- Cohort-level patterns. If 80% of the team scored low on needs discovery, you know exactly what to focus the next workshop on.
-- Exportable reports. A one-page executive summary for leadership: *"142 participants completed the simulation. Average score: 7.1/10. The biggest capability gap is quantifying customer impact."*
+- Full transcripts. You can drill into any person's conversation for coaching QA.
+- The scored coaching debrief and behaviour scores sit with the specialist path (ADA, or someone on your team we have trained), not in the corporate admin dashboard.
+- Cohort-level patterns still land for the programme. If 80% of the team scored low on needs discovery, you know exactly what to focus the next workshop on, from the specialist analysis and cohort report.
 
 ---
 
@@ -232,6 +232,19 @@ This isn't a concept. Altius is live, deployed, and tested.
 
 ---
 
+## How We Set This Up
+
+This is what happens after you say yes: the operator path from first brief to cohort evidence. (The four steps above are the learner session.)
+
+1. **Brief.** You name one conversation that matters: who the counterpart is, what is at stake, and which behaviours you want assessed. What do your best people do that average performers don't?
+2. **Design.** We build the persona, the learner briefing, the scene rules, and the rubric. Usually days, not a platform project. You don't write prompts. You don't configure an LMS.
+3. **Review.** You (and a line SME if you want one) play-test. We iterate until the pushback feels real and the scoring matches what "good" looks like in your organisation. Live in one to two weeks from a clear brief.
+4. **Cohort.** We stand up your organisation space and invite the pilot group by email. Magic link. Browser on phone or laptop. No app. No LMS required.
+5. **Run.** People practise asynchronously. You see who has completed and can open transcripts for coaching QA.
+6. **Debrief & evidence.** An L&D specialist (ADA, or someone on your team we have trained) runs the coaching debrief from the Altius analysis: transcript, behaviour scores, what to fix next. You leave with individual scorecards and a cohort summary leadership can actually read.
+
+A typical first run is 20 to 30 people on one scenario.
+
 ## How It Works For You
 
 |  | Detail |
@@ -239,7 +252,7 @@ This isn't a concept. Altius is live, deployed, and tested.
 | **Setup time** | One to two weeks from brief to live scenario. |
 | **What you provide** | A description of the conversation, the counterpart type, and the behaviours you want to assess. We do the rest. |
 | **What your people need** | A phone or laptop with a browser. No app. No download. No LMS integration. |
-| **Deployment** | Invite learners by email. They click a link, read the brief, and start the simulation. |
+| **Cohort management** | We invite your cohort by email. You track completion and transcripts. Cohort summary for leadership via the specialist debrief path. |
 | **Languages** | English first. Hindi and regional language support on the roadmap. |
 | **Data and privacy** | All data is organisation-isolated. You see only your team's data. We can discuss hosting and compliance needs. |
 | **Pricing** | Per-scenario, per-cohort. No platform licence. No multi-year lock-in. |

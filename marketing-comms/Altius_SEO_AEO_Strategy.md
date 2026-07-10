@@ -17,7 +17,7 @@
 >
 > **Implementation status (SEO infra):**
 > - **Phase 1 complete** (2026-06-23) — sitemap, `SeoHead`, `robots.txt`, `llms.txt`, benefit titles/meta, OG image, DemoGallery URL filters (`?topic=` / `?audience=` / `?function=`).
-> - **Phase 2 core complete** (2026-06-23) — `src/lib/seo/schema.ts` JSON-LD `@graph`, Tier 1 FAQs (14 corporate + 19 education) with `FAQPage` schema, `/about`, proof stats + `aggregateRating`/`review[]`, footer entity copy. **HowTo + ItemList shipped** (2026-07-09). **Optional / deferred:** Service types on corporate/education.
+> - **Phase 2 core complete** (2026-06-23) — `src/lib/seo/schema.ts` JSON-LD `@graph`, Tier 1 FAQs (14 corporate + 19 education) with `FAQPage` schema, `/about`, proof stats + `aggregateRating`/`review[]`, footer entity copy. **HowTo + ItemList shipped** (2026-07-09). **Operator HowTo on `/corporate` and `/education`** (SEO-018, 2026-07-10) — 6-step setup HowTo distinct from home learner HowTo; no new route. **Optional / deferred:** Service types on corporate/education.
 > - **Phase 3 CWV (SEO-003) shipped** (2026-07-10) — Fraunces preload; `.bg-watermark` CLS fix; education `content-visibility`; demos conditional hydration.
 > - **GSC:** `https://altius.adegreeabove.org/sitemap-index.xml` submitted (June 2026).
 > - **Off-site entity (partial):** LinkedIn + Wikidata + GBP live (ADA [Q140329925](https://www.wikidata.org/wiki/Q140329925), Altius [Q140469863](https://www.wikidata.org/wiki/Q140469863), [GBP Maps](https://www.google.com/maps/place/A+Degree+Above/data=!4m2!3m1!1s0x0:0x1c0738c025962a93)); `sameAs` in `schema.ts`. Crunchbase — pending. Log: Part 4.4.
@@ -599,6 +599,7 @@ Week 3–4 (Schema foundation + AEO) — **core done (2026-06-23); partial defer
 Site-wide Organization + WebSite + Brand JSON-LD ✓
 Home: WebApplication + aggregateRating (corporate cohort) ✓; HowTo ✓ (2026-07-09)
 Corporate + Education: FAQPage schema (14 + 19 Q&As) ✓; Service type optional
+Corporate + Education: operator HowTo (6-step setup) ✓ (SEO-018, 2026-07-10)
 /about entity page ✓
 Title/meta cleanup on core pages ✓
 Demos: ItemList schema ✓ (2026-07-09)

@@ -32,6 +32,8 @@ Any **confirmed org or faculty request** (pattern: SCN-001 / Spacematrix) jumps 
 | **Live but not on gallery** *(intentional)* | 4 | Vikram trilogy + Flowbridge — featured via homepage/corporate/education CTAs |
 | **Aspirational (gallery only)** | 21 | Every other card in `scenarios.ts` |
 
+**Unseeded funnel:** Aspirational CTAs still deep-link to `/pre-read/{slug}`. Missing or unpublished modules render [ScenarioUnavailable](../src/components/learner/scenario-unavailable.tsx) ("being re-engineered") plus live alternatives — not a 404.
+
 **Gallery sync (SCN-GAL):** deferred by design — live slugs stay off the public gallery catalog. Track in [BACKLOG.md](../../BACKLOG.md) only.
 
 ---
@@ -149,8 +151,8 @@ Gallery rows from `scenarios.ts`. **Live** modules also include four slugs not l
 | SCN-001 | `design-build-gcc-norway` | The Nordic Standard | Revenue & Commercial | — | Corporate | **done** |
 | SCN-003 | `difficult-feedback` | Giving Difficult Feedback | Leadership & People | 1 | Corporate | **done** |
 | SCN-004 | `fmcg-distributor-negotiation` | The Promise | Revenue & Commercial | 1 | Corporate | **done** |
-| SCN-005 | `patient-communication` | Patient Communication (Medical) | Academic | 1 | Education | backlog |
-| SCN-006 | `client-counselling-law` | Client Counselling (Law) | Academic | 1 | Education | backlog |
+| SCN-005 | `patient-communication` | Patient Communication (Medical) | Academic | 1 | Education | **ready** (SME early next week) |
+| SCN-006 | `client-counselling-law` | Client Counselling (Law) | Academic | 1 | Education | **ready** (SME early next week) |
 | SCN-007 | `sales-objection-handling` | Sales: Objection Handling & Discovery | Revenue & Commercial | 2 | Corporate | backlog |
 | SCN-008 | `customer-support-contact-centre` | Customer Support & Service Recovery | Operations & Support | 2 | Corporate | backlog |
 | SCN-009 | `coaching-direct-reports` | Coaching Direct Reports | Leadership & People | 2 | Corporate | backlog |
@@ -193,6 +195,8 @@ Expand item-specific detail blocks in this file (or in `BACKLOG.md`) only when a
 
 | Date | Change |
 |------|--------|
+| 2026-07-10 | Documented unseeded funnel: `ScenarioUnavailable` re-engineering screen (not 404). |
+| 2026-07-10 | SCN-004 SME sign-off complete. SCN-005/006 → ready (assigned; intake early next week). |
 | 2026-06-21 | Initial catalog from microsite `scenarios.ts`. Waves 1–5 by market demand. SCN-GAL deferred (gallery sync intentional). |
 | 2026-06-24 | SCN-003 `in_progress` — SME intake initiated. |
 | 2026-07-09 | SCN-004 shipped — `fmcg-distributor-negotiation` published (`The Promise`); 7 live · 3 gallery-playable. |

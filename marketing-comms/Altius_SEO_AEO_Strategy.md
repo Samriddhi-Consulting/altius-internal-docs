@@ -18,6 +18,7 @@
 > **Implementation status (SEO infra):**
 > - **Phase 1 complete** (2026-06-23) — sitemap, `SeoHead`, `robots.txt`, `llms.txt`, benefit titles/meta, OG image, DemoGallery URL filters (`?topic=` / `?audience=` / `?function=`).
 > - **Phase 2 core complete** (2026-06-23) — `src/lib/seo/schema.ts` JSON-LD `@graph`, Tier 1 FAQs (14 corporate + 19 education) with `FAQPage` schema, `/about`, proof stats + `aggregateRating`/`review[]`, footer entity copy. **HowTo + ItemList shipped** (2026-07-09). **Optional / deferred:** Service types on corporate/education.
+> - **Phase 3 CWV (SEO-003) shipped** (2026-07-10) — Fraunces preload; `.bg-watermark` CLS fix; education `content-visibility`; demos conditional hydration.
 > - **GSC:** `https://altius.adegreeabove.org/sitemap-index.xml` submitted (June 2026).
 > - **Off-site entity (partial):** LinkedIn + Wikidata + GBP live (ADA [Q140329925](https://www.wikidata.org/wiki/Q140329925), Altius [Q140469863](https://www.wikidata.org/wiki/Q140469863), [GBP Maps](https://www.google.com/maps/place/A+Degree+Above/data=!4m2!3m1!1s0x0:0x1c0738c025962a93)); `sameAs` in `schema.ts`. Crunchbase — pending. Log: Part 4.4.
 
@@ -614,7 +615,7 @@ Create /education/naac, /education/nba, /education/nep (highest-intent, lowest-c
 Create /corporate/gccs, /corporate/sales-enablement
 Create /case-studies/ashok-leyland (convert the proof points into a full narrative case study page)
 /about — **shipped** (2026-06-23)
-Core Web Vitals pass: LCP preload, image dimensions, lazy load — **pending**
+Core Web Vitals pass: LCP preload, image dimensions, lazy load, watermark CLS, education `content-visibility` — **shipped 2026-07-10** (SEO-003)
 
 Month 3+ (Content at scale + knowledge graph):
 

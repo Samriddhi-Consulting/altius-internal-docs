@@ -151,3 +151,16 @@ Maintain with [Altius SEO + AEO Strategy.md](./Altius%20SEO%20+%20AEO%20Strategy
 | Wikidata — A Degree Above | Done | [Q140329925](https://www.wikidata.org/wiki/Q140329925) |
 | Wikidata — Altius | Done | [Q140469863](https://www.wikidata.org/wiki/Q140469863) |
 | Crunchbase | Pending | A Degree Above |
+
+---
+
+## Microsite performance (SEO-003)
+
+Shipped 2026-07-10 on the Astro microsite (implementation detail; copy above unchanged):
+
+- Fraunces WOFF2 preload; decorative Δ watermarks use system serif (`.bg-watermark`) — not Fraunces — to avoid CLS
+- Education page: measured `content-visibility` on below-fold sections; accreditation logos lazy-loaded
+- `/demos`: hydrate on load when URL filters are present, otherwise on visible
+- Gate: `npm run verify:lighthouse` in `landing-page/`; re-check production after deploy
+
+Canonical tracker: [Altius SEO + AEO Strategy.md](./Altius%20SEO%20+%20AEO%20Strategy.md) §3.1 · [BACKLOG.md](./BACKLOG.md) SEO-003

@@ -1,6 +1,6 @@
 # Scenario content backlog
 
-*Last updated: 2026-06-24. Ranked catalog of modules to build from the microsite gallery.*
+*Last updated: 2026-07-16. Ranked catalog of modules to build from the microsite gallery.*
 
 **Execution status** (Pipeline, Active sprint, `done`): [BACKLOG.md](../../BACKLOG.md) — Content — Scenarios section.
 
@@ -26,11 +26,11 @@ Any **confirmed org or faculty request** (pattern: SCN-001 / Spacematrix) jumps 
 
 | Bucket | Count | Slugs |
 |--------|------:|-------|
-| **Live (seeded)** | 7 | `vikram-sales`, `vikram-parts`, `vikram-service`, `flowbridge-discovery`, `design-build-gcc-norway`, `difficult-feedback`, `fmcg-distributor-negotiation` |
+| **Live (seeded)** | 8 | `vikram-sales`, `vikram-parts`, `vikram-service`, `flowbridge-discovery`, `design-build-gcc-norway`, `difficult-feedback`, `fmcg-distributor-negotiation`, `sales-product-knowledge` |
 | **On `/demos` gallery** | 24 | All entries in `scenarios.ts` |
-| **Gallery + playable** | 3 | `design-build-gcc-norway`, `difficult-feedback`, `fmcg-distributor-negotiation` |
+| **Gallery + playable** | 4 | `design-build-gcc-norway`, `difficult-feedback`, `fmcg-distributor-negotiation`, `sales-product-knowledge` |
 | **Live but not on gallery** *(intentional)* | 4 | Vikram trilogy + Flowbridge — featured via homepage/corporate/education CTAs |
-| **Aspirational (gallery only)** | 21 | Every other card in `scenarios.ts` |
+| **Aspirational (gallery only)** | 20 | Every other card in `scenarios.ts` |
 
 **Unseeded funnel:** Aspirational CTAs still deep-link to `/pre-read/{slug}`. Missing or unpublished modules render [ScenarioUnavailable](../src/components/learner/scenario-unavailable.tsx) ("being re-engineered") plus live alternatives — not a 404.
 
@@ -167,7 +167,7 @@ Gallery rows from `scenarios.ts`. **Live** modules also include four slugs not l
 | SCN-018 | `leading-through-change` | Leading Through Change | Leadership & People | 3 | Corporate | backlog |
 | SCN-019 | `business-communication` | Business Communication Practice | Academic | 4 | Education | backlog |
 | SCN-020 | `hospitality-guest-dispute` | Hospitality: Guest Dispute Resolution | Operations & Support | 4 | Both | backlog |
-| SCN-021 | `sales-product-knowledge` | Sales: Product Knowledge in Context | Revenue & Commercial | 5 | Corporate | backlog |
+| SCN-021 | `sales-product-knowledge` | Sales: Product Knowledge in Context | Revenue & Commercial | 5 | Corporate | done |
 | SCN-022 | `telecom-enterprise-renewal` | Telecom: Enterprise Renewal | Revenue & Commercial | 5 | Corporate | backlog |
 | SCN-023 | `real-estate-objection` | Real Estate: High-Ticket Objection | Revenue & Commercial | 5 | Corporate | backlog |
 | SCN-024 | `quality-compliance` | Quality & Compliance Conversations | Operations & Support | 5 | Corporate | backlog |
@@ -195,6 +195,7 @@ Expand item-specific detail blocks in this file (or in `BACKLOG.md`) only when a
 
 | Date | Change |
 |------|--------|
+| 2026-07-16 | SCN-021 shipped — `sales-product-knowledge` published (`Outcomes Not Specs`); 8 live · 4 gallery-playable. |
 | 2026-07-10 | Documented unseeded funnel: `ScenarioUnavailable` re-engineering screen (not 404). |
 | 2026-07-10 | SCN-004 SME sign-off complete. SCN-005/006 → ready (assigned; intake early next week). |
 | 2026-06-21 | Initial catalog from microsite `scenarios.ts`. Waves 1–5 by market demand. SCN-GAL deferred (gallery sync intentional). |

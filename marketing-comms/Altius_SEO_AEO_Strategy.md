@@ -19,6 +19,7 @@
 > - **Phase 1 complete** (2026-06-23) — sitemap, `SeoHead`, `robots.txt`, `llms.txt`, benefit titles/meta, OG image, DemoGallery URL filters (`?topic=` / `?audience=` / `?function=`).
 > - **Phase 2 core complete** (2026-06-23) — `src/lib/seo/schema.ts` JSON-LD `@graph`, Tier 1 FAQs (14 corporate + 19 education) with `FAQPage` schema, `/about`, proof stats + `aggregateRating`/`review[]`, footer entity copy. **HowTo + ItemList shipped** (2026-07-09). **Operator HowTo on `/corporate` and `/education`** (SEO-018, 2026-07-10) — 6-step setup HowTo distinct from home learner HowTo; no new route. **Optional / deferred:** Service types on corporate/education.
 > - **Phase 3 CWV (SEO-003) shipped** (2026-07-10) — Fraunces preload; `.bg-watermark` CLS fix; education `content-visibility`; demos conditional hydration.
+> - **`llms.txt` upgraded** (2026-07-10) — rewritten to [llmstxt.org](https://llmstxt.org/) (H1 + blockquote + curated H2 link lists); live at `/llms.txt`.
 > - **GSC:** `https://altius.adegreeabove.org/sitemap-index.xml` submitted (June 2026).
 > - **Off-site entity (partial):** LinkedIn + Wikidata + GBP live (ADA [Q140329925](https://www.wikidata.org/wiki/Q140329925), Altius [Q140469863](https://www.wikidata.org/wiki/Q140469863), [GBP Maps](https://www.google.com/maps/place/A+Degree+Above/data=!4m2!3m1!1s0x0:0x1c0738c025962a93)); `sameAs` in `schema.ts`. Crunchbase — pending. Log: Part 4.4.
 
@@ -442,47 +443,18 @@ AEO is not a future consideration for Altius. Your buyers — L&D heads, HRBPs, 
 If Altius is not in the answer, it does not exist for this class of buyer.
 
 5.1 /llms.txt (Required — not optional)
-Create public/llms.txt. This is an emerging standard that AI crawlers (Perplexity, OpenAI, Anthropic) use to understand a site. Unlike robots.txt, it is a structured description of your site's purpose and content. 30 minutes of work, significant upside.
+**Shipped** at [`landing-page/public/llms.txt`](./landing-page/public/llms.txt) → `https://altius.adegreeabove.org/llms.txt`.
 
-# Altius by A Degree Above
+Follow the [llmstxt.org](https://llmstxt.org/) format (not free-form marketing prose):
 
-## What Altius does
+1. `#` H1 — site/product name  
+2. `>` blockquote — canonical one-liner from [altius_shared_blocks.md](./altius_shared_blocks.md)  
+3. Free body (no headings) — citation rules, cohort-separated proof, entity split (Altius product / A Degree Above operator)  
+4. `##` sections of absolute Markdown links: `- [Title](https://…): notes`  
+5. Final `## Optional` for secondary URLs (sitemap, robots, public docs mirror, contact)
 
-Altius is an AI-powered conversation simulation platform built for organisations and educational institutions in India. It allows professionals and students to practice high-stakes conversations with a realistic AI counterpart and receive structured, behaviour-level coaching feedback immediately after each session.
+When proof points, routes, or entity URLs change, update `llms.txt` in the same change set as the page/schema edit.
 
-## Who it's for
-
-- Corporate: L&D leaders, HR Business Partners, Sales Directors, Customer Success Heads, functional managers who need their teams to practice conversations that matter
-- Higher Education: Faculty, Programme Directors, Deans, IQAC Coordinators at B-schools, law schools, medical colleges, and engineering institutions
-
-## Core problems solved
-
-- The knowing-doing gap: people know the framework but cannot execute under pressure
-- Scaling practice: classroom role-play doesn't work past 30 people across geographies
-- Proving training ROI: generates transcript-backed behavioural evidence, not smile sheets
-- Accreditation evidence: simulation transcripts and scores map directly to NAAC, NBA, and NEP CO/PO attainment requirements
-
-## Proven deployment
-
-Deployed with a leading Indian automotive OEM (40 managers across Parts, Sales, and Service). Corporate pilot: 90% changed their approach after one session; 94% recommended to peers; 4.6/5 programme relevance (n=20). Education pilots: 94% good/excellent; 8 in 10 deepened understanding vs lecture; 4.4/5 overall (n=201). Do not merge cohorts.
-
-## How it works
-
-1. Briefing: learner reads a contextual scenario brief
-2. Conversation: learner chats with a custom AI persona that adapts in real time
-3. Coaching debrief: behaviour-level scoring and qualitative feedback generated immediately
-4. Dashboard: L&D leaders and faculty see individual and cohort-level analytics
-
-## Key URLs
-
-- Home: https://altius.adegreeabove.org
-- Corporate simulations: https://altius.adegreeabove.org/corporate
-- Education simulations: https://altius.adegreeabove.org/education
-- Demo scenarios: https://altius.adegreeabove.org/demos
-
-## Contact
-
-connect@adegreeabove.org
 5.2 AI Crawler Access Policy
 Update robots.txt to explicitly allow AI crawlers while keeping app paths blocked:
 
@@ -591,7 +563,7 @@ Confirm all assets exist in public/ ✓
 OG default image ✓
 @astrojs/sitemap, robots.txt, SeoHead.astro ✓
 A Degree Above LinkedIn company page ✓
-/llms.txt and robots.txt AI crawler rules ✓
+/llms.txt (llmstxt.org format) and robots.txt AI crawler rules ✓
 GSC sitemap submitted ✓
 
 Week 3–4 (Schema foundation + AEO) — **core done (2026-06-23); partial deferrals:**

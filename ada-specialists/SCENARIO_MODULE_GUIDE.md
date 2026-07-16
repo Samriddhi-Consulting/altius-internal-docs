@@ -16,6 +16,8 @@ How to turn intake information into a **ScenarioModule** that Altius can seed, p
 | **`design-build-gcc-norway/`** | B2B discovery, cross-cultural expectation-setting, GCC / workplace scoping |
 | **`difficult-feedback/`** | Difficult feedback, banking governance, SBI, empathy without collusion, shared accountability |
 | **`flowbridge-discovery/`** | B2B discovery, async/crisis context, education / MBA lead qualification |
+| **`fmcg-distributor-negotiation/`** | FMCG trade sales, discovery before pitch, distributor economics |
+| **`sales-product-knowledge/`** | SaaS AE value selling, SPIN, product knowledge in context |
 | **`vikram-sales/`** | High-stakes B2B sales, objection handling, TCO |
 | **`vikram-parts/`** | Aftermarket / negotiation, total cost of ownership |
 | **`vikram-service/`** | Service recovery, empathy under pressure |

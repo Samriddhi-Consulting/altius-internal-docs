@@ -51,7 +51,7 @@ Prioritization after Wave 1 uses published L&D and India market trends, not gall
 | BFSI: 83% prioritize digital transform, ~31% workforce ready; simulation-based learning cited | Loan advisory, trust-building |
 | GCC India ~2M professionals; upskilling = primary retention lever | `gcc-escalation`, consulting pushback |
 | Healthcare simulation: web-based fastest-growing; NMC India mandates sim labs | `patient-communication` (Wave 1) |
-| Law: BCI 2020 rules + NEP 2020 mandate client counselling, clinical legal education | `client-counselling-law` (Wave 1) |
+| Law: BCI 2020 rules + NEP 2020 mandate client counselling, clinical legal education | `client-counselling-law` (Wave 1); `divorce-custody-counselling` (Wave 1 sibling) |
 | Hospitality: ~3.8L annual demand vs ~30k HM grads; soft-skills bottleneck | Strong content case; narrower institutional buyer base → Wave 4 |
 
 References (external): [LMSPedia 2026 benchmarks](https://lmspedia.org/corporate-training-budgets-2026-benchmarks/) · [IMARC India corporate training](https://www.imarcgroup.com/india-corporate-training-market) · [Wisemonk CX market](https://www.wisemonk.io/blogs/india-cx-market) · [KNOLSKAPE BFSI 2025](https://www.webnewswire.com/2025/07/09/skill-and-leadership-gaps-are-slowing-digital-transformation-in-indias-bfsi-sector-says-knolskape-report-2025/) · [nasscom GCC Value Orbit](https://nasscom.in/knowledge-center/publications/gcc-value-orbit-delivery-engine-enterprise-nerve-centre) · [Kaam hospitality hiring](https://kaam.com/blog/hiring-and-training-hospitality-talent)
@@ -153,6 +153,7 @@ Gallery rows from `scenarios.ts`. **Live** modules also include four slugs not l
 | SCN-004 | `fmcg-distributor-negotiation` | The Promise | Revenue & Commercial | 1 | Corporate | **done** |
 | SCN-005 | `patient-communication` | Patient Communication (Medical) | Academic | 1 | Education | **ready** (SME early next week) |
 | SCN-006 | `client-counselling-law` | Eighteen Lakhs, No Reply | Academic | 1 | Education | **done** |
+| SCN-026 | `divorce-custody-counselling` | What's Fair Here | Academic | 1 | Education | **done** |
 | SCN-007 | `sales-objection-handling` | Sales: Objection Handling & Discovery | Revenue & Commercial | 2 | Corporate | backlog |
 | SCN-008 | `customer-support-contact-centre` | Customer Support & Service Recovery | Operations & Support | 2 | Corporate | backlog |
 | SCN-009 | `coaching-direct-reports` | Coaching Direct Reports | Leadership & People | 2 | Corporate | backlog |
@@ -195,6 +196,7 @@ Expand item-specific detail blocks in this file (or in `BACKLOG.md`) only when a
 
 | Date | Change |
 |------|--------|
+| 2026-07-16 | SCN-026 shipped — `divorce-custody-counselling` published (`What's Fair Here`); 11 live · 7 gallery-playable. |
 | 2026-07-16 | SCN-012 shipped — `customer-success-renewals` published (`The Escalation`); 10 live · 6 gallery-playable. |
 | 2026-07-16 | SCN-006 shipped — `client-counselling-law` published (`Eighteen Lakhs, No Reply`); 9 live · 5 gallery-playable. |
 | 2026-07-16 | SCN-021 shipped — `sales-product-knowledge` published (`Outcomes Not Specs`); 8 live · 4 gallery-playable. |

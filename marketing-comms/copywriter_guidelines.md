@@ -6,6 +6,7 @@ ADA (A Degree Above) believes that small, intentional shifts unlock disproportio
 ## 1. Voice & Tone
 - **Traits:** Quirky · Clever · Professional · Relatable · Short · Human.
 - The voice is "low on graphic" and highly functional. It relies on punchy, memorable statements rather than long corporate paragraphs.
+- **Anti-LLM prompts (all platforms):** [human_copywriting_prompts.md](./human_copywriting_prompts.md) · Cursor rule: `.cursor/rules/copywriting-human-voice.mdc`
 
 ## 2. Structural Principles
 The copy dictates the design. Short sentences require different layouts than long blocks of text.

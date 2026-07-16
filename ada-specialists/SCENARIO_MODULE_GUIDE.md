@@ -14,6 +14,7 @@ How to turn intake information into a **ScenarioModule** that Altius can seed, p
 | Module | Use when |
 | :--- | :--- |
 | **`accountability-under-pressure/`** | B-school accountability under pressure, regulatory meeting, AAA (implicit), Truth vs Loyalty |
+| **`quiet-exit-retention/`** | OB/HRM retention conversation, Positions vs Interests (Getting to Yes), first-line manager |
 | **`client-counselling-law/`** | Law client counselling, expectation management, procedural justice (Voice/Respect/Trust/Reasoning) |
 | **`divorce-custody-counselling/`** | Law client counselling, Binder & Price non-legal goals, matrimonial first consult (fairness as wrong first question) |
 | **`design-build-gcc-norway/`** | B2B discovery, cross-cultural expectation-setting, GCC / workplace scoping |

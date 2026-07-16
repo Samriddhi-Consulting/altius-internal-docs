@@ -26,9 +26,9 @@ Any **confirmed org or faculty request** (pattern: SCN-001 / Spacematrix) jumps 
 
 | Bucket | Count | Slugs |
 |--------|------:|-------|
-| **Live (seeded)** | 12 | `vikram-sales`, `vikram-parts`, `vikram-service`, `flowbridge-discovery`, `design-build-gcc-norway`, `difficult-feedback`, `fmcg-distributor-negotiation`, `sales-product-knowledge`, `client-counselling-law`, `customer-success-renewals`, `divorce-custody-counselling`, `accountability-under-pressure` |
-| **On `/demos` gallery** | 25 | All entries in `scenarios.ts` |
-| **Gallery + playable** | 8 | `design-build-gcc-norway`, `difficult-feedback`, `fmcg-distributor-negotiation`, `sales-product-knowledge`, `client-counselling-law`, `customer-success-renewals`, `divorce-custody-counselling`, `accountability-under-pressure` |
+| **Live (seeded)** | 13 | `vikram-sales`, `vikram-parts`, `vikram-service`, `flowbridge-discovery`, `design-build-gcc-norway`, `difficult-feedback`, `fmcg-distributor-negotiation`, `sales-product-knowledge`, `client-counselling-law`, `customer-success-renewals`, `divorce-custody-counselling`, `accountability-under-pressure`, `quiet-exit-retention` |
+| **On `/demos` gallery** | 26 | All entries in `scenarios.ts` |
+| **Gallery + playable** | 9 | `design-build-gcc-norway`, `difficult-feedback`, `fmcg-distributor-negotiation`, `sales-product-knowledge`, `client-counselling-law`, `customer-success-renewals`, `divorce-custody-counselling`, `accountability-under-pressure`, `quiet-exit-retention` |
 | **Live but not on gallery** *(intentional)* | 4 | Vikram trilogy + Flowbridge — featured via homepage/corporate/education CTAs |
 | **Aspirational (gallery only)** | 17 | Every other card in `scenarios.ts` |
 
@@ -111,6 +111,7 @@ Leadership continuation + sales core + CX at scale.
 | SCN-023 | `real-estate-objection` | Real Estate: High-Ticket Objection |
 | SCN-024 | `quality-compliance` | Quality & Compliance Conversations |
 | SCN-025 | `accountability-under-pressure` | Downstream (was Government & Regulatory) |
+| SCN-027 | `quiet-exit-retention` | The Quiet Exit (OB/HRM retention · Positions vs Interests) |
 
 ---
 
@@ -137,6 +138,7 @@ Single pick order after Wave 1 (unless client-first override):
 17. `real-estate-objection` (SCN-023)
 18. `quality-compliance` (SCN-024)
 19. `accountability-under-pressure` (SCN-025) — **done** (replaced gallery slug `government-regulatory`)
+20. `quiet-exit-retention` (SCN-027) — **done** (OB/HRM retention; Positions vs Interests)
 
 **Shipped:** SCN-001 → `design-build-gcc-norway` (Wave 0 client request; not from gallery queue).
 
@@ -173,6 +175,7 @@ Gallery rows from `scenarios.ts`. **Live** modules also include four slugs not l
 | SCN-023 | `real-estate-objection` | Real Estate: High-Ticket Objection | Revenue & Commercial | 5 | Corporate | backlog |
 | SCN-024 | `quality-compliance` | Quality & Compliance Conversations | Operations & Support | 5 | Corporate | backlog |
 | SCN-025 | `accountability-under-pressure` | Downstream | Academic | 5 | Education | **done** |
+| SCN-027 | `quiet-exit-retention` | The Quiet Exit | Leadership & People | — | Education | **done** |
 
 **Default effort per module:** **M** (3–5 eng/content days). Education modules with domain sensitivity (law, medical) may need SME calendar time — note in `BACKLOG.md` when scoped.
 
@@ -196,6 +199,7 @@ Expand item-specific detail blocks in this file (or in `BACKLOG.md`) only when a
 
 | Date | Change |
 |------|--------|
+| 2026-07-16 | SCN-027 shipped — `quiet-exit-retention` published (`The Quiet Exit`); OB/HRM Positions vs Interests; 13 live · 9 gallery-playable. |
 | 2026-07-16 | SCN-025 shipped — `accountability-under-pressure` published (`Downstream`); replaced gallery slug `government-regulatory`; 12 live · 8 gallery-playable. |
 | 2026-07-16 | SCN-026 shipped — `divorce-custody-counselling` published (`What's Fair Here`); 11 live · 7 gallery-playable. |
 | 2026-07-16 | SCN-012 shipped — `customer-success-renewals` published (`The Escalation`); 10 live · 6 gallery-playable. |

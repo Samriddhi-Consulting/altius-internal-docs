@@ -121,6 +121,7 @@ Use the standard [SCENARIO_INTAKE.md](./SCENARIO_INTAKE.md) sections. **Referenc
 - **High-stakes sales / retention:** [vikram-sales](../modules/vikram-sales/), [vikram-parts](../modules/vikram-parts/), [vikram-service](../modules/vikram-service/)
 - **Accountability under pressure:** [accountability-under-pressure](../modules/accountability-under-pressure/) (*Downstream*)
 - **Difficult feedback:** [difficult-feedback](../modules/difficult-feedback/)
+- **Employee retention / Positions vs Interests:** [quiet-exit-retention](../modules/quiet-exit-retention/) (*The Quiet Exit*)
 ---
 
 ## 5. Evaluation rubric — CO alignment (Required)

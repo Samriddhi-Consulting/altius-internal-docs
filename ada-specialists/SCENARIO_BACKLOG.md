@@ -82,7 +82,7 @@ Leadership continuation + sales core + CX at scale.
 | SCN-009 | `coaching-direct-reports` | Coaching Direct Reports |
 | SCN-010 | `performance-conversation` | Performance Conversations (PIP) |
 | SCN-011 | `presales-solution-consulting` | Pre-sales & Solution Consulting |
-| SCN-012 | `customer-success-renewals` | Customer Success & Renewals |
+| SCN-012 | `customer-success-renewals` | The Escalation |
 
 ### Wave 3 — Tier B: India strategic sectors (GCC + BFSI + negotiation)
 
@@ -158,7 +158,7 @@ Gallery rows from `scenarios.ts`. **Live** modules also include four slugs not l
 | SCN-009 | `coaching-direct-reports` | Coaching Direct Reports | Leadership & People | 2 | Corporate | backlog |
 | SCN-010 | `performance-conversation` | Performance Conversations (PIP) | Leadership & People | 2 | Corporate | backlog |
 | SCN-011 | `presales-solution-consulting` | Pre-sales & Solution Consulting | Revenue & Commercial | 2 | Corporate | backlog |
-| SCN-012 | `customer-success-renewals` | Customer Success & Renewals | Revenue & Commercial | 2 | Corporate | backlog |
+| SCN-012 | `customer-success-renewals` | The Escalation | Revenue & Commercial | 2 | Corporate | **done** |
 | SCN-013 | `gcc-escalation` | GCC: Escalation Management | Leadership & People | 3 | Corporate | backlog |
 | SCN-014 | `banking-loan-advisory` | Retail Banking: Loan Advisory | Operations & Support | 3 | Corporate | backlog |
 | SCN-015 | `negotiation-simulation` | Negotiation Simulation | Academic | 3 | Both | backlog |
@@ -195,6 +195,7 @@ Expand item-specific detail blocks in this file (or in `BACKLOG.md`) only when a
 
 | Date | Change |
 |------|--------|
+| 2026-07-16 | SCN-012 shipped — `customer-success-renewals` published (`The Escalation`); 10 live · 6 gallery-playable. |
 | 2026-07-16 | SCN-006 shipped — `client-counselling-law` published (`Eighteen Lakhs, No Reply`); 9 live · 5 gallery-playable. |
 | 2026-07-16 | SCN-021 shipped — `sales-product-knowledge` published (`Outcomes Not Specs`); 8 live · 4 gallery-playable. |
 | 2026-07-10 | Documented unseeded funnel: `ScenarioUnavailable` re-engineering screen (not 404). |

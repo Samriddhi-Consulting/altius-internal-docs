@@ -22,6 +22,7 @@ How to turn intake information into a **ScenarioModule** that Altius can seed, p
 | **`vikram-sales/`** | High-stakes B2B sales, objection handling, TCO |
 | **`vikram-parts/`** | Aftermarket / negotiation, total cost of ownership |
 | **`vikram-service/`** | Service recovery, empathy under pressure |
+| **`customer-success-renewals/`** | CSM renewal escalation, LEAP service recovery, Indian employee benefits |
 
 ---
 

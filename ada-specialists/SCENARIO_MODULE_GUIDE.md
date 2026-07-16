@@ -7,12 +7,13 @@ How to turn intake information into a **ScenarioModule** that Altius can seed, p
 | Buyer | Intake doc | Typical reference module |
 | :--- | :--- | :--- |
 | **Corporate / L&D** | [SCENARIO_INTAKE.md](./SCENARIO_INTAKE.md) | `vikram-sales/`, `vikram-parts/`, `vikram-service/`, `design-build-gcc-norway/` |
-| **Higher education** | [SCENARIO_INTAKE_EDUCATION.md](./SCENARIO_INTAKE_EDUCATION.md) (+ shared sections in SCENARIO_INTAKE) | `flowbridge-discovery/` |
+| **Higher education** | [SCENARIO_INTAKE_EDUCATION.md](./SCENARIO_INTAKE_EDUCATION.md) (+ shared sections in SCENARIO_INTAKE) | `flowbridge-discovery/`, `client-counselling-law/` |
 
 ### Reference implementations
 
 | Module | Use when |
 | :--- | :--- |
+| **`client-counselling-law/`** | Law client counselling, expectation management, procedural justice (Voice/Respect/Trust/Reasoning) |
 | **`design-build-gcc-norway/`** | B2B discovery, cross-cultural expectation-setting, GCC / workplace scoping |
 | **`difficult-feedback/`** | Difficult feedback, banking governance, SBI, empathy without collusion, shared accountability |
 | **`flowbridge-discovery/`** | B2B discovery, async/crisis context, education / MBA lead qualification |

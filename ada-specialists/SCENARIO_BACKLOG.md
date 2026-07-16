@@ -69,7 +69,7 @@ Homepage DemoTeaser and/or `/education` featured blocks link here today; sign-in
 | SCN-003 | `difficult-feedback` | Giving Difficult Feedback | Corporate |
 | SCN-004 | `fmcg-distributor-negotiation` | The Promise | Corporate |
 | SCN-005 | `patient-communication` | Patient Communication (Medical) | Education |
-| SCN-006 | `client-counselling-law` | Client Counselling (Law) | Education |
+| SCN-006 | `client-counselling-law` | Eighteen Lakhs, No Reply | Education |
 
 ### Wave 2 — Tier A: highest volume + budget (India corporate)
 
@@ -152,7 +152,7 @@ Gallery rows from `scenarios.ts`. **Live** modules also include four slugs not l
 | SCN-003 | `difficult-feedback` | Giving Difficult Feedback | Leadership & People | 1 | Corporate | **done** |
 | SCN-004 | `fmcg-distributor-negotiation` | The Promise | Revenue & Commercial | 1 | Corporate | **done** |
 | SCN-005 | `patient-communication` | Patient Communication (Medical) | Academic | 1 | Education | **ready** (SME early next week) |
-| SCN-006 | `client-counselling-law` | Client Counselling (Law) | Academic | 1 | Education | **ready** (SME early next week) |
+| SCN-006 | `client-counselling-law` | Eighteen Lakhs, No Reply | Academic | 1 | Education | **done** |
 | SCN-007 | `sales-objection-handling` | Sales: Objection Handling & Discovery | Revenue & Commercial | 2 | Corporate | backlog |
 | SCN-008 | `customer-support-contact-centre` | Customer Support & Service Recovery | Operations & Support | 2 | Corporate | backlog |
 | SCN-009 | `coaching-direct-reports` | Coaching Direct Reports | Leadership & People | 2 | Corporate | backlog |
@@ -195,6 +195,7 @@ Expand item-specific detail blocks in this file (or in `BACKLOG.md`) only when a
 
 | Date | Change |
 |------|--------|
+| 2026-07-16 | SCN-006 shipped — `client-counselling-law` published (`Eighteen Lakhs, No Reply`); 9 live · 5 gallery-playable. |
 | 2026-07-16 | SCN-021 shipped — `sales-product-knowledge` published (`Outcomes Not Specs`); 8 live · 4 gallery-playable. |
 | 2026-07-10 | Documented unseeded funnel: `ScenarioUnavailable` re-engineering screen (not 404). |
 | 2026-07-10 | SCN-004 SME sign-off complete. SCN-005/006 → ready (assigned; intake early next week). |

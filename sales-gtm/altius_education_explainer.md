@@ -178,9 +178,9 @@ Not every course needs Altius. The sweet spot is any course where a stated Cours
 >
 > This is the future of the case method. Not reading about a decision, but making it in a live conversation.
 
-**Client Counselling (Law)**
+**Client Counselling (Law) — Eighteen Lakhs, No Reply (Live on Altius today)**
 
-> A law student plays a junior advocate meeting a first-time client who has received a legal notice for property encroachment. The client is anxious, overwhelmed by terminology, and keeps asking "will I go to jail?" The student must build trust, gather facts systematically, explain what happens next in plain language, and manage expectations without giving premature assurance. Altius evaluates how the student communicates. The legal accuracy of what they say remains the faculty's assessment.
+> A law student plays a junior associate covering for a delayed partner. The client, Arjun Mehta, arrives composed with a folder squared to face them: eighteen lakhs, cheque bounce, former partner, file immediately. Underneath the paperwork is betrayal, conflicting goals, and a want for public reckoning the process is unlikely to deliver. The student must build trust, surface what the client actually needs, and deliver disappointing reality without rupture. Altius evaluates how the student communicates. Legal doctrine is not the scoring axis.
 
 **Patient Communication (Medical)**
 

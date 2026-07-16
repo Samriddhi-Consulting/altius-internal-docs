@@ -113,13 +113,14 @@ Many HEI scenarios replace or extend a **case discussion**. Capture how this sim
 | **Recovery goal** | Retain guest, de-escalate, upsell, policy-bound refusal |
 | **Brand voice** | Formal luxury vs practical mid-scale |
 
-### B-school — discovery, negotiation, feedback
+### B-school — discovery, negotiation, feedback, accountability
 
 Use the standard [SCENARIO_INTAKE.md](./SCENARIO_INTAKE.md) sections. **Reference implementations:**
 
 - **B2B discovery:** [flowbridge-discovery](../modules/flowbridge-discovery/)
 - **High-stakes sales / retention:** [vikram-sales](../modules/vikram-sales/), [vikram-parts](../modules/vikram-parts/), [vikram-service](../modules/vikram-service/)
-
+- **Accountability under pressure:** [accountability-under-pressure](../modules/accountability-under-pressure/) (*Downstream*)
+- **Difficult feedback:** [difficult-feedback](../modules/difficult-feedback/)
 ---
 
 ## 5. Evaluation rubric — CO alignment (Required)

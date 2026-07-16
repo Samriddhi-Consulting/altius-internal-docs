@@ -26,11 +26,11 @@ Any **confirmed org or faculty request** (pattern: SCN-001 / Spacematrix) jumps 
 
 | Bucket | Count | Slugs |
 |--------|------:|-------|
-| **Live (seeded)** | 8 | `vikram-sales`, `vikram-parts`, `vikram-service`, `flowbridge-discovery`, `design-build-gcc-norway`, `difficult-feedback`, `fmcg-distributor-negotiation`, `sales-product-knowledge` |
-| **On `/demos` gallery** | 24 | All entries in `scenarios.ts` |
-| **Gallery + playable** | 4 | `design-build-gcc-norway`, `difficult-feedback`, `fmcg-distributor-negotiation`, `sales-product-knowledge` |
+| **Live (seeded)** | 12 | `vikram-sales`, `vikram-parts`, `vikram-service`, `flowbridge-discovery`, `design-build-gcc-norway`, `difficult-feedback`, `fmcg-distributor-negotiation`, `sales-product-knowledge`, `client-counselling-law`, `customer-success-renewals`, `divorce-custody-counselling`, `accountability-under-pressure` |
+| **On `/demos` gallery** | 25 | All entries in `scenarios.ts` |
+| **Gallery + playable** | 8 | `design-build-gcc-norway`, `difficult-feedback`, `fmcg-distributor-negotiation`, `sales-product-knowledge`, `client-counselling-law`, `customer-success-renewals`, `divorce-custody-counselling`, `accountability-under-pressure` |
 | **Live but not on gallery** *(intentional)* | 4 | Vikram trilogy + Flowbridge — featured via homepage/corporate/education CTAs |
-| **Aspirational (gallery only)** | 20 | Every other card in `scenarios.ts` |
+| **Aspirational (gallery only)** | 17 | Every other card in `scenarios.ts` |
 
 **Unseeded funnel:** Aspirational CTAs still deep-link to `/pre-read/{slug}`. Missing or unpublished modules render [ScenarioUnavailable](../src/components/learner/scenario-unavailable.tsx) ("being re-engineered") plus live alternatives — not a 404.
 
@@ -110,7 +110,7 @@ Leadership continuation + sales core + CX at scale.
 | SCN-022 | `telecom-enterprise-renewal` | Telecom: Enterprise Renewal |
 | SCN-023 | `real-estate-objection` | Real Estate: High-Ticket Objection |
 | SCN-024 | `quality-compliance` | Quality & Compliance Conversations |
-| SCN-025 | `government-regulatory` | Government & Regulatory Interaction |
+| SCN-025 | `accountability-under-pressure` | Downstream (was Government & Regulatory) |
 
 ---
 
@@ -136,7 +136,7 @@ Single pick order after Wave 1 (unless client-first override):
 16. `telecom-enterprise-renewal` (SCN-022)
 17. `real-estate-objection` (SCN-023)
 18. `quality-compliance` (SCN-024)
-19. `government-regulatory` (SCN-025)
+19. `accountability-under-pressure` (SCN-025) — **done** (replaced gallery slug `government-regulatory`)
 
 **Shipped:** SCN-001 → `design-build-gcc-norway` (Wave 0 client request; not from gallery queue).
 
@@ -172,7 +172,7 @@ Gallery rows from `scenarios.ts`. **Live** modules also include four slugs not l
 | SCN-022 | `telecom-enterprise-renewal` | Telecom: Enterprise Renewal | Revenue & Commercial | 5 | Corporate | backlog |
 | SCN-023 | `real-estate-objection` | Real Estate: High-Ticket Objection | Revenue & Commercial | 5 | Corporate | backlog |
 | SCN-024 | `quality-compliance` | Quality & Compliance Conversations | Operations & Support | 5 | Corporate | backlog |
-| SCN-025 | `government-regulatory` | Government & Regulatory Interaction | Operations & Support | 5 | Corporate | backlog |
+| SCN-025 | `accountability-under-pressure` | Downstream | Academic | 5 | Education | **done** |
 
 **Default effort per module:** **M** (3–5 eng/content days). Education modules with domain sensitivity (law, medical) may need SME calendar time — note in `BACKLOG.md` when scoped.
 
@@ -196,6 +196,7 @@ Expand item-specific detail blocks in this file (or in `BACKLOG.md`) only when a
 
 | Date | Change |
 |------|--------|
+| 2026-07-16 | SCN-025 shipped — `accountability-under-pressure` published (`Downstream`); replaced gallery slug `government-regulatory`; 12 live · 8 gallery-playable. |
 | 2026-07-16 | SCN-026 shipped — `divorce-custody-counselling` published (`What's Fair Here`); 11 live · 7 gallery-playable. |
 | 2026-07-16 | SCN-012 shipped — `customer-success-renewals` published (`The Escalation`); 10 live · 6 gallery-playable. |
 | 2026-07-16 | SCN-006 shipped — `client-counselling-law` published (`Eighteen Lakhs, No Reply`); 9 live · 5 gallery-playable. |

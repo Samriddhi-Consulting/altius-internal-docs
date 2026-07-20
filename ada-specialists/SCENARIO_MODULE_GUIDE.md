@@ -226,10 +226,12 @@ export function buildSystemPrompt(mod: ScenarioModule): string {
   return [
     mod.scenarioPrompt.trim(),
     mod.persona.voicePrompt.trim(),
-    "Do not break character or mention you are an AI. Keep responses 2–4 short paragraphs.",
+    "Do not break character or mention you are an AI.",
   ].join("\n\n");
 }
 ```
+
+Reply-length discipline (`normally under 180 words`, no lectures) is applied at **runtime** in `src/lib/llm/prompt-assembly.ts` — not in the seed footer.
 
 ---
 

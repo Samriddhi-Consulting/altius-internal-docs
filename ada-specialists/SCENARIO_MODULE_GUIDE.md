@@ -233,6 +233,8 @@ export function buildSystemPrompt(mod: ScenarioModule): string {
 
 Reply-length discipline (`normally under 180 words`, no lectures) is applied at **runtime** in `src/lib/llm/prompt-assembly.ts` — not in the seed footer.
 
+**File split (Plan B convention):** traps, disclosure gates, and non-negotiables belong in `index.ts` `SCENARIO_PROMPT`; voice and length tone belong in `persona.ts` `voicePrompt`. Do not duplicate trap text in both files unless voice-specific. Advice-seeking traps ("what should I offer?") → state wants and constraints only; never coach the learner's deal structure, proposal, or escalation script.
+
 ---
 
 ## Step 3: Write `preread.md`
@@ -288,6 +290,7 @@ Headers are **bold inline** (`**Section title**`), not `###`. No "CHAPTER N:" pr
 - Vary sentence rhythm. No balanced pairs ("This is not X. It is Y."), no symmetrical triplets, no numbered strategy summaries at the end. Existing pre-reads have these — new modules should not repeat the pattern.
 - No meta-language ("the simulation begins here," "your goal is to").
 - Do not reveal what the counterparty is holding back or what question will unlock them.
+- Do not script the winning play, pillar menu, or close — give constraints and data the learner must use in the room.
 - Do not complete calculations for the learner. Give data; let them do the math in the room.
 - Do not use real company or client names. Learner's firm is always "your firm" or "the firm." Counterparty companies and individuals are fictional.
 

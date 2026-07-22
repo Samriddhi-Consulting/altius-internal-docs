@@ -182,6 +182,7 @@ scenarios/
 - Learners and demo CTAs use `/pre-read/{moduleId}` — **not** the DB UUID (`scenarios.id`).
 - Resolver: `src/lib/scenarios/resolve.ts` (`findScenarioByRouteId`, `getScenarioRouteId`).
 - Microsite featured demos: keep `landing-page/src/data/featured.ts` in sync with `registry.ts`.
+- Deep-link map: after any registry add/remove, run `npm run generate:scenario-links` to refresh [`SCENARIO_LINKS.html`](./SCENARIO_LINKS.html) (title, subtitle, status, Altius login deep link per module). CI runs `npm run check:scenario-links`.
 
 ---
 
@@ -509,6 +510,7 @@ Add one row to [`probe-cases.ts`](./probe-cases.ts) per new module: one advice-s
 - [ ] Brief confirmed: situation, learning objectives, target audience, open field
 - [ ] Full module: `persona.ts`, `index.ts`, `preread.md`, `registry.ts`
 - [ ] `validate:scenarios` → `seed:scenarios`
+- [ ] `npm run generate:scenario-links` (refresh `SCENARIO_LINKS.html`)
 - [ ] Play-test: pre-read → sim → debrief — SME sign-off
 - [ ] Gallery slug matches `moduleId` if card exists in `landing-page/src/data/scenarios.ts`
 
@@ -528,6 +530,7 @@ Every **new** module must pass strict validation before `status: "published"`. D
 npx tsx scripts/validate-scenarios.ts --module=your-scenario-id   # 0 warnings for this module
 npm test
 npx tsx scripts/validate-scenarios-full.ts --module=your-scenario-id  # local final pass
+npm run generate:scenario-links   # refresh SCENARIO_LINKS.html after registry change
 ```
 
 - Probe row in `scenarios/probe-cases.ts` (advice-seeking or domain role-swap)

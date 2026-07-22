@@ -479,10 +479,11 @@ npx tsx scripts/validate-scenarios.ts --module=your-scenario-id  # static — on
 npm run test                                                  # vitest (deny-list, prompt-assembly)
 npx tsx scripts/validate-scenarios-full.ts --module=your-scenario-id  # static + tests + probe (one)
 npx tsx scripts/validate-scenarios-full.ts                    # static + tests + probe (all; local)
-npm run seed:scenarios                                        # staging first, then one prod seed
+npm run seed:scenarios                                        # upsert all (staging first, then one prod seed)
+npx tsx --env-file=.env.local scripts/seed-scenarios.ts --module=your-scenario-id  # upsert one (no prune)
 ```
 
-`--module=` scopes **both** static validation and `probe:chat` to that module. Omit it to run all modules. Prefer `npx tsx …` over `npm run … -- --module=` on Windows (npm may swallow unknown flags).
+`--module=` scopes static validation, `probe:chat`, and seed upsert to that module. Seed with `--module=` skips registry prune (other published scenarios stay published). Omit `--module=` to run all modules. Prefer `npx tsx …` over `npm run … -- --module=` on Windows (npm may swallow unknown flags).
 
 | Check | How |
 |-------|-----|

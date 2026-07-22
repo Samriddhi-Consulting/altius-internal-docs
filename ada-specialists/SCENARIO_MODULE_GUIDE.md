@@ -37,7 +37,9 @@ How to turn intake information into a **ScenarioModule** that Altius can seed, p
 | Accountability state machine (trigger-based arc) | `accountability-under-pressure/` |
 | Pre-read craft (scene, humanizing beat, no ledgers) | `design-build-gcc-norway/`, `difficult-feedback/`, `vikram-sales/`, `vikram-parts/`, `vikram-service/` |
 
-**Older generation (do not copy preread shape):** CHAPTER headers, mission checklists, or scripted playbooks on unhardened live modules. `flowbridge-discovery/`, `vikram-parts/`, `vikram-service/`, and `vikram-sales/` prereads were hardened (SCN-HARDEN-001–004); use them for B2B negotiation / TCO / service-recovery craft. Prompt traps may be updated on other legacy modules; preread craft is separate follow-on debt.
+**All 13 live modules are hardened (SCN-HARDEN-001–013).** Use any published module as a craft reference; prefer domain matches from the table above. CHAPTER headers, mission checklists, and scripted playbooks remain anti-patterns — do not reintroduce them.
+
+**Pre-read length** is enforced at seed/CI for all published modules (`LEGACY_WARN_GRANDFATHER_IDS` is empty).
 
 ---
 
@@ -387,7 +389,7 @@ Headers are **bold inline** (`**Section title**`), not `###`. No "CHAPTER N:" pr
 | **Counterparty humanizing beat** | One concrete, unresolved human moment before confrontation (when the counterparty is a person). Gold: Kristian / Amsterdam (`design-build-gcc-norway`), Omar / 5am port (`difficult-feedback`). |
 | **Stakes shown, not stated** | Find the object or moment that makes consequence felt — not survey exposition. Caution: `quiet-exit-retention` (HR engagement data reads like a system report). |
 | **Recurring time pressure** | Clock or deadline should return at least once mid-document, not only in the final section. |
-| **Pre-read length** | **Fail** `< 1,500` or `> 2,800` words. **Warn** `1,500–1,799` or `2,501–2,800`. **Pass** `1,800–2,500`. See `preread-word-count.ts`. Enforced at seed/CI for non-grandfathered modules only. |
+| **Pre-read length** | **Fail** `< 1,500` or `> 2,800` words. **Warn** `1,500–1,799` or `2,501–2,800`. **Pass** `1,800–2,500`. See `preread-word-count.ts`. Enforced at seed/CI for all published modules. |
 | **Withheld beats** | If pre-read hints at something held back, `index.ts` must have a matching reveal-trigger — do not orphan plants. |
 
 Emotional-pull craft detail: [SCENARIO_INTAKE.md §7](./SCENARIO_INTAKE.md#emotional-pull-craft).
@@ -455,7 +457,7 @@ npm run validate:scenarios
 npm run seed:scenarios
 ```
 
-`seed:scenarios` calls `assertReadyForSeed()` internally — errors always block; warnings block **published** modules not on the legacy grandfather list (see [Publish proposal](#publish-proposal-new-modules)).
+`seed:scenarios` calls `assertReadyForSeed()` internally — errors always block; warnings block **published** modules (`LEGACY_WARN_GRANDFATHER_IDS` is empty after SCN-HARDEN-001–013; see [Publish proposal](#publish-proposal-new-modules)).
 
 Seed behavior:
 
@@ -545,11 +547,7 @@ Optional: `npx tsx ../debug/app/scripts/audit-module-guidelines.ts` — target 0
 
 ### Legacy hardening (existing live modules)
 
-The 13 live modules have grandfathered warnings until [SCN-HARDEN rows in BACKLOG.md](../../BACKLOG.md) are `done`. When a hardening row completes:
-
-1. Re-run audit — 0 warnings for that `moduleId`
-2. Remove `moduleId` from `LEGACY_WARN_GRANDFATHER_IDS` in `validate.ts`
-3. Mark SCN-HARDEN row `done`
+SCN-HARDEN-001–013 are **done**. `LEGACY_WARN_GRANDFATHER_IDS` is empty. New live modules must never be added to a grandfather list — ship at 0 warnings. Optional craft check: `npx tsx ../debug/app/scripts/audit-module-guidelines.ts` → 0 warn for the module.
 
 ---
 

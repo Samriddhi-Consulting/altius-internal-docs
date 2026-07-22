@@ -35,9 +35,9 @@ How to turn intake information into a **ScenarioModule** that Altius can seed, p
 | Advice-leak (persona coaches deal structure or proposal) | `vikram-sales/`, `design-build-gcc-norway/` |
 | Disclosure / earned unlock (pre-read recitation) | `flowbridge-discovery/`, `sales-product-knowledge/` |
 | Accountability state machine (trigger-based arc) | `accountability-under-pressure/` |
-| Pre-read craft (scene, humanizing beat, no ledgers) | `design-build-gcc-norway/`, `difficult-feedback/` |
+| Pre-read craft (scene, humanizing beat, no ledgers) | `design-build-gcc-norway/`, `difficult-feedback/`, `vikram-parts/` |
 
-**Older generation (do not copy preread shape):** `vikram-sales/`, `vikram-parts/`, `vikram-service/` — CHAPTER headers, mission checklists, or scripted playbooks. `flowbridge-discovery/` preread was hardened (SCN-HARDEN-001); use it for async crisis discovery craft. Prompt traps may be updated on other legacy modules; preread craft is separate follow-on debt.
+**Older generation (do not copy preread shape):** `vikram-sales/`, `vikram-service/` — CHAPTER headers, mission checklists, or scripted playbooks. `flowbridge-discovery/` and `vikram-parts/` prereads were hardened (SCN-HARDEN-001, SCN-HARDEN-002); use them for B2B negotiation / TCO craft. Prompt traps may be updated on other legacy modules; preread craft is separate follow-on debt.
 
 ---
 

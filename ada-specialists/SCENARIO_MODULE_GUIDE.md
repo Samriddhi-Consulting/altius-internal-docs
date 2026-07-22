@@ -474,11 +474,13 @@ Seed behavior:
 **Ship checklist:**
 
 ```bash
-npm run validate:scenarios   # hard errors fail; warnings print for legacy style
-npm run test                 # vitest (deny-list, prompt-assembly)
-npm run probe:chat           # env-gated; add one smoke row per new module
-npm run seed:scenarios       # staging first, then one prod seed
+npm run validate:scenarios       # static gate (CI)
+npm run test                     # vitest (deny-list, prompt-assembly)
+npm run validate:scenarios:full  # static + tests + probe:chat (local; requires API keys)
+npm run seed:scenarios           # staging first, then one prod seed
 ```
+
+`validate:scenarios:full` runs the same static checks as CI, then `probe:chat` as the final pass. Use `-- --module=your-scenario-id` to probe one module after a hardening pass.
 
 | Check | How |
 |-------|-----|
@@ -495,7 +497,7 @@ Pilot 2–3 conversations with the SME; tune `scenarioPrompt` first (most impact
 
 ### Probe contract (new modules)
 
-Add one row to [`probe-chat-models.ts`](../scripts/probe-chat-models.ts) per new module: one advice-seeking or domain-specific role-swap user turn + appropriate `deny` list. See comment block above `PROBES` in that file. Probes are env-gated, not CI.
+Add one row to [`probe-cases.ts`](./probe-cases.ts) per new module: one advice-seeking or domain-specific role-swap user turn + appropriate `deny` list. `probe-chat-models.ts` runs those rows. Probes are env-gated, not CI — use `validate:scenarios:full` locally before publish.
 
 ### Per-module acceptance
 
@@ -520,9 +522,10 @@ Every **new** module must pass strict validation before `status: "published"`. D
 ```bash
 npm run validate:scenarios   # must pass with 0 warnings on the new moduleId
 npm test
+npm run validate:scenarios:full -- --module=your-scenario-id  # local final pass
 ```
 
-- Probe row in `probe-chat-models.ts` (advice-seeking or domain role-swap)
+- Probe row in `scenarios/probe-cases.ts` (advice-seeking or domain role-swap)
 - Module **not** in `LEGACY_WARN_GRANDFATHER_IDS`
 
 **Human (blocking before publish PR merges):**

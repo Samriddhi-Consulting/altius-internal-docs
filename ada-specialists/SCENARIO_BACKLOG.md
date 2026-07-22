@@ -1,6 +1,6 @@
 # Scenario content backlog
 
-*Last updated: 2026-07-16. Ranked catalog of modules to build from the microsite gallery.*
+*Last updated: 2026-07-21. Ranked catalog of modules to build from the microsite gallery.*
 
 **Execution status** (Pipeline, Active sprint, `done`): [BACKLOG.md](../../BACKLOG.md) — Content — Scenarios section.
 
@@ -187,9 +187,13 @@ Same pattern as [SCN-001 in BACKLOG.md](../../BACKLOG.md#scn-001--spacematrix-cl
 
 - [ ] 20-min brief confirmed: situation, learning objectives, target audience, open field
 - [ ] Claude builds full module: `persona.ts`, `index.ts`, `preread.md`, registry, all docs
-- [ ] `npm run validate:scenarios` → `npm run seed:scenarios`
+- [ ] Build as `status: "draft"` until publish proposal passes
+- [ ] **New module publish gate:** `npm run validate:scenarios` with **0 warnings** on this `moduleId` (not in `LEGACY_WARN_GRANDFATHER_IDS`) · `npm test` · probe row · staging seed
 - [ ] Play-test: pre-read → sim → debrief (specialist scores on /internal/reports) — SME sign-off
+- [ ] Flip `status: "published"` → prod seed
 - [ ] Gallery card copy confirmed in `scenarios.ts` — slug matches shipped `moduleId`
+
+**Existing live modules:** track hardening in [BACKLOG.md SCN-HARDEN](../../BACKLOG.md#content--scenario-hardening-live-modules) — grandfathered warnings until row is `done`.
 
 Expand item-specific detail blocks in this file (or in `BACKLOG.md`) only when an item moves to `ready`.
 

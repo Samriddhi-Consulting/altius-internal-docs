@@ -131,7 +131,7 @@ These become the **`scenarioPrompt`** in `index.ts`. Claude constructs the full 
 | **Forbidden outcomes** | What must never happen, no matter how the learner plays it? |
 | **Acceptable end states** | What does a good-enough close look like in this scene? |
 
-Global guardrails (never break character, never mention AI, 2–4 paragraphs) are added automatically at seed time — do not repeat them in intake.
+Global guardrails (never break character, never mention AI) are added at seed time via `buildSystemPrompt()` — do not repeat them in intake. Reply-length discipline (`normally under 180 words`) lives only in runtime `prompt-assembly.ts` REPLY_FOOTER; see [SCENARIO_MODULE_GUIDE.md](./SCENARIO_MODULE_GUIDE.md) layer ownership.
 
 ---
 
@@ -177,20 +177,27 @@ The pre-read is narrative non-fiction that Claude writes from the facts, numbers
 | **Data arsenal** | Domain facts and numbers (§5) |
 | **Final scene** | Scene setup, time pressure — ends one beat before `firstMessage` |
 
-Typical length: **1,500–2,500 words**. Multiple named sections. At least one dialogue exchange. Enough texture that the reader feels the world before they enter the room. Do not embed the system prompt or rubric in the pre-read.
+Typical length: **1,800–2,500 words** (pass band). **Fail** if under 1,500 or over 2,800. **Warn** if 1,500–1,799 or 2,501–2,800. Multiple named sections. At least one dialogue exchange. Enough texture that the reader feels the world before they enter the room. Do not embed the system prompt or rubric in the pre-read.
 
 **Writing craft**
 
-The pre-read should read like a short story or a business school case, not a briefing document. It should grip a reader who does not yet know they care about the scenario. Specific rules:
+The pre-read should read like a short story or a business school case, not a briefing document. It should grip a reader who does not yet know they care about the scenario.
 
-- **No em-dashes.** Use a period, or restructure the sentence. An em-dash joins two thoughts that should either stand alone or be fused. Period.
-- **Open on a scene, not context.** Start in a room, a specific moment, an event. Context follows. The reader needs something to see before they need something to understand.
-- **Prose over bullets for character.** Reveal who someone is through what they do and say, not through a list of traits. "He has sat through five portfolios and stopped writing down the words 'no problem'" tells more than "skeptical, experienced, no-nonsense."
-- **Show stakes, don't state them.** Find the specific fact that makes the reader feel the consequence. "Kristian's name goes on the report to Oslo" does more work than "this is an important client."
-- **Numbers in sentences, not tables (mostly).** One reference table is fine for data learners will look up mid-conversation. Everything else: weave it in. Running the calculation in prose lands harder than the same figures in a table cell.
+**These human-voice rules apply everywhere the persona speaks** — `preread.md`, `persona.voicePrompt`, `firstMessage`, and LLM chat replies (via runtime `REPLY_FOOTER`). The persona should sound like the same person in the pre-read world: varied rhythm, plain words, concrete detail, no robotic LLM shapes.
+
+Specific rules:
+
 - **Vary the sentence rhythm.** Short sentences after long ones. Very short ones after even longer ones. It is the rhythm that makes prose feel human.
+- **Prose over bullets for character.** Reveal who someone is through what they do and say, not through a list of traits. In chat: speak in sentences, not trait stacks.
+- **Show stakes, don't state them.** Find the specific fact that makes the reader feel the consequence. "Kristian's name goes on the report to Oslo" does more work than "this is an important client."
+- **No LLM sentence shapes.** The three to catch: (1) balanced pairs — "This is not X. It is Y." Merge or cut one half. (2) symmetrical triplets — three parallel sentences in a row with the same structure. Break the third or cut the pattern. (3) numbered strategy summaries at the end. These patterns appear in existing pre-reads (vikram-sales included); the standard is evolving and new modules should not repeat them — **including in `firstMessage` and live chat.**
+
+**Pre-read document rules** (briefing shape — `preread.md` only):
+
+- **No em-dashes in the pre-read.** Use a period, or restructure the sentence. An em-dash joins two thoughts that should either stand alone or be fused. Period.
+- **Open on a scene, not context.** Start in a room, a specific moment, an event. Context follows. The reader needs something to see before they need something to understand.
+- **Numbers in sentences, not tables (mostly).** One reference table is fine for data learners will look up mid-conversation. Everything else: weave it in. Running the calculation in prose lands harder than the same figures in a table cell.
 - **No meta-language.** Do not write "the simulation begins here," "you are now ready," or "your goal in this conversation is to." End on the beat before the first message and stop.
-- **No LLM sentence shapes.** The three to catch: (1) balanced pairs — "This is not X. It is Y." Merge or cut one half. (2) symmetrical triplets — three parallel sentences in a row with the same structure. Break the third or cut the pattern. (3) numbered strategy summaries at the end. These patterns appear in existing pre-reads (vikram-sales included); the standard is evolving and new modules should not repeat them.
 
 **Discovery space**
 
@@ -204,6 +211,15 @@ Specific rules:
 - **Do not name the unlock.** "Nobody has asked him about the Oslo office yet" and "If you ask him this, he will answer at length" are coaching, not briefing. Cut them.
 - **Hint at the unknown, do not map it.** If a gap (budget, workspace standard, decision process) is worth discovering, give the learner enough professional context to know the gap exists, not enough to skip past it.
 - **Do not complete calculations for the learner.** Give them the data. Let them do the math in the room.
+
+**Emotional-pull craft**
+
+Pre-reads should read as scene-driven fiction, not briefing documents. See [SCENARIO_MODULE_GUIDE.md](./SCENARIO_MODULE_GUIDE.md) pre-read gates.
+
+- **Counterparty humanizing beat:** When the counterparty is a person (not an institution), give one concrete, unresolved human moment before the confrontation — a habit, a scar from a past project, a small vulnerability. Gold: Kristian / Amsterdam in `design-build-gcc-norway`, Omar / 5am port in `difficult-feedback`.
+- **Stakes shown, not stated:** Find the specific object or moment that makes consequence felt. Avoid survey-level exposition (engagement scores, benchmarking gaps as the main stakes frame). Caution: `quiet-exit-retention`.
+- **Recurring time pressure:** If there is a clock, return to it at least once mid-document — not only in the final section.
+- **No reference-number ledgers:** Do not dump facts in pipe tables or bolded `OPTION A/B/C` / `HIDDEN COST 1/2/3` stacks when the same numbers belong in prose through a scene. One lookup table max for genuine mid-conversation reference (benchmark bands, tariff grids) — not client-intake dumps or discovery checklists (`Question | Why it matters` is coaching meta-language; cut it).
 
 **Company and client names**
 

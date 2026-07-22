@@ -27,6 +27,67 @@ How to turn intake information into a **ScenarioModule** that Altius can seed, p
 | **`vikram-service/`** | Service recovery, empathy under pressure |
 | **`customer-success-renewals/`** | CSM renewal escalation, LEAP service recovery, Indian employee benefits |
 
+### Reference picker by failure mode
+
+| If you are hardening against… | Start with |
+| :--- | :--- |
+| Counsel / role-swap (persona coaches the learner) | `client-counselling-law/`, `divorce-custody-counselling/` |
+| Advice-leak (persona coaches deal structure or proposal) | `vikram-sales/`, `design-build-gcc-norway/` |
+| Disclosure / earned unlock (pre-read recitation) | `flowbridge-discovery/`, `sales-product-knowledge/` |
+| Accountability state machine (trigger-based arc) | `accountability-under-pressure/` |
+| Pre-read craft (scene, humanizing beat, no ledgers) | `design-build-gcc-norway/`, `difficult-feedback/` |
+
+**Older generation (do not copy preread shape):** `vikram-sales/`, `vikram-parts/`, `vikram-service/` — CHAPTER headers, mission checklists, or scripted playbooks. `flowbridge-discovery/` preread was hardened (SCN-HARDEN-001); use it for async crisis discovery craft. Prompt traps may be updated on other legacy modules; preread craft is separate follow-on debt.
+
+---
+
+## Authoring quality bar
+
+Before file assembly, confirm the **pedagogy contract** and **layer ownership**. One coaching lens per scenario (see [CLIENT_SCENARIO_BRIEF.md](../../intake/CLIENT_SCENARIO_BRIEF.md) catalogue). Learning objectives are observable verbs. The pre-read arms the learner; the chat is where they practice.
+
+### Layer ownership
+
+```
+scenarioPrompt (index.ts)  → scene, fixed facts, trigger rules, traps, disclosure gates, non-negotiables
+persona.voicePrompt        → character voice, baseline reply patterns, sample phrases (human speech — see Voice scope below)
+firstMessage               → in-character opener; same voice rules as live chat
+buildSystemPrompt()        → character/AI lock only ("Do not break character…")
+prompt-assembly.ts         → runtime role boundary + reply length ("normally under 180 words")
+```
+
+### Voice scope (human craft vs pre-read document rules)
+
+**Human voice craft** from [SCENARIO_INTAKE §7 Writing craft](./SCENARIO_INTAKE.md#7-pre-read-briefing-content-required) applies to **all persona output**:
+
+| Surface | Human voice applies |
+|---------|---------------------|
+| `preread.md` | Yes — case prose |
+| `persona.voicePrompt` | Yes — shapes how the model speaks |
+| `firstMessage` | Yes — first in-character turn; write it exactly as the persona would type or speak under scene pressure |
+| **LLM chat replies** | Yes — runtime via `persona.voicePrompt` + `REPLY_FOOTER` in `prompt-assembly.ts` |
+
+Shared craft (everywhere the persona writes or speaks):
+
+- Vary sentence rhythm — short after long; one-sentence beats are fine.
+- Plain words and concrete detail — SKUs, numbers, objects, not abstractions.
+- Show through specifics, not trait lists or consultant summaries.
+- **No LLM sentence shapes:** balanced pairs ("This is not X. It is Y."), symmetrical triplets, numbered strategy wrap-ups.
+- Natural speech in dialogue — contractions, interruptions, stressed asides; a person under pressure does not sound like a briefing doc.
+
+**Pre-read document rules** apply to `preread.md` only (structure, length, discovery space, meta-language ban, em-dash ban in written case prose, no coaching checklists). Those are briefing-shape constraints — not permission for robotic chat. Do not strip human voice from `firstMessage` or persona layers to satisfy pre-read lint.
+
+Validation scans em-dashes and legacy briefing patterns on `preread.md` only. `firstMessage` and `persona.voicePrompt` are judged by the human craft bar above, not by pre-read document lint.
+
+Do not paste deny-list regex from `chat-probe-denylist.ts` into module prompts. Use behavioral trap rules instead.
+
+### Preread ↔ scenarioPrompt sync
+
+If the pre-read or persona plants a **withheld** beat (fear, memo, hidden concern), `index.ts` needs a **reveal-trigger** — when and how it surfaces (see accountability's "Memo reveal"). If the persona must confirm, dispute, or reuse specific numbers, mirror only those figures into `scenarioPrompt` and add an explicit **do not invent** lock. Do not mirror every pre-read figure.
+
+### Seed is the prod lever
+
+Chat reads scenario config **from the database**, not module files at runtime. `npm run seed:scenarios` writes `systemPrompt`, `preReadMarkdown`, and `evalRubric`. **Deploy alone does not change scenario behavior.** Seed staging first; one prod seed when ready.
+
 ---
 
 ## How Altius uses a scenario
@@ -235,6 +296,30 @@ Reply-length discipline (`normally under 180 words`, no lectures) is applied at 
 
 **File split (Plan B convention):** traps, disclosure gates, and non-negotiables belong in `index.ts` `SCENARIO_PROMPT`; voice and length tone belong in `persona.ts` `voicePrompt`. Do not duplicate trap text in both files unless voice-specific. Advice-seeking traps ("what should I offer?") → state wants and constraints only; never coach the learner's deal structure, proposal, or escalation script.
 
+### `scenarioPrompt` anatomy
+
+Gold reference: [`accountability-under-pressure/index.ts`](./modules/accountability-under-pressure/index.ts). Use these blocks in order (adapt labels to the scene):
+
+| Block | Purpose |
+|-------|---------|
+| **Scene anchor** | Who you are, where you are, who the participant is, what you just said |
+| **Fixed facts** | Numbers and events the persona will stand on; only what must stay consistent |
+| **Trigger-based behavior** | If/then rules keyed to learner moves (hedging, blame-shifting, strong data, etc.) |
+| **Acceptable end states** | What a good-enough close looks like — earned, not gifted |
+| **Forbidden end states** | Outcomes that must not happen regardless of charm |
+| **Traps** | Advice-seeking, sympathy collusion, proposal-coaching, scripted playbooks — must fire when walked into |
+| **Non-negotiables** | Character lock, do-not-invent, no coaching criteria as dialogue |
+
+**Reveal-trigger:** Any withheld beat planted in pre-read or persona needs an explicit trigger in `scenarioPrompt` (e.g. memo reveal, unlock ladder). Law modules use "What you know that the participant does not (reveal only through the unlock ladder below)."
+
+**Fixed-facts + do-not-invent lock:** Mirror into `scenarioPrompt` only numbers the persona must confirm, dispute, or reuse — not every pre-read figure. Add a line such as: `Do not invent new lab numbers. COD is 312 mg/L against 100 mg/L consented.`
+
+**Disclosure cap:** When the learner earns depth, release at most **one concrete incident + one systemic pattern** per strong turn — not a full inventory dump.
+
+**Escalation-cue (optional):** Async or time-boxed scenes may state when the persona must exit (e.g. return to a courier call if the chat drags). See `flowbridge-discovery/index.ts`.
+
+**Advice-seeking trap (required for commercial modules):** If the learner asks what to offer, propose, or say to a third party → state wants and constraints only. Never coach deal structure, CFO deck, HQ script, legal next steps, or escalation wording.
+
 ---
 
 ## Step 3: Write `preread.md`
@@ -283,16 +368,29 @@ Headers are **bold inline** (`**Section title**`), not `###`. No "CHAPTER N:" pr
 
 **Writing craft and discovery rules (see [SCENARIO_INTAKE.md §7](./SCENARIO_INTAKE.md#7-pre-read-briefing-content-required) for full guidance):**
 
-- Target 1,500–2,500 words. Multiple named sections. At least one dialogue exchange.
-- No em-dashes. Period.
-- Open on a scene, not context.
+- Target **1,800–2,500 words** (pass band). **Fail** if `< 1,500` or `> 2,800`. **Warn** if `1,500–1,799` or `2,501–2,800`. Enforced in `preread-word-count.ts` → `validate.ts` + audit script.
+- **Human voice craft** (rhythm, plain words, concrete detail, no LLM shapes) — see **Voice scope** above — applies to `preread.md`, `persona.voicePrompt`, `firstMessage`, and live chat replies.
+- **Pre-read document only:** no em-dashes in case prose; open on a scene; no meta-language; discovery-space rules below.
 - Prose for character; one reference table maximum for data learners will look up mid-conversation.
-- Vary sentence rhythm. No balanced pairs ("This is not X. It is Y."), no symmetrical triplets, no numbered strategy summaries at the end. Existing pre-reads have these — new modules should not repeat the pattern.
-- No meta-language ("the simulation begins here," "your goal is to").
 - Do not reveal what the counterparty is holding back or what question will unlock them.
 - Do not script the winning play, pillar menu, or close — give constraints and data the learner must use in the room.
 - Do not complete calculations for the learner. Give data; let them do the math in the room.
 - Do not use real company or client names. Learner's firm is always "your firm" or "the firm." Counterparty companies and individuals are fictional.
+
+**Pre-read gates (craft + sync):**
+
+| Gate | Rule |
+|------|------|
+| **No reference-number ledgers** | No pipe-table dumps of facts already in prose; no bolded `HIDDEN COST 1/2/3` or `OPTION A/B/C` spec stacks. Numbers arrive through a scene moment and stay specific enough for an evaluator to cite. |
+| **One lookup table max** | Only for genuine mid-conversation reference (benchmark bands, tariff grids) — not client-intake dumps. Gold: fit-out benchmarks in `design-build-gcc-norway/preread.md`. |
+| **No coaching checklists** | Tables like `Question \| Why it matters` are meta-language (discovery scripting), not data — cut them. See `flowbridge-discovery/preread.md` Ch6. |
+| **Counterparty humanizing beat** | One concrete, unresolved human moment before confrontation (when the counterparty is a person). Gold: Kristian / Amsterdam (`design-build-gcc-norway`), Omar / 5am port (`difficult-feedback`). |
+| **Stakes shown, not stated** | Find the object or moment that makes consequence felt — not survey exposition. Caution: `quiet-exit-retention` (HR engagement data reads like a system report). |
+| **Recurring time pressure** | Clock or deadline should return at least once mid-document, not only in the final section. |
+| **Pre-read length** | **Fail** `< 1,500` or `> 2,800` words. **Warn** `1,500–1,799` or `2,501–2,800`. **Pass** `1,800–2,500`. See `preread-word-count.ts`. Enforced at seed/CI for non-grandfathered modules only. |
+| **Withheld beats** | If pre-read hints at something held back, `index.ts` must have a matching reveal-trigger — do not orphan plants. |
+
+Emotional-pull craft detail: [SCENARIO_INTAKE.md §7](./SCENARIO_INTAKE.md#emotional-pull-craft).
 
 ---
 
@@ -323,6 +421,11 @@ evalRubric: {
 | Observable descriptions | Evaluator cites transcript moments |
 | Distinct `name` values | Become score keys in debrief |
 | `overallGuidance` bands | Should match `criteria.length × scale` |
+| Criteria align with coaching lens | SPIN, LEAP, AAA, procedural justice, etc. — names learners recognize in debrief |
+| Rubric ↔ trap alignment | Descriptions must not reward outcomes the prompt forbids (e.g. "help build the CFO deck" when anti-proposal trap is active) |
+| Immersion failure (counsel/manager roles) | Optional `overallGuidance` sentence when persona role-swap is a known failure mode — see law modules |
+
+For HEI: map criteria to verbatim COs per [SCENARIO_INTAKE_EDUCATION.md](./SCENARIO_INTAKE_EDUCATION.md) §5. Woven numbers in pre-read should stay locatable for transcript-cited scoring (authoring practice; not a separate platform rule).
 
 ---
 
@@ -352,6 +455,8 @@ npm run validate:scenarios
 npm run seed:scenarios
 ```
 
+`seed:scenarios` calls `assertReadyForSeed()` internally — errors always block; warnings block **published** modules not on the legacy grandfather list (see [Publish proposal](#publish-proposal-new-modules)).
+
 Seed behavior:
 
 - Upserts by **`personaConfig.moduleId`** (falls back to `title` for first-time migration)
@@ -360,21 +465,85 @@ Seed behavior:
 - Sets `personaConfig.role` / `.company` from `mod.persona`
 - Archives published scenarios whose `moduleId` is no longer in the registry
 
+**Deploy ≠ seed:** Pushing app code does not update stored prompts or pre-reads. Reseed after module edits.
+
 ---
 
 ## Step 7: Verify end-to-end
 
+**Ship checklist:**
+
+```bash
+npm run validate:scenarios   # hard errors fail; warnings print for legacy style
+npm run test                 # vitest (deny-list, prompt-assembly)
+npm run probe:chat           # env-gated; add one smoke row per new module
+npm run seed:scenarios       # staging first, then one prod seed
+```
+
 | Check | How |
 |-------|-----|
 | Home card | Title, subtitle, turn count, sort order |
-| Pre-read | Markdown renders; ends before chat |
+| Pre-read | Scene-driven fiction; no ledgers; humanizing beat; ends before chat |
+| Preread ↔ prompt sync | Withheld beats have reveal-triggers; persona numbers have do-not-invent lock |
 | First message | Matches narrative; correct tone |
 | Persona voice | Baseline patterns from `voicePrompt` hold across turns |
-| Scenario rules | Scene-specific pushback and concessions work |
-| Evaluation | Debrief shows 3–5 scores with cited moments |
+| Scenario rules | Traps fire on advice-seeking; disclosure caps hold |
+| Evaluation | Debrief shows 3–5 scores with cited moments; rubric does not reward coached outcomes |
 | Draft mode | `status: "draft"` hidden from learner home |
 
 Pilot 2–3 conversations with the SME; tune `scenarioPrompt` first (most impact), then `voicePrompt` if character drifts.
+
+### Probe contract (new modules)
+
+Add one row to [`probe-chat-models.ts`](../scripts/probe-chat-models.ts) per new module: one advice-seeking or domain-specific role-swap user turn + appropriate `deny` list. See comment block above `PROBES` in that file. Probes are env-gated, not CI.
+
+### Per-module acceptance
+
+- [ ] Brief confirmed: situation, learning objectives, target audience, open field
+- [ ] Full module: `persona.ts`, `index.ts`, `preread.md`, `registry.ts`
+- [ ] `validate:scenarios` → `seed:scenarios`
+- [ ] Play-test: pre-read → sim → debrief — SME sign-off
+- [ ] Gallery slug matches `moduleId` if card exists in `landing-page/src/data/scenarios.ts`
+
+### Publish proposal (new modules)
+
+Every **new** module must pass strict validation before `status: "published"`. Do not add new `moduleId`s to `LEGACY_WARN_GRANDFATHER_IDS` in `validate.ts`.
+
+| Phase | `status` | Learner-visible | Validation |
+|-------|----------|-----------------|------------|
+| Build | `draft` | No | Errors block seed; warnings allowed |
+| Publish proposal | flip to `published` in PR | After seed | **0 errors, 0 warnings** for this module |
+| Live | `published` + prod seed | Yes | CI + seed gate |
+
+**Automated (blocking before publish PR merges):**
+
+```bash
+npm run validate:scenarios   # must pass with 0 warnings on the new moduleId
+npm test
+```
+
+- Probe row in `probe-chat-models.ts` (advice-seeking or domain role-swap)
+- Module **not** in `LEGACY_WARN_GRANDFATHER_IDS`
+
+**Human (blocking before publish PR merges):**
+
+- [ ] Intake brief complete (corporate or education doc)
+- [ ] Built to Plan B bar — reference `accountability-under-pressure/`
+- [ ] `scenarioPrompt` full anatomy (scene → fixed facts → triggers → acceptable/forbidden → traps → non-negotiables)
+- [ ] Preread passes Step 3 gates (no CHAPTER, no mission checklists)
+- [ ] Rubric aligns with coaching lens; no rewarded coached outcomes
+- [ ] Staging seed + 2–3 play-test conversations; SME sign-off
+- [ ] Specialist debrief spot-check on `/internal/reports`
+
+Optional: `npx tsx ../debug/app/scripts/audit-module-guidelines.ts` — target 0 warns for the new module.
+
+### Legacy hardening (existing live modules)
+
+The 13 live modules have grandfathered warnings until [SCN-HARDEN rows in BACKLOG.md](../../BACKLOG.md) are `done`. When a hardening row completes:
+
+1. Re-run audit — 0 warnings for that `moduleId`
+2. Remove `moduleId` from `LEGACY_WARN_GRANDFATHER_IDS` in `validate.ts`
+3. Mark SCN-HARDEN row `done`
 
 ---
 
@@ -469,10 +638,18 @@ export default scenario;
 | Shared `_personas/` library | Scenarios become coupled; persona edits break unrelated modules |
 | Scene-specific rules in `voicePrompt` | Persona layer bleeds into scenario layer; hard to tune independently |
 | Putting guardrails in every module | Duplicated; use `buildSystemPrompt()` instead |
+| Dual-write length (2–4 paragraphs in module + runtime footer) | Conflicts with `prompt-assembly.ts` REPLY_FOOTER |
 | Pre-read that resolves the whole conversation | Nothing left to practice |
+| Reference-number ledgers (pipe tables, OPTION A/B/C stacks) | Turns discovery into lookup; learner recites instead of thinks |
+| Coaching checklists in pre-read (`Question \| Why it matters`) | Meta-language; scripts which questions unlock what |
+| Advice-leak (persona coaches deal, proposal, HQ, legal steps) | Breaks immersion; learner gets answers instead of practice |
+| Rubric rewards coached outcomes traps forbid | Eval fights prompt; debrief misleads |
+| Withheld beat in pre-read, no reveal-trigger in `index.ts` | Chat cannot earn the beat consistently |
+| Numbers in pre-read but no do-not-invent lock in prompt | Model drifts figures mid-session |
 | Changing `id` after learners have sessions | Breaks registry archival and analytics |
 | Forgetting `registry.ts` | Module never seeds |
 | Editing DB manually | Code and database diverge |
+| Expecting deploy to fix scenario content | Only `seed:scenarios` updates DB prompts and pre-reads |
 
 ---
 

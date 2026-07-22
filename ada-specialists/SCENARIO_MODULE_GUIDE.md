@@ -45,7 +45,7 @@ How to turn intake information into a **ScenarioModule** that Altius can seed, p
 
 ## Authoring quality bar
 
-Before file assembly, confirm the **pedagogy contract** and **layer ownership**. One coaching lens per scenario (see [CLIENT_SCENARIO_BRIEF.md](../../intake/CLIENT_SCENARIO_BRIEF.md) catalogue). Learning objectives are observable verbs. The pre-read arms the learner; the chat is where they practice.
+Before file assembly, confirm the **pedagogy contract** and **layer ownership**. One coaching lens per scenario (see [CLIENT_SCENARIO_BRIEF.md](./Intake/CLIENT_SCENARIO_BRIEF.md) catalogue). Learning objectives are observable verbs. The pre-read arms the learner; the chat is where they practice.
 
 ### Layer ownership
 

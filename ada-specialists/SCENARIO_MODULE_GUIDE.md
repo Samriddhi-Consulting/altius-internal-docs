@@ -35,9 +35,9 @@ How to turn intake information into a **ScenarioModule** that Altius can seed, p
 | Advice-leak (persona coaches deal structure or proposal) | `vikram-sales/`, `design-build-gcc-norway/` |
 | Disclosure / earned unlock (pre-read recitation) | `flowbridge-discovery/`, `sales-product-knowledge/` |
 | Accountability state machine (trigger-based arc) | `accountability-under-pressure/` |
-| Pre-read craft (scene, humanizing beat, no ledgers) | `design-build-gcc-norway/`, `difficult-feedback/`, `vikram-parts/` |
+| Pre-read craft (scene, humanizing beat, no ledgers) | `design-build-gcc-norway/`, `difficult-feedback/`, `vikram-parts/`, `vikram-service/` |
 
-**Older generation (do not copy preread shape):** `vikram-sales/`, `vikram-service/` — CHAPTER headers, mission checklists, or scripted playbooks. `flowbridge-discovery/` and `vikram-parts/` prereads were hardened (SCN-HARDEN-001, SCN-HARDEN-002); use them for B2B negotiation / TCO craft. Prompt traps may be updated on other legacy modules; preread craft is separate follow-on debt.
+**Older generation (do not copy preread shape):** `vikram-sales/` — CHAPTER headers, mission checklists, or scripted playbooks. `flowbridge-discovery/`, `vikram-parts/`, and `vikram-service/` prereads were hardened (SCN-HARDEN-001–003); use them for B2B negotiation / TCO / service-recovery craft. Prompt traps may be updated on other legacy modules; preread craft is separate follow-on debt.
 
 ---
 
@@ -474,13 +474,15 @@ Seed behavior:
 **Ship checklist:**
 
 ```bash
-npm run validate:scenarios       # static gate (CI)
-npm run test                     # vitest (deny-list, prompt-assembly)
-npm run validate:scenarios:full  # static + tests + probe:chat (local; requires API keys)
-npm run seed:scenarios           # staging first, then one prod seed
+npm run validate:scenarios                                    # static gate — all modules (CI)
+npx tsx scripts/validate-scenarios.ts --module=your-scenario-id  # static — one module
+npm run test                                                  # vitest (deny-list, prompt-assembly)
+npx tsx scripts/validate-scenarios-full.ts --module=your-scenario-id  # static + tests + probe (one)
+npx tsx scripts/validate-scenarios-full.ts                    # static + tests + probe (all; local)
+npm run seed:scenarios                                        # staging first, then one prod seed
 ```
 
-`validate:scenarios:full` runs the same static checks as CI, then `probe:chat` as the final pass. Use `-- --module=your-scenario-id` to probe one module after a hardening pass.
+`--module=` scopes **both** static validation and `probe:chat` to that module. Omit it to run all modules. Prefer `npx tsx …` over `npm run … -- --module=` on Windows (npm may swallow unknown flags).
 
 | Check | How |
 |-------|-----|
@@ -497,7 +499,7 @@ Pilot 2–3 conversations with the SME; tune `scenarioPrompt` first (most impact
 
 ### Probe contract (new modules)
 
-Add one row to [`probe-cases.ts`](./probe-cases.ts) per new module: one advice-seeking or domain-specific role-swap user turn + appropriate `deny` list. `probe-chat-models.ts` runs those rows. Probes are env-gated, not CI — use `validate:scenarios:full` locally before publish.
+Add one row to [`probe-cases.ts`](./probe-cases.ts) per new module: one advice-seeking or domain-specific role-swap user turn + appropriate `deny` list. `probe-chat-models.ts` runs those rows. Probes are env-gated, not CI — use `validate-scenarios-full.ts --module=…` locally before publish.
 
 ### Per-module acceptance
 
@@ -520,9 +522,9 @@ Every **new** module must pass strict validation before `status: "published"`. D
 **Automated (blocking before publish PR merges):**
 
 ```bash
-npm run validate:scenarios   # must pass with 0 warnings on the new moduleId
+npx tsx scripts/validate-scenarios.ts --module=your-scenario-id   # 0 warnings for this module
 npm test
-npm run validate:scenarios:full -- --module=your-scenario-id  # local final pass
+npx tsx scripts/validate-scenarios-full.ts --module=your-scenario-id  # local final pass
 ```
 
 - Probe row in `scenarios/probe-cases.ts` (advice-seeking or domain role-swap)

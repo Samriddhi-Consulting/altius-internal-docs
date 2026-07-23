@@ -10,13 +10,13 @@ You nodded at the time, the way you nod at most good advice, filing it under thi
 
 You have thought about that sentence most mornings since, usually right before your calendar fills up with exactly the kind of thing it warned you about.
 
-The Meridian Bank programme did not make the transition easier. It was already amber when you took the manager title, and it has stayed there because every integration decision that touches a regulator-facing field mapping has to pass through product sign-off. Engineering can build the pipe. Product owns what goes through it. Meera's stream is where those two truths collide every week.
+The Ashford Bank programme did not make the transition easier. It was already amber when you took the manager title, and it has stayed there because every integration decision that touches a regulator-facing field mapping has to pass through product sign-off. Engineering can build the pipe. Product owns what goes through it. Meera's stream is where those two truths collide every week.
 
 ---
 
 **The Deployment**
 
-Meridian Bank is not a logo on a slide deck. It is a Rs 14 crore annual contract, the firm's largest regulated-banking deployment in three years, and the reference case sales will use for every NBFC conversation next quarter if the go-live lands clean. The integration layer Meera owns sits between Meridian's core banking feed and ClearSight's audit and reporting modules. Field mappings, API behaviour, client-facing routing rules: each one needs a product owner to say yes before engineering can commit code.
+Ashford Bank is not a logo on a slide deck. It is a Rs 14 crore annual contract, the firm's largest regulated-banking deployment in three years, and the reference case sales will use for every NBFC conversation next quarter if the go-live lands clean. The integration layer Meera owns sits between Ashford's core banking feed and ClearSight's audit and reporting modules. Field mappings, API behaviour, client-facing routing rules: each one needs a product owner to say yes before engineering can commit code.
 
 Sandhya ran the programme review last Friday. Meera's lane was amber. Not red, which would have triggered executive escalation, but amber long enough that people had started asking questions in side channels. You said you were coaching Meera through the product dependency pattern. You did not say that three of your other reports had asked you to make similar calls in the last six weeks, or that your own calendar still had blocks labelled "quick sync with Nikhil" that you had not yet deleted.
 
@@ -26,7 +26,7 @@ Sandhya ran the programme review last Friday. Meera's lane was amber. Not red, w
 
 Meera Iyer joined the firm two years ago from a services company, and within six months nobody remembered the team without her. She is the one who reads the entire spec before the kickoff, and whose code reviews catch what everyone else waves through. Her estimates, you can bank. School topper, college medallist, the profile is easy to read: she has spent her whole life being excellent at things that have a syllabus, and this is the first team she has joined where nobody handed her one.
 
-Her current assignment is the first one without one. She owns the integration layer for the Meridian Bank deployment, the firm's biggest go-live of the year, and the work depends on decisions that sit outside engineering: field mappings the product team must confirm, an API behaviour only the product owner can sign off, a client-facing question that has to route through product because that is the rule.
+Her current assignment is the first one without one. She owns the integration layer for the Ashford Bank deployment, the firm's biggest go-live of the year, and the work depends on decisions that sit outside engineering: field mappings the product team must confirm, an API behaviour only the product owner can sign off, a client-facing question that has to route through product because that is the rule.
 
 The go-live is in five weeks. Her workstream has been amber for two. Nobody else on the team is blocked the same way; the dependency happens to sit entirely on her part of the build, which means there is no one nearby whose habits she could simply copy without being told to.
 

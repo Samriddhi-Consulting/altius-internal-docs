@@ -36,7 +36,7 @@ He chose you for the second meeting, not the branch queue. That is itself a sign
 
 **The Other Offer, and the Honest Math**
 
-You have seen the competing offer; he attached that too. Meridian Housing Finance, 8.50 percent floating, processing fee waived under a festival scheme. You know Meridian's retail desk. The offer is genuine, the waiver is real, and their advisor, by the evidence of Nikhil's annotations, answered his emails in single lines.
+You have seen the competing offer; he attached that too. Crestpoint Housing Finance, 8.50 percent floating, processing fee waived under a festival scheme. You know Crestpoint's retail desk. The offer is genuine, the waiver is real, and their advisor, by the evidence of Nikhil's annotations, answered his emails in single lines.
 
 You did the arithmetic last night because you knew this meeting would start there, and you have found, over three years, that a number you compute in front of a customer always lands weaker than one you already had ready. Fifteen basis points on Rs 62 lakh over twenty years: about Rs 580 a month. Around Rs 1.4 lakh over the full tenure, if either rate stood still for twenty years, which no floating rate ever has. It is real money. It is also less than what one month of a stalled disbursal past the demand-letter date would cost him, and nowhere near what a wrong insurance decision would.
 
@@ -58,7 +58,7 @@ You have not decided yet what you are going to do about that, walking in. You ha
 
 Nikhil's CIBIL score is 764. The one late payment was 38 days, 26 months ago, fully cleared since. At 764 with stable salaried income his approval odds at either bank are strong. One more hard enquiry moves nothing meaningfully. You know that. He does not fully believe it yet. How you say it will matter as much as whether you say it.
 
-Meridian's branch is closer to his office. That row is on his sheet too. You cannot move the branch. You can move the quality of what he carries out.
+Crestpoint's branch is closer to his office. That row is on his sheet too. You cannot move the branch. You can move the quality of what he carries out.
 
 ---
 
@@ -68,7 +68,7 @@ What you can honestly offer today: the all-in comparison he has been trying to b
 
 What you cannot offer: 8.50. The rate is the rate.
 
-If the numbers still favour Meridian after honesty, there is still ground you can stand on that a rate table does not capture: who picks up when the lawyer has a query, who stays reachable when Shruti has a question at 9 PM, whether the file moves in twelve working days or sits in a queue while the demand-letter clock runs.
+If the numbers still favour Crestpoint after honesty, there is still ground you can stand on that a rate table does not capture: who picks up when the lawyer has a query, who stays reachable when Shruti has a question at 9 PM, whether the file moves in twelve working days or sits in a queue while the demand-letter clock runs.
 
 In your drawer: a blank comparison printout with your bank's fee column ready to fill, a checklist template you adjusted last night for under-construction salaried files, and your direct line written on a card you have used twice before for customers who needed a name, not a toll-free tree.
 

@@ -44,7 +44,7 @@ One more number from your own quality reports, which you almost missed: last yea
 
 **What the Engineers Actually Said**
 
-You asked them directly, since their offer to help is the one card in your hand that costs the company almost nothing and might mean the most to him: would they actually want to do this again, at another shop, so soon after the last one. Both said yes before you'd finished the question. One of them added, unprompted, that the last project was the first time in two years a supplier's own floor staff had thanked them by name on the way out. That is not the kind of detail that shows up in a savings report, and you are fairly sure it matters more to Joseph than the 5 percent does.
+You asked them directly, since their offer to help is the one card in your hand that costs the company almost nothing and might mean the most to him: would they actually want to do this again, at another shop, so soon after the last one. Both said yes before you'd finished the question. One of them added, unprompted, that the last project was the first time in two years a supplier's own floor staff had thanked them by name on the way out. That is not the kind of detail that shows up in a savings report.
 
 The March project at the other supplier took eleven working days on site. They mapped three rework loops tied to Helix design releases, fixed two without capital spend, and left a one-page standard work sheet the supplier still uses. Finance counted the savings at roughly 5 percent of that supplier's run rate. Joseph's quality logs suggest a similar pattern from last year's revision cycle, except his team never sent a change order and your company never acknowledged the cost.
 
@@ -54,11 +54,11 @@ The March project at the other supplier took eleven working days on site. They m
 
 Joseph Varghese learned toolmaking from his father, took over the shop at 29, and grew it to 70 people without ever once, as he puts it, "shipping a part I would not sign." He still walks the shop floor himself every morning before the first shift's tea break, a habit his son, who is training to eventually take over, has apparently tried and failed to talk him out of. He is courteous on every call, sends Onam sweets to your office, and has raised prices on Helix exactly twice in nine years, both times with a cost breakdown attached, both times under 5 percent.
 
-Which is why 18 startled you, and why you started asking around. An industry contact told you the story Joseph himself never mentions. Two years ago, a large customer, a consumer appliances brand, pushed him hard on a one-year contract: squeezed the price, promised the relationship, praised the quality. Joseph added machine capacity for their volumes, financed on a five-year loan he is presumably still paying down. At renewal they moved to a cheaper shop in Coimbatore, and the machines he had financed for them ran at half load for fourteen months while he tried to backfill the capacity with other customers. People who know him say he came out of it with a rule he now repeats to his plant manager: "A one-year customer pays one-year prices. Only a partner gets partner prices."
+Which is why 18 startled you. It is not a number that fits the man. Twice in nine years he has moved his price, carefully, almost apologetically, and now this: a jump he has not explained beyond the quote itself. You started asking around and got only fragments. Something shifted in how he writes one-year contracts a couple of years ago; nobody you reached would say exactly what, only that it left a mark on how he thinks about customers who arrive with a number and a promise. Whatever it was, he has not brought it to you, and you would be guessing if you named it for him.
 
-Your predecessor's handover note, which you dug out last week, has one relevant line about him: "Joseph never negotiates against pressure, only against certainty. Give him something he can plan on and he becomes the most reasonable man in Kerala."
+Your predecessor's handover note, which you dug out last week, has one relevant line about him: "Joseph does not bluff, and he does not move for anyone who does. Come with something real or do not come."
 
-One more thing you know from accounts payable, small but real: Helix pays him at 60 days, and his working capital, like every 70-person shop's, is a quiet monthly ache.
+One more thing you know from accounts payable, small but real: Helix pays him at 60 days, and has for years, without anyone ever asking him whether that timing sits well with a shop his size.
 
 ---
 
@@ -66,15 +66,13 @@ One more thing you know from accounts payable, small but real: Helix pays him at
 
 Your mandate: land the year-one effect at no more than +6. Your authorities, confirmed before the flight: finance has pre-approved multi-year direct-material contracts with indexed escalation, a structure used twice this year in other categories; you can offer the on-site time of the two process engineers for a rework-reduction project at his shop; the second moulded category, Rs 60 lakh currently sitting with the discounter whose renewal behaviour you already know, can be consolidated to a supplier who earns it; and payment terms are negotiable if the numbers justify it.
 
-Finance used indexed escalation on a polymer hose contract in February and a PCB enclosure deal in May. Both were three-year frames with CPI-linked step-ups at renewal instead of open re-quoting. Legal has a standard direct-materials addendum ready; your job in Kochi is commercial, not documentary. The Rs 60 lakh category is pump accessories, not regulated housings, but Joseph's tolerances would cover it and consolidating would give him load on the machines he is still paying for. Whether that volume is a gift or a trade depends on what you learn about why eighteen is the opening number.
+Finance used indexed escalation on a polymer hose contract in February and a PCB enclosure deal in May. Both were three-year frames with CPI-linked step-ups at renewal instead of open re-quoting. Legal has a standard direct-materials addendum ready; your job in Kochi is commercial, not documentary. The Rs 60 lakh category is pump accessories, not regulated housings, but Joseph's tolerances would cover it easily. Whether any of these are worth putting on the table, and in what order, depends entirely on what you learn once you are in the room.
 
-On payment terms, Helix's standard is 60 days. Joseph has never asked for early payment in writing, but your AP analyst noted twice last year that his supplier credit line creaked in quarter-end months when three large customers paid late the same week. You have headroom to 45 days if the total package justifies it. You are not authorised to go to 30 without a second signature, and you would rather not spend political capital on terms alone if the price stays wrong.
+On payment terms, Helix's standard is 60 days, and you have headroom to 45 if the total package justifies it. You are not authorised to go to 30 without a second signature, and you would rather not spend that political capital on terms alone if the price stays wrong.
 
 You have read the margin note again more than once, "or we finally test the market properly," and you no longer think your Procurement Head means it as an instruction so much as a line that sounds decisive in a hallway conversation. Testing the market properly, on this component, means the six-to-nine-month validation clock, and you are fairly sure he knows that as well as you do.
 
-And you remember what the category head who trained you said about anchors, the single most useful thing anyone taught you in four years: "When a good supplier gives you a bad number, the number is a message. Your job is to find out what it says."
-
-You rehearsed the cost build-up on the flight down, not as a script to win, but as proof you respect the inputs he cannot fake. What you do not yet know is what contract shape would let him plan on you the way he once planned on a customer who did not stay.
+You rehearsed the cost build-up on the flight down, not as a script to win, but as proof you respect the inputs he cannot fake. You have a mandate, a handful of things you are allowed to offer, and a supplier whose opening number does not match nine years of how he has dealt with you. What you do not have yet is the reason for that number. That is the thing you have to leave Kochi understanding, whatever else happens to the price.
 
 ---
 

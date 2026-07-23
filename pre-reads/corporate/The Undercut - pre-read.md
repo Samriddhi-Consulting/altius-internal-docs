@@ -68,11 +68,11 @@ Your own manager, when you mentioned the Lumio quote this morning mostly to have
 
 **What You Carry In**
 
-Freshly authorised this quarter, and you read the enablement note twice to be sure of it: penalty-backed SLAs on critical links, Rs 50,000 service credit per hour of breach, the first time you have been able to put real money behind your own uptime claims. Pricing flexibility to twelve percent. Full freedom to segment the estate, price the tail like a tail and the core like the artery it actually is.
+Freshly authorised this quarter, and you read the enablement note twice to be sure of it: penalty-backed SLAs on critical links, Rs 50,000 service credit per hour of breach, the first time you have been able to put real money behind your own uptime claims. Pricing flexibility to twelve percent. And, new this quarter, permission to price different parts of the estate on different terms instead of quoting the whole book at one number.
 
-The arithmetic, if the room lets you use it: Lumio's saving is about Rs 66 lakh a year. The Saturday cost roughly Rs 1.9 crore, in six hours, once. The gap between a four-hour restoration and a next-day ticket, measured the only way that matters to Kavita, in card swipes per store per hour. And a segmentation sketch on the last page of your notebook: the 3,800-SIM tail conceded to the market's price, the 5,200-connection core and the DC links renewed with real teeth, a structure that hands her a genuine saving for her board while keeping the insurance on everything that bled that Saturday.
+The arithmetic, if the room lets you use it: Lumio's saving is about Rs 66 lakh a year. The Saturday cost was put at roughly Rs 1.9 crore, in six hours, once. Somewhere between a four-hour restoration and a next-day ticket sits a number, and the only person whose measure of it counts is the one sitting across the table.
 
-One sentence, underlined, written after you heard the colleague-who-matched story again last night: "The price is her position. The risk is her question. Answer the question."
+You know this account's shape better than the quote does, and you know what your own authorities now allow. What you have not done, in nine months, is sit in a room with Kavita and find out which of tonight's numbers she is actually weighing. The last page of your notebook is blank. Thursday is where you fill it.
 
 ---
 

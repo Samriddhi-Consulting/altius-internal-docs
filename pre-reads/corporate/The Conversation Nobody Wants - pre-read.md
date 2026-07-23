@@ -64,6 +64,8 @@ The target is not yours to move. Rs 1.5 crore stands, and so does the 90-day win
 
 Friday is tomorrow. The acknowledgement line on page two still has a blank signature box.
 
+You keep circling the same discomfort, and it is not really about the numbers. Five years ago this man taught you which watchman opened the back gate after four, and which plant owner's father had started the business in a single shed. He put both hands on your shoulders and congratulated you before anyone else did on the day you got the job that made you his manager. Now you are the one holding a document with his name under words nobody wants to read, and the effort logged in his CRM every morning is real, which is exactly what makes it hard to hand him a number that calls it a shortfall. None of that changes what the target is. All of it changes what this half hour costs, for both of you, depending on whether he leaves the cabin feeling quietly written off or handed something he could still do something with.
+
 ---
 
 **4 PM**
@@ -75,9 +77,3 @@ He sits down across from you. He does not reach for the water. For a long moment
 "Thirteen years," he says, evenly. "So tell me straight. Should I take this as a sign that the company wants me to leave?"
 
 **[END OF PRE-READ]**
-
----
-
-**What the Clock Does**
-
-Thursday afternoon on the NCR sales floor has a way of making every HR deadline feel louder. You have until the end of this meeting to decide whether Ravi leaves having heard a straight answer, a standard named with specifics, and a path built from his own book, or whether he walks out believing the firm has already decided. Friday still exists. Thirteen years still exists. The PIP still exists. The only thing that does not exist yet is an honest sentence about what this document is, and what he can still do with it.

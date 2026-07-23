@@ -54,7 +54,7 @@ The clock is real and it is not generous. Three weeks to her last day. HR wants 
 
 What is fixed: the resignation exists, the notice is three weeks, and the comp gap is real and approved to offer. What is open: why she is actually leaving, and whether any version of staying would feel different from being talked into it.
 
-Priya has already decided once. She has less patience for a script. Ask something specific and leave room, and she may tell you something true. Lead with the number, or ask her to diagnose herself in the abstract, and she will thank you politely and close the conversation before it started.
+Priya has already decided once, and she has no patience left for a script; she has almost certainly guessed the shape of this meeting before walking into it. She is the kind of person who can tell the difference between being asked something real and being processed, and she will give you exactly as much as she decides the first few minutes have earned, and not a sentence more.
 
 You also remember a detail from last quarter that you never asked her about at the time. In a planning meeting, Arjun walked through a shared deliverable and took the framing credit without malice, the way people do when the room has already decided who is next. Priya did not correct him. She nodded once and went back to her laptop. Nobody else noticed. You noticed, filed it under nothing, and moved on. That filing decision looks different this morning.
 

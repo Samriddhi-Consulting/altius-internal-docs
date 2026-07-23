@@ -60,23 +60,13 @@ You are not here to fix anything today. You are here to be the first person in e
 
 **What Moves the Room (Without Naming It)**
 
-Your training has words for what works in a first encounter like this. You do not say those words in the room. You do them.
+Your training has words for what works in a first encounter like this, and the ward is exactly the wrong place to say any of them out loud. Whatever you learned about first sessions, Anil did not learn it, did not ask for it, and will read the performance of it as one more professional who wants something from him.
 
-Open questions when questions are needed, not a run of them. Affirmations that are specific, not flattery. Reflections that give back what he said without turning it into a lecture or a diagnosis. Summaries that show you were listening, not compiling a case file.
+He is going to test you first, because testing is close to the only control he has left in a bed he cannot get out of on his own. How you sit with that in the opening minute, and whether you need him to make it easy for you, will tell him most of what he wants to know about whether you are safe to have in the room.
 
-More practically: respond to the competence challenge with calm and brevity. Let him set the pace. Reflect rather than interrogate. Let silence exist without treating it as a problem you must solve. Notice what he brings up on his own and follow it gently without grabbing for more.
+Somewhere in the hour, if it goes well, he may put something small on the table that is not the fall and is not stated as fear, mentioned as though it does not matter. Whether you even notice it, and what you do in the ten seconds after, is the session. The rest is waiting well, and not reaching for a story he has not offered you.
 
-What shuts the room: listing qualifications. Any direct question about the fall. Therapist-voice language that sounds performed. Anxious chatter when he gives you one word.
-
-What may crack the room, if you earn it: a flat, dry line that is almost humor. Not warmth yet. A sign the door has moved a millimeter.
-
-What may come later, if guard drops: something small about his team running the site without him, or his wife visiting less because she is managing the kids alone. Not the fall. Not fear stated cleanly. A thread, offered almost incidentally, that hints at what sits underneath competence and irritability.
-
-How you respond to that thread determines the rest of the hour. Follow it with reflection and stay. Do not steer back to the scaffold. Do not over-reassure.
-
-If the door never opens, the session still produces a transcript worth debriefing: how you handled the challenge in the first thirty seconds, whether you chased a story he did not offer, whether you could tolerate a man testing you because testing is the only control he has left.
-
-If the door opens a fraction, you will know from small tells: a deadpan line that is almost a joke, a detail about the site offered like it does not matter, a pause before he lets you stay in the room one minute longer than he planned.
+It helps to hold what the quiet in the chart probably is. Eleven days ago Anil ran a site: he decided who worked where, which corner could not be cut, who got called when a pour went wrong at dusk. Now he presses a bell to be helped to a bathroom and waits for someone to answer it. The surgeon reads that as a man carrying something. From inside the bed it is simpler and worse. Every lever he ever trusted to prove he was competent has been taken away at once, in front of his wife, his team, and a ward full of strangers who keep needing things from him. You are the next stranger through the door. He has spent eleven days being managed, and he will notice, faster than you expect, whether you are one more person here to manage him. The one card you hold that none of the others did is that for this hour, you do not actually need anything from him.
 
 ---
 

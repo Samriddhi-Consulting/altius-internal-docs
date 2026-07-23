@@ -60,11 +60,7 @@ Thirty-four. Senior marketing executive. Solo business traveler. Keynote at **8:
 
 She has been awake roughly eighteen hours. She has under nine hours before she needs to be sharp on stage. She has just had a genuine safety scare over a twelve-hundred-rupee dish she has not eaten.
 
-What she needs to hear is not on any script card. It is that someone understood the stakes, not just the inconvenience. That the fix is immediate, not deferred. That she can trust the next thing that arrives at her door tonight.
-
-What shuts the conversation down, if you walk into it: treating the incident as a minor kitchen mix-up; hollow corporate apology language; stalling on things clearly within your Rs 12,000 authority while a supervisor who is not here becomes an excuse; over-promising absolute guarantees you cannot back up.
-
-What opens it, if you earn it: naming the allergen risk plainly; visible ownership without theatre; decisive action within your real limits; acknowledging that she caught the error; closing with honest next steps rather than a blanket promise.
+What she needs from the person at her door is not on any script card, and it is not really about the twelve hundred rupees. It is whether anyone here grasps what almost happened tonight, as opposed to how long the food took. Everything else, the replacement, the bill, whether she eats at all before a keynote in nine hours, sits downstream of that one question, and she will have decided the answer before you finish your first sentence.
 
 ---
 
@@ -86,7 +82,7 @@ Waiting for someone else to decide is not a neutral choice tonight. It is its ow
 
 Your training covered both errors. The first is more common on night shift: defer, defer, defer until a manager materializes and the guest has already decided the hotel cannot be trusted. The second is less common but worse: comp like a hero, promise like a general manager, and leave a folio mess that becomes someone else's problem at six AM.
 
-The Rs 12,000 line exists so you do not have to freeze. It also exists so you stay honest. Comp the meal. Arrange a replacement that is verified peanut-free before it leaves the kitchen. Flag the ticket so the kitchen double-checks every order for the rest of the night. Check billing without making her ask. Do not promise that nothing will ever go wrong again anywhere in the hotel. Promise what you can actually do in the next twenty minutes.
+The Rs 12,000 line exists so you do not have to freeze. It also exists so you stay honest, and those are two different disciplines that happen to share one budget. What you actually spend it on in the next twenty minutes, and what you refuse to promise beyond it, is the part no supervisor is standing here to decide for you.
 
 There is a second question she may ask once she believes you are listening, not before: how she can trust the rest of tonight. If you never recover from the opening, that question still comes, but it lands as a challenge rather than an opening. If you recover well, it lands as a genuine search for reassurance.
 

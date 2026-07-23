@@ -88,15 +88,13 @@ If you offer her that room as certainty without checking, and she arrives to a d
 
 ---
 
-**Two Ways This Night Ends**
+**What Fourteen Stays Mean**
 
-If you solve the room quickly but never acknowledge her personally, she will not object. She accepts whatever is offered graciously and thanks you. On the surface, nothing has gone wrong. She never warms. The conversation stays at a polite distance for its remainder. That is a weak close that looks like success on a occupancy report.
+Think about what a number like that actually represents from her side of the desk. Fourteen separate decisions to come back here instead of somewhere newer or cheaper or closer to wherever she was going. Fourteen arrivals when someone, at least once, thought to send something up before she asked. Loyalty in a hotel is not a points balance. It is a quiet accumulation of being known, and it survives right up until the night a screen looks at her and sees a stranger.
 
-If you find her because you thought to look or ask, not because the system handed you her history, something changes. Being remembered, even imperfectly, lands completely differently than "let me see what I can do" spoken to a stranger.
+That is the night she is having. Not a room problem, though there is a room problem. The injury underneath is that the arithmetic of all those years has apparently netted out to a blank availability screen and a trainee reaching for the word "unfortunately."
 
-Once she begins to feel seen, a real vulnerability may surface, something close to admitting she does not like unfamiliar places at night anymore, said almost reluctantly, as though she had not planned to bring it up. That line is not a checklist item. It is a trust signal, and it only arrives if you earned it.
-
-A strong close sounds like relief without performance: at least someone here still knows how to make her feel like a person. She leaves with both a solved room and the sense that the hotel still knows who she is.
+She will not say any of this directly. She is not a woman who announces a wound. It will arrive sideways, in something dry and precise, and you will have to be paying a particular kind of attention to notice it was there at all. Whether you are paying that attention, or only working an oversell, is most of what tonight is. The room is the easy part, and it is not the part she will remember in the morning.
 
 ---
 

@@ -34,9 +34,9 @@ You know how salon registers work in general. Receptionists ask a version of "ap
 
 Meenakshi trusts her register the way she trusts her cash drawer. When she says twenty-eight bookings, she means twenty-eight rows that clearly say your app's name. Anything that arrived by phone after someone saw her listing is probably not in that count. Whether that gap matters, and how big it is, is not something the briefing can answer for you. It is something the room has to answer, if you ask the right questions and then stop talking long enough to hear her.
 
-The platform gives her a listing, in-app booking with prepayment, reviews, and that tap-to-call number on every profile. Partners rarely open the analytics that sit behind all of it. That is not a moral failing. It is a pattern. Salon owners live on the floor, not in dashboards. Your job today is not to drag her into a tab she has ignored for two years. It is to understand what she already uses to decide whether Rs 36,000 is working, and whether that measure is complete.
+The platform gives her a listing, in-app booking with prepayment, reviews, and that tap-to-call number on every profile. Partners rarely open the analytics that sit behind all of it. That is not a moral failing. It is a pattern. Salon owners live on the floor, not in dashboards.
 
-You are not walking in with a finished equation. You are walking in with a tablet that shows sixty taps a month on a button she may not know she is paying attention to, and a decision not to correct her in the doorway.
+You are not walking in with a finished equation. You are walking in with a tablet that shows sixty taps a month on a button she may not know she is paying attention to.
 
 ---
 
@@ -62,13 +62,13 @@ Your team lead caught you on the way out this morning, not unkindly: "Meenakshi'
 
 **What You Carry In**
 
-A tablet with her analytics open to the call data, sixty taps a month, month after month, which she has never seen. Her plan sheet, with the two dead add-ons circled in your own pen, because you have decided, target or no target, that you will not defend Rs 9,000 of nothing, and that offering to remove it might be worth more than any discount in the system. The honest split of subscription versus commission, drawn simply, because the tangle serves nobody. A one-month call-tracking proposal in your head, a dedicated tracked number on her listing, so anything the register mislabels becomes visible in language she already trusts, reviewed together in thirty days, if she wants proof before trust. And the discount button, which exists, which your team lead mentioned this morning, and which you have promised yourself is the last tool you reach for, not the first.
+A tablet with her analytics open to the call data, sixty taps a month, month after month, which she has never seen. Her plan sheet, with the two dead add-ons circled in your own pen: Rs 9,000 a year of priority placement she does not need in a sector where she already ranks first, and a photoshoot credit untouched for fourteen months, both sold by a rep who is no longer here to defend them. The honest split of subscription versus commission, drawn simply, because the tangle serves nobody. A one-month call-tracking proposal you have half-formed, a dedicated tracked number on her listing so anything the register mislabels becomes visible in language she already trusts, reviewed together in thirty days if she wants proof before trust. And the fifteen percent discount button, which exists, and which your team lead mentioned this morning as though it were the obvious answer.
 
 You have rehearsed none of this out loud, on the theory that a rehearsed line is the first thing someone this sharp with numbers spots and distrusts.
 
-Somewhere between the dashboard and the salon door sits the question you actually need answered: not whether the platform is worth Rs 36,000 in the abstract, but what she is measuring, what she is not measuring, and what else the invoice is standing in for today. The colleagues who keep partners like her past year three are not the ones with the fastest discount finger. They are the ones who ask before they defend, and who let the owner's own register do the uncomfortable work.
+Somewhere between the dashboard and the salon door sits the real question, and it is not whether the platform is worth Rs 36,000 in the abstract. It is what the number means to her today, sitting in that back office with the rent notice and the road two lanes away, and she is the only person in the building who can tell you.
 
-You have seen renewals saved by trimming a plan nobody should have sold in the first place, and lost by defending every line item because the retention target was due on Friday. Meenakshi is not a line item. She is eleven years of reviews and a woman who turned off auto-renewal three weeks ago instead of ghosting you, which is respect even when it does not feel like it.
+Meenakshi is not a line item. She is eleven years of reviews and a woman who turned off auto-renewal three weeks ago instead of ghosting you, which is respect even when it does not feel like it.
 
 ---
 
@@ -78,6 +78,6 @@ The salon smells of ammonia and jasmine, and Meenakshi meets you between clients
 
 She folds the towel, sets it down, and looks at you with eleven years of knowing exactly what things cost, the same look she probably gives a supplier who has quoted her a price she thinks is a test.
 
-The conversation is about to start on her terms. Your first move will decide whether this is another renewal defended into resentment, or the first honest hour she has had with someone from the platform in two years. Choose carefully right now.
+The conversation is about to start on her terms, the invoice already face up between you, turned your way, eleven years of knowing exactly what things cost sitting behind her eyes.
 
 **[END OF PRE-READ]**

@@ -40,7 +40,7 @@ That is not a detail you can hide behind. June 15 went on his slide. The twelve-
 
 Dan Kowalski is twenty years into insurance technology and talks the way the Nordic clients in your last company did: what is said is what is meant, and what is not said does not exist. He does not do warm-up questions. His best quality, your account manager says, is also the relevant one tonight. He extends trust in whole units, and withdraws it the same way.
 
-What you know from the account manager, in fragments worth assembling: Dan was the executive who argued for standing up the Pune GCC three years ago, over a rival SVP who wanted the claims stack with a US vendor and has never stopped believing he was right. That SVP has not stopped keeping score, and everyone at Hartford above a certain level knows it, the way everyone in an office eventually knows which two directors do not actually like each other. The 15 June date, your date, went into Dan's slide at their quarterly technology review. The twelve-day miss surfaced two days before that review. The rival SVP asked about it in the room, by several accounts almost gently, which by all reports made it worse. Dan defended the GCC at that meeting anyway. What he said afterward to your account manager, verbatim, was shorter: "I'm running out of my own credibility to spend on this."
+What you know from the account manager, in fragments worth assembling: Dan was the executive who argued for standing up the Pune GCC three years ago, over a rival SVP who wanted the claims stack with a US vendor and has never stopped believing he was right. That SVP has not stopped keeping score, and everyone at Hartford above a certain level knows it, the way everyone in an office eventually knows which two directors do not actually like each other. The 15 June date, your date, went into Dan's slide at their quarterly technology review. The twelve-day miss surfaced two days before that review. The rival SVP asked about it in the room, by several accounts almost gently, which by all reports made it worse. Dan defended the GCC at that meeting anyway, and by the account manager's read it cost him something to do it.
 
 You have also seen, on this account, how these calls die. A delivery manager on the policy-admin workstream last year answered a slip question with eleven minutes on attrition in the Pune market. The client listened politely and moved the workstream's next phase onshore. The account manager's post-mortem line has stayed with you: "He answered the question he could survive, not the question he was asked."
 
@@ -66,9 +66,11 @@ Two weeks of buffer, named as buffer, on top of the work, not folded invisibly i
 
 And you have a tripwire to offer: a weekly two-line risk note from you to Dan, every Thursday, so that if this date ever comes under threat, he hears it from you first, weeks early, not from a status report after the fact.
 
-The causes that shaped this plan are real. Prashant's exit, the schema delay, the audit fields. They belong in the conversation only as the reasons the new plan is shaped the way it is, never as justification for the old miss. Effort is on record. Mention it once at most. Never as currency.
-
 Whether any of that gets heard depends on the first two minutes, and on a choice you can already feel forming. The story of the quarter is sitting in your chest, true and exculpatory and useless.
+
+You are one year into leading a workstream end to end, and this is the first time the job has felt less like engineering and more like standing in front of someone with only your word to offer. Fourteen people built this plan with you. None of them are on the call. Whatever version of events leaves your mouth in the next thirty minutes is the version that becomes real to Hartford, and to the rival who has wanted this work back on US soil since before you had the job. You did the arithmetic again on the drive in, the way you do arithmetic when you are nervous: thirty minutes, one plan, a relationship six years old that four delivery leads before you kept alive and that you could be the one to drop.
+
+The plan took three evenings to build and one uncomfortable phone call with Hartford's own data lead to get that dependency date committed in writing, the first real commitment that team has offered this workstream in a year. By any honest measure it is a better plan than 15 June ever was. That is also its trap. A better plan does not undo a broken promise on its own. It only buys the right to be heard.
 
 ---
 
@@ -83,10 +85,6 @@ Current miss: **twelve days** past 15 June.
 New target: **8 August**, with **two weeks** named buffer, written schema dependency, change gate on audit scope, **two dashboard items** moved to **September**.
 
 Team size on the workstream: **fourteen engineers**. Your first year leading end to end.
-
-If Dan pushes on causes, the discipline is two factual sentences and back to the plan. Not eleven minutes on attrition. Not weekends as proof.
-
-What he is actually asking, beneath the date question, is whether he can put his name on something again. Your account manager said it plainly. He needs forwardable content, not shared suffering. The rival SVP angle is real but it is his fight to name, not yours to litigate. Your job is to make the eight August plan inspectable enough that a sceptical executive could repeat it without embarrassment.
 
 ---
 

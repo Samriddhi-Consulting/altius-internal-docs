@@ -44,7 +44,7 @@ Which brings you to the part of your own house you have to be honest about, the 
 
 You also know, because you looked it up for a customer in March and never forgot it, that a standalone term plan covering the same liability costs a healthy 31-year-old roughly a third of the bundled premium. Term cover for the loan amount is genuinely sensible for a first-time borrower with a young family. The bundled product is one way to buy it. It is not the only way, and it is not free money.
 
-The advisor who trained you, Mrs D'Souza, retired last year with a client list that still calls her for advice on loans she can no longer sell, which the branch finds mildly ridiculous and you have never once found ridiculous. She had one line about this job that the branch has half-forgotten and you have not: "A rate wins you a comparison. An explanation wins you a family. Only one of those refers you their brother-in-law."
+The advisor who trained you, Mrs D'Souza, retired last year with a client list that still calls her for advice on loans she can no longer sell, which the branch finds mildly ridiculous and you have never once found ridiculous. Her borrowers did not always leave with the lowest rate on offer that week. They stayed anyway, for years, and they sent their brothers-in-law. You are still working out exactly how she managed that, and you have started to suspect it was never really about the number.
 
 You have also seen the other road. A colleague at your previous branch closed a first-timer at a great rate with the bundle folded in unmentioned. The customer discovered the Rs 1.8 lakh line item at disbursal, escalated to the nodal officer, cancelled, and posted the entire email thread in a home-buyers' forum where, as far as you know, it still ranks near the top of search results for the branch's name. BFSI ethics is not an abstract training slide in this room. It is a search result.
 
@@ -68,7 +68,7 @@ What you can honestly offer today: the all-in comparison he has been trying to b
 
 What you cannot offer: 8.50. The rate is the rate.
 
-If the numbers still favour Meridian after honesty, you can still compete on service and certainty: who picks up when the lawyer has a query, who stays reachable when Shruti has a question at 9 PM, whether the file moves in twelve working days or sits in a queue while the demand letter clock runs. That competition only works if the math in the room was honest first.
+If the numbers still favour Meridian after honesty, there is still ground you can stand on that a rate table does not capture: who picks up when the lawyer has a query, who stays reachable when Shruti has a question at 9 PM, whether the file moves in twelve working days or sits in a queue while the demand-letter clock runs.
 
 In your drawer: a blank comparison printout with your bank's fee column ready to fill, a checklist template you adjusted last night for under-construction salaried files, and your direct line written on a card you have used twice before for customers who needed a name, not a toll-free tree.
 

@@ -75,9 +75,3 @@ Sameer comes in on time, closes the door, and sits with his notebook squared in 
 "Before we talk about any of it, I want to know one thing. Do you even agree with this?"
 
 **[END OF PRE-READ]**
-
----
-
-**What the Clock Does**
-
-The feedback window closes at month end. Your written submission is due Friday. Sameer's question is already in the room, and the team behind the glass is still pretending not to watch. The policy will not un-send itself. The metric will not disappear because this conversation goes well. What can still change in the next thirty minutes is whether Sameer leaves steadied or managed, and whether you answered the one question he will repeat to himself on the commute home: can I trust what my lead actually thinks?

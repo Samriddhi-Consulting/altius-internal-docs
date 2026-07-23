@@ -88,13 +88,9 @@ Orientation covered disclosure in abstract terms: be honest, do not speculate be
 
 **Two Questions, Not One**
 
-There are two questions in this scene, and they do not arrive with the same voice.
+There are two questions in this scene, and they do not arrive in the same voice.
 
-The first fires immediately: why did nobody come when we called. That is accusation, heat, legitimate grievance. It needs acknowledgment without deflection, not a solution speech.
-
-The second may come later, only if something in your tone lets it: is this going to happen again. If it lands as a real question rather than a trap, it is the fear speaking plainly. A flat never will read as empty. So will a performance of reassurance that asks her to comfort you back.
-
-What works instead is something she can hold: what you will do for the rest of this shift, what gets escalated to the charge nurse or physician in the morning, that someone will stay within reach tonight while her husband sleeps. Honest durations. No legal language. No script she has heard from three other institutions in her life.
+The first comes immediately, hot and legitimate: why did nobody come when we called. The second may come later, and only if something in the first few minutes earns it: is this going to happen again. That second question is the fear that has been sitting under the anger the whole time, and it is fragile. It closes again fast if she decides you are performing rather than being straight with her. Which of the two you are actually answering, at any given moment, is worth knowing even while she is still talking.
 
 The clock is still past 2 AM. The ward is still short-handed. You have twenty turns before debrief, and she has already waited longer than she should have had to for anyone to sit down and look her in the eye.
 
@@ -118,9 +114,7 @@ There is no line that fixes this instantly. The goal is narrower and harder: tha
 
 **What You Carry In**
 
-You carry in presence, not a script. Steady tone. Plain acknowledgment that something went wrong and should not have. Space for her anger without matching heat or going cold. Listening for fear under the accusation. Something concrete and honest if recurrence comes up: what you will do tonight, what will be escalated, who will stay close, without a blanket promise the system cannot keep.
-
-You carry in the restraint to not deflect to policy, staffing charts, or another department's name. You carry in the restraint to not minimize because the monitor looks better now.
+You carry in presence, not a script, which is harder than it sounds at 2 AM on a short-staffed ward. You carry in the fact that something did go wrong tonight, and that she is not wrong to be angry about it. And you carry in the difference, which orientation named but never made you feel, between being honest with her and performing an apology at her, between staying inside the discomfort and reaching for a staffing chart to explain it away.
 
 You carry in twenty turns before debrief. When the conversation ends, you will hear how it felt to be on the other side of your words.
 

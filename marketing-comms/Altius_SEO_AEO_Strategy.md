@@ -22,6 +22,7 @@
 > - **`llms.txt` upgraded** (2026-07-10) — rewritten to [llmstxt.org](https://llmstxt.org/) (H1 + blockquote + curated H2 link lists); live at `/llms.txt`.
 > - **GSC:** `https://altius.adegreeabove.org/sitemap-index.xml` submitted (June 2026).
 > - **Off-site entity (partial):** LinkedIn + GBP live ([GBP Maps](https://www.google.com/maps/place/A+Degree+Above/data=!4m2!3m1!1s0x0:0x1c0738c025962a93)); LinkedIn only in schema `sameAs`. Wikidata Q140329925 / Q140469863 deleted (RfD Jul 2026) — recreate only after independent coverage. Crunchbase — pending. Log: Part 4.4.
+> - **SEO-019 deep-link matrix** (2026-07-23) — hub CTAs → filtered `/demos` or named try URLs; app `/about` brochure redirect; matrix [docs/deep_link_matrix.md](./docs/deep_link_matrix.md). OPS-003 (app product noindex) still open.
 
 ---
 

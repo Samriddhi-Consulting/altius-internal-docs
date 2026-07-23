@@ -170,6 +170,8 @@ Not every course needs Altius. The sweet spot is any course where a stated Cours
 | **Medical / Nursing** | Patient Communication, History-Taking Skills, Bioethics | Breaking bad news with empathy, building rapport with anxious patients, explaining next steps clearly, managing denial and resistance |
 | **Hospitality** | Front Office Management, Guest Relations, Food and Beverage Service | Complaint resolution, upselling, service recovery with demanding guests |
 
+On the live `/education` page, course-fit cards deep-link to `/demos?audience=education&topic=…` (Sales & Distribution → Flowbridge try URL — no education gallery cards carry a Sales topic yet). Full map: [docs/deep_link_matrix.md](./docs/deep_link_matrix.md).
+
 ### Featured Scenarios
 
 **B2B Discovery (Live on Altius today)**

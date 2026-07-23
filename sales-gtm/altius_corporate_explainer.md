@@ -130,6 +130,8 @@ As the L&D leader, HRBP, or functional head, you see operational progress.
 
 ## Where Altius Applies: By Function
 
+On the live `/corporate` page, each function block links to the matching filtered gallery (`/demos?audience=corporate&function=Revenue|Operations|Leadership`). Full hub→demos map: [docs/deep_link_matrix.md](./docs/deep_link_matrix.md).
+
 ### Revenue and Commercial Teams
 
 | Use Case | Who practises | What Altius measures |

@@ -63,3 +63,13 @@ The brand uses the Delta (Δ) and Degree (°) symbols natively in text.
 - FAQ and definition statements: write as direct Q&A (feeds FAQPage schema and AI citation — strategy Part 5.3).
 - Internal link anchor text: descriptive phrases, not "click here" (strategy Part 3.2).
 - When proof points or deployment stats change, update shared blocks first, then the SEO strategy doc Part 5.3.
+
+## 9. Eval output (learner-facing coaching prose)
+
+Used by the app eval prompt + `sanitizeEvalProse` in `v1/app/src/lib/llm/evaluation.ts` (FB-002). Learners see `summary` / `strengths` / `improvements` on `/debrief`. Scores stay specialist-only.
+
+- Second person ("you"); short punches; cite transcript moments.
+- **No em dashes or en dashes** in prose (use commas, periods, or colons).
+- No banned LLM-tell words (same list as [human_copywriting_prompts.md](./human_copywriting_prompts.md)).
+- Never put numeric scores, bands, or "you scored X" in prose fields — numbers live only in structured `scores` / `overallScore`.
+- Persist-time scrub strips dashes and soft-removes banned tokens; prompt must still write clean prose on first pass.

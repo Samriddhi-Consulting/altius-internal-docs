@@ -146,7 +146,7 @@ Maintain with [Altius SEO + AEO Strategy.md](./Altius%20SEO%20+%20AEO%20Strategy
 | Google Search Console | Done | Sitemap submitted June 2026 |
 | LinkedIn — A Degree Above | Done | `https://www.linkedin.com/company/a-degree-above/` |
 | LinkedIn — Altius showcase | Done | `https://www.linkedin.com/showcase/altius-by-ada/` |
-| GitHub — public docs mirror | Done | `https://github.com/Samriddhi-Consulting/altius-public-docs` (auto-sync via `sync-public-docs.yml`) |
+| GitHub — public docs mirror | Done | `https://github.com/Samriddhi-Consulting/altius-internal-docs` (GTM/marketing only; fuller packs on Altius SharePoint) |
 | Google Business Profile | Done | [Maps listing](https://www.google.com/maps/place/A+Degree+Above/data=!4m2!3m1!1s0x0:0x1c0738c025962a93) — service-area; `adegreeabove.org`; first post 2026-07-09 |
 | Wikidata — A Degree Above | Deleted | Q140329925 removed (RfD spam/advertising, 2026-07-18). Do not recreate without independent sources. |
 | Wikidata — Altius | Deleted | Q140469863 removed (RfD notability, 2026-07-19). Do not recreate without independent sources. |

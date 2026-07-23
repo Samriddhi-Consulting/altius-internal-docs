@@ -1,7 +1,25 @@
 # Altius — Public Docs
 
-Auto-synced from the Altius private repo on every merge to `main`.
+Auto-synced from the Altius private product repo on every merge to `main`.
 Do not edit files here directly — changes will be overwritten.
+
+**This mirror stays public** so tools like Claude.ai can use it. It only
+contains conversation-starter and marketing copy. It is **not** a full
+internal wiki.
+
+## Authorised team members — more detail on SharePoint
+
+Session recovery, scenario intake, backlog, accreditation evidence,
+gold Scenario Docs, pricing, client briefs, and demo deep links live on
+the internal Altius SharePoint library (access-controlled):
+
+**https://samriddhiconsulting.sharepoint.com/sites/Altius**
+
+→ Shared Documents → `General/` (Pitch, ADA specialists, Client briefs,
+Brand, Pricing, `SCENARIO_LINKS.html`) and `Corporate|Education/live scenario/`.
+
+If something you need is missing here, check SharePoint first — do not
+ask for it to be published to this public repo.
 
 ---
 
@@ -12,9 +30,7 @@ Do not edit files here directly — changes will be overwritten.
 | `altius_corporate_explainer.md` | Enterprise / workforce conversation-starter |
 | `altius_education_explainer.md` | HEI / B-school conversation-starter |
 | `altius_shared_blocks.md` | Canonical proof points, tagline, About ADA, footer |
-| `altius_faq_drafts.md` | Corporate (14) + education (19) FAQs |
-| `ACCREDITATION_EVIDENCE.md` | CO/PO mapping and data fields for IQAC conversations |
-| `ada_platform_thinking.md` | Learner / admin / specialist personas; Phase 2+ roadmap |
+| `altius_faq_drafts.md` | Corporate + education FAQs |
 
 ## Marketing & Comms (`/marketing-comms`)
 
@@ -25,18 +41,10 @@ Do not edit files here directly — changes will be overwritten.
 | `altius_shared_blocks.md` | Proof points and canonical copy strings |
 | `altius_faq_drafts.md` | FAQ accordion copy |
 | `copywriter_guidelines.md` | Voice, CTA verb, canonical ProofBar strings |
-| `designer_guidelines.md` | Visual/UX intent — Δ/°, ProofBar, ghost button rules |
-| `Altius_SEO_AEO_Strategy.md` | Canonical SEO/AEO — personas, content architecture, schema |
+| `designer_guidelines.md` | Visual/UX intent |
+| `Altius_SEO_AEO_Strategy.md` | SEO/AEO strategy for public marketing |
 
-## ADA Specialists & Customer Success (`/ada-specialists`)
+## ADA Specialists (`/ada-specialists`)
 
-| File | Purpose |
-|------|---------|
-| `ada_platform_thinking.md` | Learner / admin / specialist personas and platform intent |
-| `altius_shared_blocks.md` | Proof points and About ADA for client conversations |
-| `ACCREDITATION_EVIDENCE.md` | CO/PO mapping and delivery honesty for IQAC follow-up |
-| `SCENARIO_INTAKE.md` | Corporate SME / L&D discovery checklist |
-| `SCENARIO_INTAKE_EDUCATION.md` | Faculty / IQAC-specific intake checklist |
-| `SCENARIO_MODULE_GUIDE.md` | How scenarios are built — intake to deployment |
-| `SCENARIO_BACKLOG.md` | Ranked scenario catalog and wave plan |
-| `OPS_SESSION_RECOVERY.md` | Session lockout recovery — UI reset and SQL fallback |
+Pointer README only. Full specialist materials are on SharePoint for
+authorised users (see link above).

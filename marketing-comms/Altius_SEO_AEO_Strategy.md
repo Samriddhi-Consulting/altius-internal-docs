@@ -21,7 +21,7 @@
 > - **Phase 3 CWV (SEO-003) shipped** (2026-07-10) — Fraunces preload; `.bg-watermark` CLS fix; education `content-visibility`; demos conditional hydration.
 > - **`llms.txt` upgraded** (2026-07-10) — rewritten to [llmstxt.org](https://llmstxt.org/) (H1 + blockquote + curated H2 link lists); live at `/llms.txt`.
 > - **GSC:** `https://altius.adegreeabove.org/sitemap-index.xml` submitted (June 2026).
-> - **Off-site entity (partial):** LinkedIn + Wikidata + GBP live (ADA [Q140329925](https://www.wikidata.org/wiki/Q140329925), Altius [Q140469863](https://www.wikidata.org/wiki/Q140469863), [GBP Maps](https://www.google.com/maps/place/A+Degree+Above/data=!4m2!3m1!1s0x0:0x1c0738c025962a93)); `sameAs` in `schema.ts`. Crunchbase — pending. Log: Part 4.4.
+> - **Off-site entity (partial):** LinkedIn + GBP live ([GBP Maps](https://www.google.com/maps/place/A+Degree+Above/data=!4m2!3m1!1s0x0:0x1c0738c025962a93)); LinkedIn only in schema `sameAs`. Wikidata Q140329925 / Q140469863 deleted (RfD Jul 2026) — recreate only after independent coverage. Crunchbase — pending. Log: Part 4.4.
 
 ---
 
@@ -416,7 +416,7 @@ Getting into Google's knowledge graph requires authority signals across multiple
 **Google Business Profile** for **A Degree Above** (online-only / service-area business OK) — anchors verified business identity; website `https://adegreeabove.org`. Do not list Samriddhi as the operating business on GBP. **Status: done (July 2026)** — [Maps listing](https://www.google.com/maps/place/A+Degree+Above/data=!4m2!3m1!1s0x0:0x1c0738c025962a93); description, logo, phone, first post live (public crawl may lag).
 **LinkedIn company page** (A Degree Above) — live with logo, description, website → `adegreeabove.org`. **About Us copy:** [altius_shared_blocks.md](./altius_shared_blocks.md) § Value proposition. **Status: live.**
 **Altius showcase page** — `https://www.linkedin.com/showcase/altius-by-ada/` linked to microsite; matches `Brand.sameAs` in JSON-LD. **Status: URL shared publicly (June 2026).**
-**Wikidata** — ADA [Q140329925](https://www.wikidata.org/wiki/Q140329925) + Altius [Q140469863](https://www.wikidata.org/wiki/Q140469863); linked via `developer` / `product or material produced`. **Status: done (July 2026).**
+**Wikidata** — ADA Q140329925 + Altius Q140469863 created July 2026, **deleted** (RfD spam/notability, 18–19 Jul 2026). Do not recreate without serious independent references (WD:N criterion 2) or a Wikimedia sitelink. **Status: removed from schema / `llms.txt` (July 2026).**
 **Crunchbase / AngelList** listing for A Degree Above — free tier sufficient for cross-reference. **Status: pending.**
 **Wikipedia** — strongest signal when secondary coverage exists. Not yet feasible.
 **Press coverage / PR** — Ashok Leyland pilot is the natural hook (ET L&D, YourStory, HR Katha).
@@ -430,8 +430,8 @@ Getting into Google's knowledge graph requires authority signals across multiple
 | LinkedIn company | A Degree Above | `linkedin.com/company/a-degree-above/` | **Done** | `sameAs` in schema |
 | LinkedIn showcase | Altius | `linkedin.com/showcase/altius-by-ada/` | **Done** | Shared publicly; `Brand.sameAs` |
 | Google Business Profile | A Degree Above | [Maps listing](https://www.google.com/maps/place/A+Degree+Above/data=!4m2!3m1!1s0x0:0x1c0738c025962a93) | **Done** | Service-area; `adegreeabove.org`; first post 2026-07-09 |
-| Wikidata | A Degree Above | [Q140329925](https://www.wikidata.org/wiki/Q140329925) | **Done** | P856, P973 org `/about/`, P4264 company, P1056 → Altius |
-| Wikidata | Altius | [Q140469863](https://www.wikidata.org/wiki/Q140469863) | **Done** | P178 → ADA, P973 product `/about`, P4264 `altius-by-ada` showcase |
+| Wikidata | A Degree Above | Q140329925 | **Deleted** | RfD spam/advertising (2026-07-18). Recreate only with independent sources. |
+| Wikidata | Altius | Q140469863 | **Deleted** | RfD notability (2026-07-19). Recreate only with independent sources. |
 | Crunchbase | A Degree Above | — | Pending | Optional |
 | `adegreeabove.org` | Parent org site | Organization markup on parent host | Future | Reinforces `@id` |
 Part 5: AEO — Answer Engine Optimization
@@ -593,9 +593,9 @@ Core Web Vitals pass: LCP preload, image dimensions, lazy load, watermark CLS, e
 Month 3+ (Content at scale + knowledge graph):
 
 Complete corporate + education sub-page set
-Wikidata entry for A Degree Above (+ Altius product optional) — **done**
+Wikidata entry for A Degree Above (+ Altius product optional) — **deleted RfD Jul 2026**; recreate only after independent coverage
 Google Business Profile (A Degree Above, service-area) — **done**
-Begin PR outreach (ET L&D beat, YourStory, HR Katha) anchored on Ashok Leyland story
+Begin PR outreach (ET L&D beat, YourStory, HR Katha) anchored on Ashok Leyland story — **also the path back to Wikidata notability**
 HTML sitemap at /sitemap
 Phase 5B evaluation: per-scenario pages based on GSC data
 Part 8: Measurement

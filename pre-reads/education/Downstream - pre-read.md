@@ -122,7 +122,6 @@ The pen taps once on the squared paper. She is ready.
 
 
 
-The room holds. The clock holds. The next honest sentence is the only lever left in this scene, and it has to be earned rather than performed. You have the facts. You have the pressure. What you do not have is a script that survives contact with the person across from you if you lead with the easy story instead of the true one. Stay with the specifics. Leave room. Do not rescue the conversation with a brochure answer. The meeting starts when they decide you are listening.
 ---
 
 **Before she speaks**
@@ -132,6 +131,8 @@ You can still feel the torch weight from last night in your hand even though the
 Meenakshi's four stacks are squared. Your story is not. That is the work of the next minutes: make the story complete enough to be true without dumping every chart before she asks, and complete enough that ""contractor"" alone cannot erase February. The plant compressor kicks again. Downstream does not wait for your rehearsal to finish.
 
 Six days. Four stacks. One memo with your name. One plant head outside the door asking for clean. One Board officer who has already walked the site in her head. The surge you predicted arrived on a night shift you were not standing. The capacity you flagged was never funded. Both sentences can be true in the same room. Say them like a professional who refuses to let loyalty erase paper.
+
+The equalisation tank overflowed on a night shift you were not standing, and the memo that predicted the surge carries your name over a sentence soft enough that a hurried reader could miss the warning inside it. The contractor skipped a step you had flagged and no one had funded. Meenakshi has already walked the site in her head; she has not come for the tour. The compressor kicks again downstream, indifferent to the meeting, and whatever is decided in this room, the plant runs tonight and someone signs the next memo.
 
 The pen taps again. Five words of silence left.
 

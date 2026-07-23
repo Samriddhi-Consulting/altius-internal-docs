@@ -94,7 +94,6 @@ Outside, Pune traffic continues. Inside, the consult is about to start.
 
 
 
-The room holds. The clock holds. The next honest sentence is the only lever left in this scene, and it has to be earned rather than performed. You have the facts. You have the pressure. What you do not have is a script that survives contact with the person across from you if you lead with the easy story instead of the true one. Stay with the specifics. Leave room. Do not rescue the conversation with a brochure answer. The meeting starts when they decide you are listening.
 ---
 
 **Before the buzz**
@@ -109,12 +108,8 @@ Vikas came for numbers because numbers feel like control. Meera's drawings on th
 
 He muted the school thread on the metro because he could not hold Meera's rehearsal and the spreadsheet at once. That split attention is the case. Your job is not to pick the spreadsheet for him. It is to notice when fairness talk is covering a fear of becoming someone his daughter schedules. Leave the room for that sentence. Then the numbers can earn their place.
 
-The corridor clock does not care about fairness. Meera's rehearsal does not wait for a perfect valuation. Start with the person. The folder can follow.
+The corridor clock does not care about fairness. Meera's rehearsal does not wait for a perfect valuation.
 
-Listen first. Calculate second. Begin now.
-
-Leave room now.
-
-Ready.
+Vikas booked a valuation consult and paid for it in advance. On paper this is a division-of-assets matter: the flat, the joint account, the monthly maintenance figure. The custody question is not formally on today's agenda, because Vikas has not put it there. The schedule he is quietly afraid of is the one where he sees his daughter on alternate weekends by an order he did not write. Priya will read your file note tonight either way. He arrived early, and he has not touched the water on the table. The folder sits closed on the desk between you, exactly where he set it down. Outside, Pune traffic keeps its own time, and the buzzer for the next consult has not sounded yet.
 
 **[END OF PRE-READ]**

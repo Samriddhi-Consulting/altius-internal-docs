@@ -100,6 +100,8 @@ The DSCR you ran this morning: 0.89 against a covenant floor of 1.10. The breach
 
 The LC facility renews Friday. Without it, the import cycle stops.
 
+The account is Omar's, and has been since before you took this desk. Whatever the file says now, he built the relationship, and he signed the review that kept it classified Green. The exposure is not the kind the bank absorbs quietly. Credit's queue closes at 6 PM regardless of what passes between the two of you before then, and the written explanation that follows will carry a name on it. You have read the memo enough times this morning to know it will not read any better on the next pass.
+
 You thought about April.
 
 ---
@@ -121,9 +123,3 @@ He picks up his coffee.
 He says nothing yet.
 
 **[END OF PRE-READ]**
-
----
-
-**What the Clock Does**
-
-Thursday afternoon rain on Nariman Point glass has a way of making every Credit email feel louder. You have until the end of this meeting to decide whether Omar leaves as a co-conspirator or as someone who has finally heard the three behaviours named without being thrown to Credit as a sacrifice. Friday still exists. Faisal still exists. The Green RAG still exists. The only thing that does not exist yet is an honest sentence about what Omar did, what you delayed signing, and what loyalty looks like when governance is already late.

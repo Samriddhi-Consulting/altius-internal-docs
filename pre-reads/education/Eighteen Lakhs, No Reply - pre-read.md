@@ -122,7 +122,6 @@ He is ready to begin.
 
 
 
-The room holds. The clock holds. The next honest sentence is the only lever left in this scene, and it has to be earned rather than performed. You have the facts. You have the pressure. What you do not have is a script that survives contact with the person across from you if you lead with the easy story instead of the true one. Stay with the specifics. Leave room. Do not rescue the conversation with a brochure answer. The meeting starts when they decide you are listening.
 ---
 
 **What the Folder Will Not Say**
@@ -130,5 +129,7 @@ The room holds. The clock holds. The next honest sentence is the only lever left
 Eighteen lakhs is the number on the cheque. The humiliation is the number that does not print. Ananya is delayed; you are covering; Arjun expected a partner and got a junior associate. The courier receipt proves notice went out. Nothing in the folder proves what he wants Vikram to feel. That part only surfaces if you treat ""former partner"" as a person instead of a caption under a bounced instrument. The conference room clock is quiet. His urgency is not.
 
 Ananya's delay is not your failure, but it is your opening condition. Arjun arrived on time with a squared folder and a demand to file. The bounced cheque is real. The public humiliation want is also real, and it conflicts with privacy and speed in ways he has not named yet. If you stay on documents, he will stay on documents. If you pause on former partner, the consult can become the conversation he actually booked without knowing how to ask for it. The reception clock keeps moving either way.
+
+Eighteen lakhs changed hands between men who used to be partners, and the only paper that outlived the friendship is the cheque that bounced and the courier receipt proving notice went out. Arjun did not come only to recover money. He came because someone he trusted made him look like a fool in front of people who mattered, and no folder has a column for that. Ananya is still delayed. Vikram has not said what outcome he wants, only how quickly he wants it, and reception has booked this room again in forty minutes.
 
 **[END OF PRE-READ]**

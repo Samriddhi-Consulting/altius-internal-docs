@@ -94,7 +94,6 @@ Rajesh Khurana reads your one-pager with the face of a man who has read six hund
 
 
 
-The room holds. The clock holds. The next honest sentence is the only lever left in this scene, and it has to be earned rather than performed. You have the facts. You have the pressure. What you do not have is a script that survives contact with the person across from you if you lead with the easy story instead of the true one. Stay with the specifics. Leave room. Do not rescue the conversation with a brochure answer. The meeting starts when they decide you are listening.
 ---
 
 **Before You Sit Down**
@@ -102,5 +101,7 @@ The room holds. The clock holds. The next honest sentence is the only lever left
 The godown smell hits first: cardboard, spice dust, diesel from the lane. Rajesh's whiteboard is not decoration. It is a ledger of who apologised and who did not. Forty minutes is not long when the alternative brands already offered twelve. Your job is not to buy the shelf with margin. It is to make eight percent feel like the safer promise than twelve percent from strangers who have never run a Delhi festive season. The clock above the godown door ticks once, then disappears into street noise. He will not fill silence for you.
 
 The three brands on the whiteboard are not abstract competitors. They are names Rajesh has already tested against the same shopkeeper promises you are about to ask him to risk again. He will not say Snackly first. He will say twelve percent. Your discovery has to earn the story under the margin. Forty minutes. Eight percent. One promise that has to survive a festive season.
+
+Diwali is six weeks out. Every case Rajesh commits now turns four times before the season closes, and every case he gives a rival is one you do not recover until spring. He runs three hundred kirana accounts across the district on a delivery van that keeps his schedule, not yours. Two of the three brands on the whiteboard are already loading his godown this week.
 
 **[END OF PRE-READ]**

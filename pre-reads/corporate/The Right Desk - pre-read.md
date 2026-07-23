@@ -58,7 +58,7 @@ You have rehearsed, on the drive over, what you will not say. Not the MLA. Not t
 
 **What You Carry In**
 
-What you have: the corrected Annexure IV, drafted at midnight, needing only the company secretary's final pass and two signatures, deliverable by six this evening. A written request letter, worded three ways in your bag, one asking for receipt under deficiency memo, one for same-day resubmission tomorrow, one blank, because the consultant's advice at the end of the tea was the only sentence you wrote down, underlined twice: "Do not walk in with your solution. Walk in with his problem. Ask him what he would do. That man has spent thirty-one years knowing what to do, and you may be the first person this month to ask him instead of telling him."
+What you have: the corrected Annexure IV, drafted at midnight, needing only the company secretary's final pass and two signatures, deliverable by six this evening. A written request letter, worded three ways in your bag: one asking for receipt under a deficiency memo, one for same-day resubmission tomorrow, and one left blank, because you are genuinely not sure which of the three, if any, is the letter this particular desk will accept from you today.
 
 What you also carry, and must decide whether to say: that the missed circular was your miss. And what you must not carry into the room at all: Friday's guest list, the MD's impatience, and the MLA's office, which is currently a phone that has not rung and must stay one.
 
@@ -88,7 +88,7 @@ The office smells of old paper and phenyl, and the queue moves at the speed of s
 
 When you finish, he aligns the file's edge with the edge of his desk, a small, exact gesture, and folds his hands on it. Somewhere behind him a peon carries a stack of files taller than seems physically reasonable, and nobody in the room looks up to check.
 
-The slip is in your folder. The three request letters are in your bag. The MD's phone has not rung. The MLA's name has not been spoken. Saxena's pen is already uncapped. The fan clicks. Wednesday is tomorrow. Friday is three days away. The consultant's underlined sentence is the one thing you wrote down that did not try to solve the room before you entered it.
+The slip is in your folder. The three request letters are in your bag. The MD's phone has not rung. The MLA's name has not been spoken. Saxena's pen is already uncapped. The fan clicks. Wednesday is tomorrow. Friday is three days away. You have three letters in your bag, and the growing suspicion that which one you reach for will matter less than how you open.
 
 He looks at the file, not at Friday, and speaks.
 

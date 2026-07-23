@@ -68,17 +68,9 @@ You have thought hard about who walks into her office today, because the plant r
 
 You have spent two years being the other kind, the one they call at 6 PM when a dimension drifts. Whatever happens in this room today, you need Sunita's floor to keep calling you.
 
-You wrote down at midnight what has to come out of this room. Three things.
+You sat with the batch documentation until midnight, and what kept you there was not the timestamps. It was your own name. Your signature is the one that goes on the QMS release, and the record as it stands is false. Leave it, and it stops being Sunita's shortcut and becomes your false record, the day before an auditor who found a pattern at Manesar last year starts looking at this plant.
 
-First: the Chennai batch gets contained or verified today, before those calipers are fitted, with Sunita's help. The OEM conversation goes far better as "proactive supplier verification" than as anything else.
-
-Second: the record gets made honest. A deviation, logged as a deviation, with her commercial context in her own words. Your own coverage gap gets named alongside it. You approved a training without arranging cover. Part of this hole is yours too.
-
-Third: a door for next time. A written emergency-release protocol, with named approvers and a time limit, so the next 5:30 PM crisis has a legitimate answer that is not a breach and not a lost customer.
-
-What cannot come out of the room: the record staying as it is. Your signature goes on the QMS. If you leave the false record in place, it becomes your false record.
-
-You sketched one line for the emergency protocol on the back of last night's shift report: who can authorize ship-without-release, maximum hours before QA close-out, and mandatory OEM notification if enhanced inspection was skipped. You do not have approver names yet. You need her in the room for that, not just her signature on a deviation someone else wrote.
+The rest of what you carry is less a plan than a set of things you cannot un-know. Chennai is running those calipers this morning, on the first lot of a material nobody has five years of data on. You approved Ashok's training without arranging cover, so part of Tuesday's hole is yours to name, not only hers. And the next 5:30 PM crisis is already coming for some future batch, same transporter waiting, same signature missing, unless something changes about how this plant handles the gap between a deadline and a rule. None of that is Sunita's to solve alone, and none of it survives you walking in the way your predecessor would have. Behind the glass wall of her office, the line she built will be watching to read which kind of quality this plant still keeps.
 
 ---
 
@@ -91,9 +83,3 @@ Her office has a glass wall facing the line. That is deliberate. She likes to se
 "So what exactly is the problem?"
 
 **[END OF PRE-READ]**
-
----
-
-**What the Clock Does**
-
-Five weeks until the OEM audit. Chennai is running calipers from a batch whose release timestamp says tomorrow morning while the gate log says yesterday evening. The plant head does not know yet. Sunita's question is already in the room, and the line behind the glass is watching whether quality and production still belong to the same plant. The only thing that does not exist yet is an honest record, a verified batch, and a legitimate answer for the next 5:30 PM crisis that is not a clipboard and not a breach.

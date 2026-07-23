@@ -3,9 +3,9 @@
 Auto-synced from the Altius private product repo on every merge to `main`.
 Do not edit files here directly — changes will be overwritten.
 
-**This mirror stays public** so tools like Claude.ai can use it. It only
-contains conversation-starter and marketing copy. It is **not** a full
-internal wiki.
+**This mirror stays public** so tools like Claude.ai can use it. It contains
+conversation-starter / marketing copy and **learner-facing pre-reads**. It is
+**not** a full internal wiki (no build sheets, ops SQL, or pricing).
 
 ## Authorised team members — more detail on SharePoint
 
@@ -16,7 +16,8 @@ the internal Altius SharePoint library (access-controlled):
 **https://samriddhiconsulting.sharepoint.com/sites/Altius**
 
 → Shared Documents → `General/` (Pitch, ADA specialists, Client briefs,
-Brand, Pricing, `SCENARIO_LINKS.html`) and `Corporate|Education/live scenario/`.
+Brand, Pricing, `SCENARIO_LINKS.html`) and
+`Corporate|Education/{live scenario,pre-read}/`.
 
 If something you need is missing here, check SharePoint first — do not
 ask for it to be published to this public repo.
@@ -43,6 +44,17 @@ ask for it to be published to this public repo.
 | `copywriter_guidelines.md` | Voice, CTA verb, canonical ProofBar strings |
 | `designer_guidelines.md` | Visual/UX intent |
 | `Altius_SEO_AEO_Strategy.md` | SEO/AEO strategy for public marketing |
+
+## Pre-reads (`/pre-reads`)
+
+Learner briefing for each live scenario (same text as in-app pre-read).
+Filenames use the scenario title (`{Title} - pre-read.md`).
+
+| Folder | Contents |
+|--------|----------|
+| `corporate/` | Corporate / workforce scenarios |
+| `education/` | Higher-ed / education scenarios |
+| `README.md` | Index (title → moduleId) |
 
 ## ADA Specialists (`/ada-specialists`)
 

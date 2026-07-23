@@ -88,11 +88,10 @@ You sit. She lets a second pass. The pause is deliberate. Then she closes the la
 
 **What Corvus Cannot Buy Back**
 
-Eighteen percent is the easy story. Standing after an all-hands post with your name in the replies is the hard one. Shalini booked thirty minutes by name. She will write once and not repeat herself. If you miss a point, she will act on it later rather than re-explain. The cafeteria glass walls make every pause public. The manager request is not a prop. Reliability and her standing have to earn the year; the quote only times the meeting.
+Eighteen percent is the easy story, and it is the one already sitting under her hand. Shalini booked thirty minutes by name. She writes once and does not repeat herself; miss a point and she will act on it later rather than raise it twice. The cafeteria glass walls make every pause public. The manager request is not a prop.
 
-Pranav's post is still searchable. The hospital desk story still travels in Slack threads you will never join. Corvus only has to be cheaper and quieter. Your recovery pack, if you earn the right to write one, has to restore reliability and her standing before price becomes the only conversation left. Thirty minutes. One manager request. No second chance to miss what she said the first time.
+Pranav's post is still searchable. The hospital-desk story still travels in Slack threads you will never join. Corvus only has to be cheaper and quieter than the year she has just had. You have the facts, and you have the pressure. What you do not yet have is any real idea which of them she is here to talk about, and thirty minutes to find out.
 
-
-The room holds. The clock holds. The next honest sentence is the only lever left in this scene, and it has to be earned rather than performed. You have the facts. You have the pressure. What you do not have is a script that survives contact with the person across from you if you lead with the easy story instead of the true one. Stay with the specifics. Leave room. Do not rescue the conversation with a brochure answer. The meeting starts when they decide you are listening.
+None of the paper in your bag answers that. You printed it at midnight because paper feels like preparation, but the endorsement log and the claims report only describe a failure she already lived through in real time: at a hospital cashier's desk after eleven at night, then in an all-hands thread with her name sitting in the replies. She has read worse than anything you carried in here. The one thing in this room she has not already seen is you, and what you do when the easy story is the one lying face-up on the table between you.
 
 **[END OF PRE-READ]**

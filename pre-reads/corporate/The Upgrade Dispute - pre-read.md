@@ -66,7 +66,7 @@ You have already used your radio twice tonight to ask housekeeping whether any w
 
 One more thing reframes the man in the lobby entirely, and you learned it from the F&B manager's radio traffic on the way down: table for four, 8:45 PM, the speciality restaurant, booking under Sood, notes field reading "important client dinner, window table requested." The man who stood beside him at the desk, you'd bet the grid on it, was the client's advance man. Ninety minutes from now Vikrant Sood has the dinner of his year, not a bigger bed tonight, and the hotel he brings people to, his hotel, just told him flatly, in front of a witness, that there was nothing it could do for him.
 
-The clock on that dinner will not wait for the wedding to finish. Neither will the client who is already in the building somewhere, forming an impression. Vikrant does not know you heard that radio call. If you lead with it too early, it will sound like surveillance. If you never connect recovery to what that dinner needs, you will have spent the grid on the wrong wound.
+The clock on that dinner will not wait for the wedding to finish. Neither will the client who is already in the building somewhere, forming an impression. Vikrant does not know you heard that radio call, which makes the knowledge as easy to misuse as to use.
 
 ---
 
@@ -74,7 +74,7 @@ The clock on that dinner will not wait for the wedding to finish. Neither will t
 
 The laminated card, which you don't need to look at, and the truth about the house, which you have decided to tell him whole: the wedding, the 22 paid suites, even the crew room and why it can't move, because a man who spends 43 nights a year in hotels can smell a hedge. There's the restaurant booking, which he doesn't know you know yet. A blank guarantee letter in your folder, the next-stay suite kind, that becomes real under your signature. And a decision you have already half-made about Tanya, for later, and gently, because the sentence she said was true and the training that stopped there was yours: you rostered her alone, on a wedding night, three months in.
 
-Your desk uses LEAP for lobby escalations like this: Listen before you solve, Empathize with specifics before offers, Apologize for how it landed while stating inventory truth plainly, Problem-solve selectively at what the guest is actually protecting tonight. On a wedding Saturday, Listen often means getting off the floor before anything else. Problem-solve is not emptying the grid; it is two or three items aimed at the real stake, plus the follow-up the guest never sees.
+None of that is a plan yet. It is a wallet, a true story about the house, and a guest whose real grievance you still cannot see from the top of the stairs. What you spend, and whether you spend it on the wound he is actually carrying or the one he is performing for the lobby, is the whole test of the next few minutes.
 
 ---
 

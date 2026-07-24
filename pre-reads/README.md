@@ -29,6 +29,7 @@ Filenames use the scenario title. Buckets match corporate vs education catalogue
 | Transferred Twice | corporate | `customer-support-service-recovery-leap` |
 | Downstream | education | `accountability-under-pressure` |
 | Eighteen Lakhs, No Reply | education | `client-counselling-law` |
+| Just Borderline | education | `patient-communication` |
 | The Digital Disconnect | education | `flowbridge-discovery` |
 | The First Session | education | `clinical-rapport-first-consult` |
 | The Fourteenth Stay | education | `hospitality-loyalty-recognition-appreciative-inquiry` |

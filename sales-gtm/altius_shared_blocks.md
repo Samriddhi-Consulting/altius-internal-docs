@@ -88,7 +88,9 @@ Canonical stat strings per page — do not paraphrase. Sync to Astro `ProofBar.a
 
 **Hero microcopy (home):** "Sign in with just your email. Takes 60 seconds."
 
-**CTA verb (demo):** "Try a scenario" — not "Try a demo", "Try the demo", or any variation.
+**CTA verb (demo):**
+- **Site-wide** (hero, FAQ, ProofBar, “Browse all scenarios”): **"Try a scenario"** — not "Try a demo", "Try the demo", or other generic variants.
+- **Named-scenario card** (gallery card, DemoTeaser, education featured, ScopeColumns when the CTA is for one slug): **"Try this scenario"** is allowed and preferred.
 
 ---
 

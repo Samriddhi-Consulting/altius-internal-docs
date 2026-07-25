@@ -5,8 +5,8 @@ Filenames use the scenario title. Buckets match corporate vs education catalogue
 
 | Title | Bucket | moduleId |
 |-------|--------|----------|
+| A Decision I Didn't Make | corporate | `change-communication-disagree-commit` |
 | Anchored High | corporate | `procurement-negotiation-interests` |
-| Disagree & Commit | corporate | `change-communication-disagree-commit` |
 | Discuss With Family | corporate | `real-estate-stall-commitment-spin` |
 | Doer to Leader | corporate | `coaching-direct-reports-grow` |
 | Not a Clipboard | corporate | `quality-compliance-conversation-sbi` |

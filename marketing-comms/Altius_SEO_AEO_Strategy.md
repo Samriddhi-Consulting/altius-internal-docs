@@ -165,7 +165,7 @@ Page Purpose
 /pilot A dedicated "start a pilot" landing page with frictionless contact form
 /pricing Even a rough "per scenario, per cohort" page reduces sales friction
 /compare Comparison with alternatives (classroom training, generic AI chatbots, video role-play platforms)
-/scenarios (expanded) Scenario library with per-scenario pages (Phase 5B)
+/scenarios (expanded) **Shipped as `/demos/[slug]/` (SEO-011, 2026-07-25)** — one indexable teaser page per live seeded scenario; aspirational stay gallery-only
 Part 3: Technical SEO Foundation
 3.1 Core Web Vitals (India 4G Priority)
 This is non-negotiable given the brand guidelines' Indian 4G, mid-range Android target. Lighthouse mobile 90+ is the standard.
@@ -575,7 +575,8 @@ Corporate + Education: FAQPage schema (14 + 19 Q&As) ✓; Service type optional
 Corporate + Education: operator HowTo (6-step setup) ✓ (SEO-018, 2026-07-10)
 /about entity page ✓
 Title/meta cleanup on core pages ✓
-Demos: ItemList schema ✓ (2026-07-09)
+Demos: ItemList schema ✓ (2026-07-09); live item URLs → `/demos/{slug}/` ✓ (SEO-011, 2026-07-25)
+Per-scenario pages `/demos/[slug]/` ✓ (SEO-011, 2026-07-25) — teaser depth + LearningResource + FAQPage; gate `validate:scenario-pages`
 
 Month 2 (Content architecture) — **pending:**
 
@@ -598,7 +599,7 @@ Wikidata entry for A Degree Above (+ Altius product optional) — **deleted RfD 
 Google Business Profile (A Degree Above, service-area) — **done**
 Begin PR outreach (ET L&D beat, YourStory, HR Katha) anchored on Ashok Leyland story — **also the path back to Wikidata notability**
 HTML sitemap at /sitemap
-Phase 5B evaluation: per-scenario pages based on GSC data
+Phase 5B evaluation: per-scenario pages — **shipped SEO-011 (2026-07-25)** as `/demos/[slug]/` for all live seeded scenarios (not gated on GSC wait)
 Part 8: Measurement
 What to track from Day 1:
 
@@ -627,7 +628,7 @@ LinkedIn page: 200+ followers, 3–5 posts driving 500+ organic impressions each
 15+ indexed content pages beyond the core 4
 Consistent organic traffic to blog posts from L&D / HE audience
 Ashok Leyland case study page ranking for "[OEM name] + training" queries
-GSC data informing Phase 5B per-scenario page decision
+GSC data informing content scale (blog / sub-pages); per-scenario landings already shipped (SEO-011)
 What This Strategy Is Not
 To be explicit about scope:
 

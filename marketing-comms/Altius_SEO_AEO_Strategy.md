@@ -22,7 +22,10 @@
 > - **`llms.txt` upgraded** (2026-07-10) — rewritten to [llmstxt.org](https://llmstxt.org/) (H1 + blockquote + curated H2 link lists); live at `/llms.txt`.
 > - **GSC:** `https://altius.adegreeabove.org/sitemap-index.xml` submitted (June 2026).
 > - **Off-site entity (partial):** LinkedIn + GBP live ([GBP Maps](https://www.google.com/maps/place/A+Degree+Above/data=!4m2!3m1!1s0x0:0x1c0738c025962a93)); LinkedIn only in schema `sameAs`. Wikidata Q140329925 / Q140469863 deleted (RfD Jul 2026) — recreate only after independent coverage. Crunchbase — pending. Log: Part 4.4.
-> - **SEO-019 deep-link matrix** (2026-07-23) — hub CTAs → filtered `/demos` or named try URLs; app `/about` brochure redirect; matrix [docs/deep_link_matrix.md](./docs/deep_link_matrix.md). OPS-003 (app product noindex) still open.
+> - **SEO-019 deep-link matrix** (2026-07-23) — hub CTAs → filtered `/demos` or named try URLs; app `/about` brochure redirect; matrix [docs/deep_link_matrix.md](./docs/deep_link_matrix.md).
+> - **OPS-003** (2026-07-26) — app host crawlable + layout `noindex` (not Disallow-all). Free CF: no zone-wide Bot Fight / Block AI.
+> - **SEO-010** (2026-07-26) — HTML `/sitemap/` + footer link.
+> - **SEO-020** (2026-07-26) — IndexNow key at marketing root; content-hash diff submit after Pages deploy (Bing/partners; not Google). XML `<lastmod>` from git of page sources.
 
 ---
 
@@ -195,17 +198,10 @@ XML Sitemap (via @astrojs/sitemap)
 Current: shipped in `landing-page/public/robots.txt` (2026-06-23)
 Target: https://altius.adegreeabove.org/sitemap-index.xml auto-generated at build time
 As new pages are added, ensure all are included (exclude any thin filter-variant URLs if added)
-Priority values: / → 1.0, main audience pages → 0.9, sub-pages → 0.8, blog → 0.7
+Omit `<priority>` / `<changefreq>`. Emit content-derived `<lastmod>` via `scripts/sitemap-lastmod.mjs` (git of page sources — never build clock).
 HTML Sitemap
 
-Add /sitemap as a human-readable page — helps both crawlers and users, especially once the site grows to 20+ pages
-Structure it as the full content hierarchy:
-Home
-Corporate → Sales Enablement · Leadership · Customer Success · GCCs · by Industry
-Education → NAAC · NBA · NEP · by Programme Type
-Demo Scenarios
-Blog / Resources
-About · Pilot · Contact
+**Shipped (SEO-010, 2026-07-26):** `/sitemap/` human-readable hierarchy + footer link. Helps crawlers and users; includes live `/demos/[slug]/` landings.
 robots.txt
 
 User-agent: \*
@@ -598,7 +594,7 @@ Complete corporate + education sub-page set
 Wikidata entry for A Degree Above (+ Altius product optional) — **deleted RfD Jul 2026**; recreate only after independent coverage
 Google Business Profile (A Degree Above, service-area) — **done**
 Begin PR outreach (ET L&D beat, YourStory, HR Katha) anchored on Ashok Leyland story — **also the path back to Wikidata notability**
-HTML sitemap at /sitemap
+HTML sitemap at /sitemap — **shipped SEO-010 (2026-07-26)**
 Phase 5B evaluation: per-scenario pages — **shipped SEO-011 (2026-07-25)** as `/demos/[slug]/` for all live seeded scenarios (not gated on GSC wait)
 Part 8: Measurement
 What to track from Day 1:

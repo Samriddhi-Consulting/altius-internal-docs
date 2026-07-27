@@ -1,5 +1,9 @@
 # Altius — Public Docs
 
+<!-- sync-timestamp -->
+**Last synced:** 27 Jul 2026, 07:28 UTC · [View workflow](https://github.com/Samriddhi-Consulting/ADA-Learning-Simulator/actions/workflows/sync-public-docs.yml)
+<!-- /sync-timestamp -->
+
 Auto-synced from the Altius private product repo on every merge to `main`.
 Do not edit files here directly — changes will be overwritten.
 
@@ -10,7 +14,7 @@ conversation-starter / marketing copy and **learner-facing pre-reads**. It is
 ## Authorised team members — more detail on SharePoint
 
 Session recovery, scenario intake, backlog, accreditation evidence,
-gold Scenario Docs, pricing, client briefs, and demo deep links live on
+gold Scenario Docs, pricing, client briefs, and scenario landing page links live on
 the internal Altius SharePoint library (access-controlled):
 
 **https://samriddhiconsulting.sharepoint.com/sites/Altius**
@@ -54,7 +58,7 @@ Filenames use the scenario title (`{Title} - pre-read.md`).
 |--------|----------|
 | `corporate/` | Corporate / workforce scenarios |
 | `education/` | Higher-ed / education scenarios |
-| `README.md` | Index (title → moduleId) |
+| `README.md` | Index (title → moduleId → landing page URL) |
 
 ## ADA Specialists (`/ada-specialists`)
 

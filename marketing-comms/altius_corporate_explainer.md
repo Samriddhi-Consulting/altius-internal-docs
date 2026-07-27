@@ -12,7 +12,7 @@
 
 People learn to do difficult things by doing difficult things. Not by reading about them. Not by watching someone else do them. Not by passing a quiz.
 
-Think about it. A surgeon practises on a cadaver before operating on a patient. A pilot practises on a simulator before flying a plane. But when it comes to the human side of professional work, we still rely on classroom role-plays, e-learning modules, and hope.
+Think about it. A surgeon practises on a cadaver before operating on a patient. A pilot practises on a simulator before flying a plane. For the human side of professional work, we still rely on classroom role-plays, e-learning modules, and hope.
 
 The problem is rarely knowledge. Your people probably *know* what a good discovery question sounds like. They *know* they should listen before pitching. They *know* the SBI model for giving feedback. They just can't do it consistently when the pressure is real, the customer is impatient, and the stakes are high.
 
@@ -278,7 +278,7 @@ This document isn't a proposal. It's a starting point. Here's what we'd explore 
 
 **A Degree Above** is a learning design brand of **Samriddhi Consulting**. We build simulation-based capability tools for organisations that take human performance seriously. **Altius** is our flagship platform: behavioural science, scenario design, and AI, brought together to create practice environments that feel real.
 
-Because the only way to change how people perform is to practise the performance. Not just learn about it.
+Because the only way to change how people perform is to practise the performance.
 
 We work with L&D teams, HRBPs, and functional leaders. Not instead of them. You bring the domain expertise: the understanding of what excellent performance looks like in your organisation. We build the Altius simulation that lets your entire team practise it, at scale, with consistency, and with data.
 

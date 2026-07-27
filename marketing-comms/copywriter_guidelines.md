@@ -6,7 +6,8 @@ ADA (A Degree Above) believes that small, intentional shifts unlock disproportio
 ## 1. Voice & Tone
 - **Traits:** Quirky · Clever · Professional · Relatable · Short · Human.
 - The voice is "low on graphic" and highly functional. It relies on punchy, memorable statements rather than long corporate paragraphs.
-- **Anti-LLM prompts (all platforms):** [human_copywriting_prompts.md](./human_copywriting_prompts.md) · Cursor rule: `.cursor/rules/copywriting-human-voice.mdc`
+- **House writing standard (Samriddhi):** [human_copywriting_prompts.md](./human_copywriting_prompts.md) · Cursor rule: `.cursor/rules/copywriting-human-voice.mdc`
+- **Four hard rules (no exceptions):** (1) no em-dashes; (2) no participial tail clauses; (3) no negative-parallel antithesis ("not just X, but Y"); (4) no restating close. Full banned lexicon and structure metrics live in the prompts doc / Cursor rule.
 
 ## 2. Structural Principles
 The copy dictates the design. Short sentences require different layouts than long blocks of text.
@@ -17,19 +18,19 @@ The copy dictates the design. Short sentences require different layouts than lon
 ## 3. Microcopy Rules
 - **No Filler:** Ban phrases like "Click here" or "Learn more."
 - **Specific Verbs:** Use exact, descriptive verbs for all CTAs.
-- **CTA verb:** site-wide **"Try a scenario"** (hero, FAQ, ProofBar, browse-all) — not "Try a demo", "Try a simulation", "Try the demo". On a **named-scenario card** (one slug already chosen), use **"Try this scenario"**.
+- **CTA verb:** site-wide **"Try a scenario"** (hero, FAQ, ProofBar, browse-all), not "Try a demo", "Try a simulation", "Try the demo". On a **named-scenario card** (one slug already chosen), use **"Try this scenario"**.
 - **Eyebrows:** Eyebrow labels above headlines should be written for `SMALL CAPS`. These fit the editorial tone perfectly.
 
 ### 3.1 Altius value loop (benefits, not features)
 
-**Authority:** [altius_shared_blocks.md § Value proposition](../altius_shared_blocks.md) — one-line definition, **tagline**, and **LinkedIn About Us** live there; do not paraphrase.
+**Authority:** [altius_shared_blocks.md § Value proposition](../altius_shared_blocks.md). One-line definition, **tagline**, and **LinkedIn About Us** live there; do not paraphrase.
 
-Altius is **practice + coaching debrief → behaviour change**. Never sell “practice” alone—the debrief is what closes the knowing–doing gap.
+Altius is **practice + coaching debrief → behaviour change**. Never sell "practice" alone. The debrief is what closes the knowing–doing gap.
 
 - **Tagline** (LinkedIn, pitch decks, explainer headers): *Some lessons you can't afford to learn on the job. Altius™ is how your people don't have to.*
 
 - **Lead with:** outcomes under pressure, behaviour change, coaching feedback, evidence for L&D or accreditation.
-- **AI is incidental** in buyer-facing copy (titles, hero, meta, CTAs). Buyers care whether performance changes—not the underlying technology.
+- **AI is incidental** in buyer-facing copy (titles, hero, meta, CTAs). Buyers care whether performance changes, not the underlying technology.
 - **Say the loop:** briefing → conversation → **coaching debrief** → dashboard/evidence. Step 3 is not optional in positioning.
 
 ## 4. The Brand DNA (Δ and °)
@@ -49,18 +50,18 @@ The brand uses the Delta (Δ) and Degree (°) symbols natively in text.
 
 ## 7. Canonical Strings (Do Not Paraphrase)
 
-**Authority:** [altius_shared_blocks.md](../altius_shared_blocks.md) — ProofBar copy, factual anchors, hero microcopy, and CTA verb. Edit shared blocks first; this section mirrors for agent convenience only. Do not maintain a second copy here.
+**Authority:** [altius_shared_blocks.md](../altius_shared_blocks.md). ProofBar copy, factual anchors, hero microcopy, and CTA verb. Edit shared blocks first; this section mirrors for agent convenience only. Do not maintain a second copy here.
 
 **Edit order:** `altius_shared_blocks.md` → explainers → Astro pages.
 
-**Trademark:** Altius™ — ™ on first appearance per page only. Never on every instance.
+**Trademark:** Altius™. ™ on first appearance per page only. Never on every instance.
 
 ## 8. SEO / AEO copy
 
-**Authority:** [Altius SEO + AEO Strategy.md](../Altius%20SEO%20+%20AEO%20Strategy.md) — persona vocabulary, FAQ blocks, meta intent, and AEO citation anchors.
+**Authority:** [Altius SEO + AEO Strategy.md](../Altius%20SEO%20+%20AEO%20Strategy.md). Persona vocabulary, FAQ blocks, meta intent, and AEO citation anchors.
 
 - Page titles and meta descriptions: keyword in first ~55 chars of rendered title; 150–160 char descriptions using ProofBar proof points ([altius_shared_blocks.md](../altius_shared_blocks.md)).
-- FAQ and definition statements: write as direct Q&A (feeds FAQPage schema and AI citation — strategy Part 5.3).
+- FAQ and definition statements: write as direct Q&A (feeds FAQPage schema and AI citation; strategy Part 5.3).
 - Internal link anchor text: descriptive phrases, not "click here" (strategy Part 3.2).
 - When proof points or deployment stats change, update shared blocks first, then the SEO strategy doc Part 5.3.
 
@@ -69,7 +70,7 @@ The brand uses the Delta (Δ) and Degree (°) symbols natively in text.
 Used by the app eval prompt + `sanitizeEvalProse` in `v1/app/src/lib/llm/evaluation.ts` (FB-002). Learners see `summary` / `strengths` / `improvements` on `/debrief`. Scores stay specialist-only.
 
 - Second person ("you"); short punches; cite transcript moments.
-- **No em dashes or en dashes** in prose (use commas, periods, or colons).
+- **No em-dashes** in prose (use commas, periods, or colons). En-dash only in numeric ranges.
 - No banned LLM-tell words (same list as [human_copywriting_prompts.md](./human_copywriting_prompts.md)).
-- Never put numeric scores, bands, or "you scored X" in prose fields — numbers live only in structured `scores` / `overallScore`.
+- Never put numeric scores, bands, or "you scored X" in prose fields. Numbers live only in structured `scores` / `overallScore`.
 - Persist-time scrub strips dashes and soft-removes banned tokens; prompt must still write clean prose on first pass.

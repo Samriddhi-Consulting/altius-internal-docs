@@ -1,12 +1,12 @@
 # Altius — Shared GTM Blocks
 
-Canonical copy reused across explainer documents. When updating proof points, platform capabilities, or brand footer, edit here first, then sync [altius_corporate_explainer.md](./altius_corporate_explainer.md) and [altius_education_explainer.md](./altius_education_explainer.md). Proof points and deployment stats also feed JSON-LD, `llms.txt`, and AEO citation anchors — update [Altius SEO + AEO Strategy.md](./Altius%20SEO%20+%20AEO%20Strategy.md) Part 5.3 when stats or deployment facts change materially.
+Canonical copy reused across explainer documents. When updating proof points, platform capabilities, or brand footer, edit here first, then sync [altius_corporate_explainer.md](./altius_corporate_explainer.md) and [altius_education_explainer.md](./altius_education_explainer.md). Proof points and deployment stats also feed JSON-LD, `llms.txt`, and AEO citation anchors. Update [Altius SEO + AEO Strategy.md](./Altius%20SEO%20+%20AEO%20Strategy.md) Part 5.3 when stats or deployment facts change materially.
 
 ---
 
 ## Value proposition (canonical)
 
-**What Altius is:** Practice **and** coaching debrief—not practice alone. The debrief is what turns a rehearsal into behaviour change.
+**What Altius is:** Practice **and** coaching debrief. The debrief is what turns a rehearsal into behaviour change.
 
 **The loop (do not collapse to “practice” only):**
 
@@ -17,7 +17,7 @@ Canonical copy reused across explainer documents. When updating proof points, pl
 
 **One-line definition (titles, hero, `llms.txt` lead):**
 
-> Altius helps professionals and students practise high-stakes conversations, receive a structured coaching debrief right after, and change how they perform—not just what they know.
+> Altius helps professionals and students practise high-stakes conversations, receive a structured coaching debrief right after, and change how they perform.
 
 **Tagline (LinkedIn, pitch decks, header copy):**
 
@@ -25,7 +25,7 @@ Canonical copy reused across explainer documents. When updating proof points, pl
 
 **LinkedIn About Us (company page, ~2000 chars):**
 
-A surgeon practises on a cadaver before operating on a patient. A pilot practises on a simulator before flying a plane. But when it comes to the human side of professional work, we still rely on classroom role-plays, e-learning modules, and hope.
+A surgeon practises on a cadaver before operating on a patient. A pilot practises on a simulator before flying a plane. For the human side of professional work, we still rely on classroom role-plays, e-learning modules, and hope.
 
 Your people probably know what a good discovery question sounds like. They know they should listen before pitching. They know the SBI model for giving feedback. The problem is rarely knowledge. It's that knowing and doing are two completely different things, and professional training has never really cracked the second one.
 
@@ -51,7 +51,7 @@ If that's the problem you're trying to solve, we'd like to talk.
 | Performance under pressure, evidence, ROI | “AI simulation platform” as the category hook |
 | Practise → debrief → do differently next time | Feature lists that skip the debrief |
 
-**When “AI” is OK:** solution-aware pages, schema/`llms.txt` secondary clauses, product mechanics (how the persona adapts), comparison content—not page titles, ProofBar, or primary CTAs.
+**When “AI” is OK:** solution-aware pages, schema/`llms.txt` secondary clauses, product mechanics (how the persona adapts), comparison content. Not in page titles, ProofBar, or primary CTAs.
 
 **Proof stat framing:** “90% changed their approach after one session” implies the full loop (conversation + debrief)—do not attribute behaviour change to practice alone.
 
@@ -119,7 +119,7 @@ Subline is benefit-only (no AI, no process). Social proof and trial deepen on th
 
 ## About ADA — corporate closing
 
-Because the only way to change how people perform is to practise the performance. Not just learn about it.
+Because the only way to change how people perform is to practise the performance. 
 
 We work with L&D teams, HRBPs, and functional leaders. Not instead of them. You bring the domain expertise: the understanding of what excellent performance looks like in your organisation. We build the Altius simulation that lets your entire team practise it, at scale, with consistency, and with data.
 
@@ -127,7 +127,7 @@ We work with L&D teams, HRBPs, and functional leaders. Not instead of them. You 
 
 ## About ADA — education closing
 
-Because the only way to develop professional competence is to practise the competence. Not just study it.
+Because the only way to develop professional competence is to practise the competence. 
 
 We work with faculty and programme leaders, not instead of them. You bring the domain expertise: the understanding of what professional excellence looks like in your discipline. We build the Altius simulation that lets your students practise it, at scale, with consistency, and with evidence that holds up to scrutiny.
 

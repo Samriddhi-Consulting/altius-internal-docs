@@ -285,7 +285,7 @@ This document is a starting point. Here's what we'd explore on a 30-minute call:
 
 **A Degree Above** is a learning design brand of **Samriddhi Consulting**. We build simulation-based capability tools for organisations and educational institutions that take human performance seriously. **Altius** is our flagship platform: behavioural science, scenario design, and AI, brought together to create practice environments that feel real.
 
-Because the only way to develop professional competence is to practise the competence. Not just study it.
+Because the only way to develop professional competence is to practise the competence.
 
 We work with faculty and programme leaders, not instead of them. You bring the domain expertise: the understanding of what professional excellence looks like in your discipline. We build the Altius simulation that lets your students practise it, at scale, with consistency, and with evidence that holds up to scrutiny.
 

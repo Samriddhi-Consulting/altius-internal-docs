@@ -26,6 +26,8 @@
 > - **OPS-003** (2026-07-26) — app host crawlable + layout `noindex` (not Disallow-all). Free CF: no zone-wide Bot Fight / Block AI.
 > - **SEO-010** (2026-07-26) — HTML `/sitemap/` + footer link.
 > - **SEO-020** (2026-07-26) — IndexNow key at marketing root; content-hash diff submit after Pages deploy (Bing/partners; not Google). XML `<lastmod>` from git of page sources.
+> - **DIST-004** (2026-07-30) — `BaseLayout` forwards `ogType` / `noindex` / article author+publishedTime; site-wide `og:site_name`, `og:locale` (`en_IN`), `og:image:alt`, `twitter:site`.
+> - **DIST-001** (2026-07-30) — UTM convention (§6.1.1); `buildDemoUrl` attribution; gallery preserves inbound `utm_*`; try CTAs forward page UTMs.
 
 ---
 
@@ -238,7 +240,7 @@ These remain valid and unchanged:
 Issue Fix
 Title double-suffix bug Remove "Altius |" prefix from page title props; layout appends | Altius by A Degree Above
 Missing home description Write dedicated 150–160 char description using ProofBar proof points
-Missing OG/Twitter tags SeoHead.astro component
+Missing OG/Twitter tags SeoHead.astro + BaseLayout prop forward (**DIST-004 done 2026-07-30** — site_name, locale, image:alt, twitter:site; article props reachable for SEO-005)
 Missing canonical Emit on every page
 theme-color #003f88
 DemoGallery URL params Fix ?audience= and ?function= params
@@ -277,7 +279,7 @@ Site-wide (every page via BaseLayout):
 "name": "A Degree Above",
 "alternateName": "ADA",
 "url": "https://adegreeabove.org",
-"logo": "https://altius.adegreeabove.org/altius-tm-logo.png",
+"logo": "https://altius.adegreeabove.org/ada-logo.jpg",
 "sameAs": [
 "https://www.linkedin.com/company/a-degree-above/"
 ],
@@ -291,6 +293,7 @@ Site-wide (every page via BaseLayout):
 "@type": "Brand",
 "@id": "https://altius.adegreeabove.org/#brand",
 "name": "Altius",
+"logo": "https://altius.adegreeabove.org/altius-brand-logo.png",
 "sameAs": "https://www.linkedin.com/showcase/altius-by-ada/"
 },
 {
@@ -524,6 +527,23 @@ Accreditation Hook (education) 1x/week Direct post "Your SSR claims experiential
 Industry Use Case 1x/week Case micro-story The fleet operator scenario. The CPO in crisis. The first-time manager. Narrate a scenario as a story.
 Behind the Build Monthly Longer post How a scenario gets built. The persona design process. What makes an AI counterpart feel real. Builds credibility and interest.
 Personal thought leadership (from founders/specialists): In India B2B, personal profiles outperform company pages 5:1. The ADA specialist team and founders should post individually, not just through the company page. LinkedIn prioritises personal content. Even 2 posts/week per founder dramatically outperforms company-only posting.
+
+### 6.1.1 UTM convention (DIST-001 — shipped 2026-07-30)
+
+All **try → app** links go through `buildDemoUrl()` / `featuredDemoUrl()` in `landing-page/src/data/scenarios.ts`. Internal `/demos/` nav and scenario title links stay clean (no UTMs).
+
+| Param | Meaning | Examples |
+|-------|---------|----------|
+| `utm_source` | Channel / host of the click | `linkedin` · `email` · `altius` (on-site) · `partner` |
+| `utm_medium` | Mechanism | `social` · `email` · `web` · `referral` |
+| `utm_campaign` | Lane or campaign id (DIST-017 lanes) | `knowing-doing-gap` · `proof-oem` · `craft` |
+| `utm_content` | Poster or on-site placement | `vidhi` · `pranesh` · `home-demo-teaser` · `demos-slug` |
+
+**On-site shorthand:** `buildDemoUrl(slug, 'home-demo-teaser')` → `utm_source=altius` · `utm_medium=web` · `utm_content=home-demo-teaser`.
+
+**Campaign object:** `buildDemoUrl(slug, { source: 'linkedin', medium: 'social', campaign: 'knowing-doing-gap', content: 'vidhi' })`.
+
+**Inbound preserve:** `/demos/?utm_*` survives gallery filter / search / Clear (DemoGallery). Page `utm_*` also forward onto try links (`data-try-scenario` + ScenarioCard). Do not invent UTMs on sticky "Try a scenario" → `/demos/` browse links.
 
 Twitter/X — Secondary. Thought leadership only.
 

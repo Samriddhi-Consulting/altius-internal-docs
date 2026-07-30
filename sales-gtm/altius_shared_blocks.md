@@ -91,6 +91,7 @@ Canonical stat strings per page — do not paraphrase. Sync to Astro `ProofBar.a
 **CTA verb (demo):**
 - **Site-wide** (hero, FAQ, ProofBar, “Browse all scenarios”): **"Try a scenario"** — not "Try a demo", "Try the demo", or other generic variants.
 - **Named-scenario card** (gallery card, DemoTeaser, education featured, ScopeColumns when the CTA is for one slug): **"Try this scenario"** is allowed and preferred.
+- **Attribution (DIST-001):** Try → app links use `buildDemoUrl()` / `featuredDemoUrl()` with optional UTM params. Convention: [Altius SEO + AEO Strategy §6.1.1](./Altius%20SEO%20+%20AEO%20Strategy.md). Do not put UTMs on internal `/demos/` browse or title links.
 
 **Shareable scenario landings (SEO-011):** Every **live** scenario has an indexable teaser page at `/demos/{slug}/` (title, pitch, `hardCopy` prose, two logistics FAQs, skills/audience). Live gallery card **titles** link there; the card button still goes try → login. Do not put preread, withheld beats, traps, or rubric coaching on these pages. Aspirational gallery cards have no slug page.
 

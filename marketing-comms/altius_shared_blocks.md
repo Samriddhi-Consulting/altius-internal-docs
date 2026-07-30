@@ -1,4 +1,4 @@
-# Altius — Shared GTM Blocks
+# Altius: Shared GTM Blocks
 
 Canonical copy reused across explainer documents. When updating proof points, platform capabilities, or brand footer, edit here first, then sync [altius_corporate_explainer.md](./altius_corporate_explainer.md) and [altius_education_explainer.md](./altius_education_explainer.md). Proof points and deployment stats also feed JSON-LD, `llms.txt`, and AEO citation anchors. Update [Altius SEO + AEO Strategy.md](./Altius%20SEO%20+%20AEO%20Strategy.md) Part 5.3 when stats or deployment facts change materially.
 
@@ -10,10 +10,10 @@ Canonical copy reused across explainer documents. When updating proof points, pl
 
 **The loop (do not collapse to “practice” only):**
 
-1. **Briefing** — context before the conversation  
-2. **Conversation** — practise the interaction under realistic pressure  
-3. **Coaching debrief** — behaviour-level feedback immediately after (what landed, what to do differently)  
-4. **Evidence** — transcript and scores for the learner, cohort, or accreditation file  
+1. **Briefing:** context before the conversation  
+2. **Conversation:** practise the interaction under realistic pressure  
+3. **Coaching debrief:** behaviour-level feedback immediately after (what landed, what to do differently)  
+4. **Evidence:** transcript and scores for the learner, cohort, or accreditation file  
 
 **One-line definition (titles, hero, `llms.txt` lead):**
 
@@ -53,7 +53,7 @@ If that's the problem you're trying to solve, we'd like to talk.
 
 **When “AI” is OK:** solution-aware pages, schema/`llms.txt` secondary clauses, product mechanics (how the persona adapts), comparison content. Not in page titles, ProofBar, or primary CTAs.
 
-**Proof stat framing:** “90% changed their approach after one session” implies the full loop (conversation + debrief)—do not attribute behaviour change to practice alone.
+**Proof stat framing:** “90% changed their approach after one session” implies the full loop (conversation + debrief). Do not attribute behaviour change to practice alone.
 
 **Cohort separation (schema + marketing):** Home and `/corporate` use **corporate pilot** stats (n=20, 4.6/5 relevance). `/education` uses **student pilot** stats (n=201, 4.4/5 overall). Never merge cohorts in `aggregateRating`.
 
@@ -74,7 +74,7 @@ This isn't a concept. Altius is live, deployed, and tested.
 
 ## ProofBar copy (microsite)
 
-Canonical stat strings per page — do not paraphrase. Sync to Astro `ProofBar.astro` props after edits here.
+Canonical stat strings per page. Do not paraphrase. Sync to Astro `ProofBar.astro` props after edits here.
 
 | Page | Stat string |
 |------|-------------|
@@ -84,12 +84,12 @@ Canonical stat strings per page — do not paraphrase. Sync to Astro `ProofBar.a
 
 **Education proof band:** 94% good/excellent · 8 in 10 understanding · footnote Rated 4.4/5 by students in pilot cohorts.
 
-**Factual anchors:** Ashok Leyland deployment — **40 managers** (not "150+", not "hundreds"). Corporate: 90% behaviour change · 94% recommend · 4.6/5 (n=20). Education: 94% · 8 in 10 · 4.4/5 (n=201). Do not merge cohorts.
+**Factual anchors:** Ashok Leyland deployment: **40 managers** (not "150+", not "hundreds"). Corporate: 90% behaviour change · 94% recommend · 4.6/5 (n=20). Education: 94% · 8 in 10 · 4.4/5 (n=201). Do not merge cohorts.
 
 **Hero microcopy (home):** "Sign in with just your email. Takes 60 seconds."
 
 **CTA verb (demo):**
-- **Site-wide** (hero, FAQ, ProofBar, “Browse all scenarios”): **"Try a scenario"** — not "Try a demo", "Try the demo", or other generic variants.
+- **Site-wide** (hero, FAQ, ProofBar, “Browse all scenarios”): **"Try a scenario"** (not "Try a demo", "Try the demo", or other generic variants).
 - **Named-scenario card** (gallery card, DemoTeaser, education featured, ScopeColumns when the CTA is for one slug): **"Try this scenario"** is allowed and preferred.
 - **Attribution (DIST-001):** Try → app links use `buildDemoUrl()` / `featuredDemoUrl()` with optional UTM params. Convention: [Altius SEO + AEO Strategy §6.1.1](./Altius%20SEO%20+%20AEO%20Strategy.md). Do not put UTMs on internal `/demos/` browse or title links.
 
@@ -112,13 +112,13 @@ Subline is benefit-only (no AI, no process). Social proof and trial deepen on th
 
 ---
 
-## About A Degree Above™ (ADA) — common
+## About A Degree Above™ (ADA): common
 
 **A Degree Above** builds simulation-based capability tools for organisations and educational institutions that take human performance seriously. **Altius** is our flagship platform: scenario design and behavioural science, brought together so people can practise, get coached, and change how they perform. Altius™ and A Degree Above™ are trademarks of Samriddhi Consulting.
 
 ---
 
-## About ADA — corporate closing
+## About ADA: corporate closing
 
 Because the only way to change how people perform is to practise the performance. 
 
@@ -126,7 +126,7 @@ We work with L&D teams, HRBPs, and functional leaders. Not instead of them. You 
 
 ---
 
-## About ADA — education closing
+## About ADA: education closing
 
 Because the only way to develop professional competence is to practise the competence. 
 
@@ -149,12 +149,12 @@ Maintain with [Altius SEO + AEO Strategy.md](./Altius%20SEO%20+%20AEO%20Strategy
 | Platform | Status | URL |
 |----------|--------|-----|
 | Google Search Console | Done | Sitemap submitted June 2026 |
-| LinkedIn — A Degree Above | Done | `https://www.linkedin.com/company/a-degree-above/` |
-| LinkedIn — Altius showcase | Done | `https://www.linkedin.com/showcase/altius-by-ada/` |
-| GitHub — public docs mirror | Done | `https://github.com/Samriddhi-Consulting/altius-internal-docs` (GTM/marketing only; fuller packs on Altius SharePoint) |
-| Google Business Profile | Done | [Maps listing](https://www.google.com/maps/place/A+Degree+Above/data=!4m2!3m1!1s0x0:0x1c0738c025962a93) — service-area; `adegreeabove.org`; first post 2026-07-09 |
-| Wikidata — A Degree Above | Deleted | Q140329925 removed (RfD spam/advertising, 2026-07-18). Do not recreate without independent sources. |
-| Wikidata — Altius | Deleted | Q140469863 removed (RfD notability, 2026-07-19). Do not recreate without independent sources. |
+| LinkedIn (A Degree Above) | Done | `https://www.linkedin.com/company/a-degree-above/` |
+| LinkedIn (Altius showcase) | Done | `https://www.linkedin.com/showcase/altius-by-ada/` |
+| GitHub (public docs mirror) | Done | `https://github.com/Samriddhi-Consulting/altius-internal-docs` (GTM/marketing only; fuller packs on Altius SharePoint) |
+| Google Business Profile | Done | [Maps listing](https://www.google.com/maps/place/A+Degree+Above/data=!4m2!3m1!1s0x0:0x1c0738c025962a93) (service-area; `adegreeabove.org`; first post 2026-07-09) |
+| Wikidata (A Degree Above) | Deleted | Q140329925 removed (RfD spam/advertising, 2026-07-18). Do not recreate without independent sources. |
+| Wikidata (Altius) | Deleted | Q140469863 removed (RfD notability, 2026-07-19). Do not recreate without independent sources. |
 | Crunchbase | Pending | A Degree Above |
 
 ---
@@ -163,7 +163,7 @@ Maintain with [Altius SEO + AEO Strategy.md](./Altius%20SEO%20+%20AEO%20Strategy
 
 Shipped 2026-07-10 on the Astro microsite (implementation detail; copy above unchanged):
 
-- Fraunces WOFF2 preload; decorative Δ watermarks use system serif (`.bg-watermark`) — not Fraunces — to avoid CLS
+- Fraunces WOFF2 preload; decorative Δ watermarks use system serif (`.bg-watermark`), not Fraunces, to avoid CLS
 - Education page: measured `content-visibility` on below-fold sections; accreditation logos lazy-loaded
 - `/demos`: hydrate on load when URL filters are present, otherwise on visible
 - Gate: `npm run verify:lighthouse` in `landing-page/`; re-check production after deploy

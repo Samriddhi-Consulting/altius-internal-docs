@@ -9,6 +9,7 @@ Learner-facing briefing for each live Altius scenario (same text as in-app pre-r
 | Anchored High | corporate | `procurement-negotiation-interests` | https://altius.adegreeabove.org/demos/procurement-negotiation-interests/ |
 | Discuss With Family | corporate | `real-estate-stall-commitment-spin` | https://altius.adegreeabove.org/demos/real-estate-stall-commitment-spin/ |
 | Doer to Leader | corporate | `coaching-direct-reports-grow` | https://altius.adegreeabove.org/demos/coaching-direct-reports-grow/ |
+| Last in Line | corporate | `last-in-line` | https://altius.adegreeabove.org/demos/last-in-line/ |
 | Not a Clipboard | corporate | `quality-compliance-conversation-sbi` | https://altius.adegreeabove.org/demos/quality-compliance-conversation-sbi/ |
 | Outcomes Not Specs | corporate | `sales-product-knowledge` | https://altius.adegreeabove.org/demos/sales-product-knowledge/ |
 | The Aftermarket Illusion | corporate | `vikram-parts` | https://altius.adegreeabove.org/demos/vikram-parts/ |

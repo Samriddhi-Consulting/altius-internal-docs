@@ -31,6 +31,7 @@ Learner-facing briefing for each live Altius scenario (same text as in-app pre-r
 | Downstream | education | `accountability-under-pressure` | https://altius.adegreeabove.org/demos/accountability-under-pressure/ |
 | Eighteen Lakhs, No Reply | education | `client-counselling-law` | https://altius.adegreeabove.org/demos/client-counselling-law/ |
 | Just Borderline | education | `patient-communication` | https://altius.adegreeabove.org/demos/patient-communication/ |
+| The Call That Can't Wait | education | `business-communication` | https://altius.adegreeabove.org/demos/business-communication/ |
 | The Digital Disconnect | education | `flowbridge-discovery` | https://altius.adegreeabove.org/demos/flowbridge-discovery/ |
 | The First Session | education | `clinical-rapport-first-consult` | https://altius.adegreeabove.org/demos/clinical-rapport-first-consult/ |
 | The Fourteenth Stay | education | `hospitality-loyalty-recognition-appreciative-inquiry` | https://altius.adegreeabove.org/demos/hospitality-loyalty-recognition-appreciative-inquiry/ |

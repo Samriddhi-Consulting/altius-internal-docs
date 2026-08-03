@@ -14,14 +14,17 @@ These are not decorations. They are the brand's language. Every page must contai
 
 ## 2. Typography System
 - **H1 & H2 (Editorial Moments):** **Fraunces** (variable, optical size: text). Use its variable axes (SOFT, WONK) to dial character up for hero moments.
+- **H1/H2 colour:** **ADA Charcoal** (`#28292a`) on light surfaces — not ADA Blue. Blue is reserved for eyebrows, Δ, links, icons, and structural accents so yellow stays the only loud CTA moment. (**BR-014**, 2026-08-03.)
 - **H3, Body, UI, Buttons:** Native **System UI sans-serif stack**. Do not use Google Fonts.
+- On charcoal / dark bands: H1/H2 go **white** (or yellow accent line only) — never ADA Blue on charcoal.
 
 ## 3. The Strict Colour Palette
 Maintain the exact binding ratio to ensure the brand feels premium:
 - **White / Off-White (~75%):** Page backgrounds (`#ffffff`), Section breaks (`#f4f5f6`).
-- **Charcoal (~20%) - `#28292a`:** Used for all body text. *Never use pure `#000000`.*
-- **ADA Deep Blue (~4%) - `#003f88`:** Used for the Δ, H1/H2, link underlines, icons, and structural accents.
-- **ADA Yellow (~1%) - `#fcb900`:** The focal point. Use for primary CTAs, the ° circle, and one hero moment per page. *Never call it "gold" and never use it for body text.*
+- **Charcoal (~20%) - `#28292a`:** All body text **and** H1/H2 on light surfaces. *Never use pure `#000000`.*
+- **ADA Deep Blue (~4%) - `#003f88`:** Used for the Δ, eyebrow labels, link underlines, icons, and structural accents — **not** H1/H2 fill.
+- **ADA Yellow (~1%) - `#fcb900`:** The focal point. One yellow CTA **per viewport** (nav counts). Prefer yellow in the nav; demote hero + sticky to ghost so the first screen stays singular. *Never call it "gold" and never use it for body text.*
+- **Status colours (exception only):** LIVE / strong / developing / needs-work greens–ambers–reds are for proof LIVE dots and debrief scoring chips — not general UI chrome. See developer guidelines §1.
 
 ## 4. Layout & Composition
 - **Section Rhythm:** Break the monotony. Every 2-3 sections must introduce a break (a full-bleed visual, pulled-out stat, or horizontal Δ° divider).
@@ -44,7 +47,7 @@ Maintain the exact binding ratio to ensure the brand feels premium:
 
 A static trust bar placed between the nav and the hero. It scrolls with the page — not a sticky ticker, not an animated banner. Single line. One message per page.
 
-- The `● LIVE` dot is animated in CSS (`live-pulse` keyframes, `#10B981` green) — it pulses to signal an active deployment.
+- The `● LIVE` dot is animated in CSS (`live-pulse` keyframes, `var(--status-live)`) — it pulses to signal an active deployment.
 - Background: surface-grey (`#f4f5f6`). Border-bottom: `1px solid #e8ebed`.
 - Stat text is small (`0.875rem`) and carries the only proof point on the page.
 - On `/corporate`: includes the Ashok Leyland logo at 20px height, centred with the stat.
@@ -63,7 +66,7 @@ On charcoal (`#28292a`) sections: ghost buttons must use **white text + white bo
 - Dark background override: `color: white; border-color: rgba(255,255,255,0.4)`.
 - Hover on dark: white fill + charcoal text.
 
-This is a **per-section scoped rule** — apply it to the specific container (`.cta-band`, `.pilot-actions`, `.featured-scenarios`), not globally.
+Global `global.css` already scopes dark ghosts on `.cta-band`, `.section--dark`, `.pilot-actions`, `.featured-scenarios`. Do not invent a fourth yellow on dark bands.
 
 ---
 

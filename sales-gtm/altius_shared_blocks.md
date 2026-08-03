@@ -91,6 +91,8 @@ Canonical stat strings per page. Do not paraphrase. Sync to Astro `ProofBar.astr
 **CTA verb (demo):**
 - **Site-wide** (hero, FAQ, ProofBar, “Browse all scenarios”): **"Try a scenario"** (not "Try a demo", "Try the demo", or other generic variants).
 - **Named-scenario card** (gallery card, DemoTeaser, education featured, ScopeColumns when the CTA is for one slug): **"Try this scenario"** is allowed and preferred.
+- **Microsite yellow (Wave B / BR-009):** one yellow CTA **per viewport** (nav counts). Nav keeps accent yellow; hero + sticky + gallery cards use ghost. Verb strings above unchanged.
+- **Microsite eyebrows (Wave B / BR-007):** `/education` and `/corporate` hero labels use shared `.section-eyebrow` (not page-local `hero__eyebrow`).
 - **Attribution (DIST-001):** Try → app links use `buildDemoUrl()` / `featuredDemoUrl()` with optional UTM params. Convention: [Altius SEO + AEO Strategy §6.1.1](./Altius%20SEO%20+%20AEO%20Strategy.md). Do not put UTMs on internal `/demos/` browse or title links.
 
 **Shareable scenario landings (SEO-011):** Every **live** scenario has an indexable teaser page at `/demos/{slug}/` (title, pitch, `hardCopy` prose, two logistics FAQs, skills/audience). Live gallery card **titles** link there; the card button still goes try → login. Do not put preread, withheld beats, traps, or rubric coaching on these pages. Aspirational gallery cards have no slug page.

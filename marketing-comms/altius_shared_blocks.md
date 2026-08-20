@@ -138,9 +138,13 @@ We work with faculty and programme leaders, not instead of them. You bring the d
 
 ## Contact and trademark footer
 
-*To set up a conversation: [insert contact details]*
+*To set up a conversation: connect@adegreeabove.org*
 
 *Altius™ and A Degree Above™ are trademarks of Samriddhi Consulting. All rights reserved.*
+
+*A Degree Above · Registered office: VO 859, WeWork, DLF Forum, Raghavendra Marg, DLF Phase 3, Haryana 122002 · GSTIN: 06AUPPK4842F1ZH · MSME/Udyam: UDYAM-HR-05-0139634*
+
+*Legal: [Privacy](https://altius.adegreeabove.org/privacy/) · [Terms](https://altius.adegreeabove.org/terms/) · [Cookies](https://altius.adegreeabove.org/cookies/). Cookie preferences: Manage cookies (Zaraz CMP on the marketing host).*
 
 ---
 

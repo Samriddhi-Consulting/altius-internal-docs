@@ -28,6 +28,7 @@
 > - **SEO-020** (2026-07-26) — IndexNow key at marketing root; content-hash diff submit after Pages deploy (Bing/partners; not Google). XML `<lastmod>` from git of page sources.
 > - **DIST-004** (2026-07-30) — `BaseLayout` forwards `ogType` / `noindex` / article author+publishedTime; site-wide `og:site_name`, `og:locale` (`en_IN`), `og:image:alt`, `twitter:site`.
 > - **DIST-001** (2026-07-30) — UTM convention (§6.1.1); `buildDemoUrl` attribution; gallery preserves inbound `utm_*`; try CTAs forward page UTMs.
+> - **LEGAL-002 / OPS-002** (2026-08-20) — `/privacy/` `/terms/` `/cookies/` from counsel pack; footer Manage cookies (Zaraz); app brochure 301s.
 
 ---
 
@@ -169,6 +170,9 @@ Page Purpose
 /case-studies/ashok-leyland Only live proof point — must be a full page, not a stat in a ProofBar
 /pilot A dedicated "start a pilot" landing page with frictionless contact form
 /pricing Even a rough "per scenario, per cohort" page reduces sales friction
+/privacy **Shipped (LEGAL-002 / OPS-002, 2026-08-20)** — counsel Privacy Policy (indexable; Entra / grievance)
+/terms **Shipped (LEGAL-002 / OPS-002, 2026-08-20)** — counsel Terms & Conditions
+/cookies **Shipped (LEGAL-002, 2026-08-20)** — counsel Cookies Policy (Zaraz CMP purposes map)
 /compare Comparison with alternatives (classroom training, generic AI chatbots, video role-play platforms)
 /scenarios (expanded) **Shipped as `/demos/[slug]/` (SEO-011, 2026-07-25)** — one indexable teaser page per live seeded scenario; aspirational stay gallery-only
 Part 3: Technical SEO Foundation
@@ -225,6 +229,7 @@ Home (hub)
 │ ├── Blog posts link back to /education
 │ ├── /education/naac links to /education
 │ └── All accreditation pages link to /pilot
+├── /privacy · /terms · /cookies — **shipped LEGAL-002 / OPS-002 (2026-08-20)**
 └── /demos (hub)
 └── Each scenario links to the relevant corporate/education sub-page
 Internal link anchor text must use descriptive, keyword-relevant phrases — not "click here" or "learn more."
@@ -615,6 +620,7 @@ Wikidata entry for A Degree Above (+ Altius product optional) — **deleted RfD 
 Google Business Profile (A Degree Above, service-area) — **done**
 Begin PR outreach (ET L&D beat, YourStory, HR Katha) anchored on Ashok Leyland story — **also the path back to Wikidata notability**
 HTML sitemap at /sitemap — **shipped SEO-010 (2026-07-26)**
+`/privacy` `/terms` `/cookies` — **shipped LEGAL-002 / OPS-002 (2026-08-20)**; counsel markdown in `docs/legal/published/`
 Phase 5B evaluation: per-scenario pages — **shipped SEO-011 (2026-07-25)** as `/demos/[slug]/` for all live seeded scenarios (not gated on GSC wait)
 Part 8: Measurement
 What to track from Day 1:

@@ -1,4 +1,4 @@
-# Altius — Tier 1 FAQ drafts
+# Altius: Tier 1 FAQ drafts
 
 Canonical Q&A for `/corporate` and `/education` visible accordions + `FAQPage` schema. **Status: wired to microsite (2026-06-23).** Live data: `v1/landing-page/src/data/faqs/`.
 
@@ -8,11 +8,11 @@ Canonical Q&A for `/corporate` and `/education` visible accordions + `FAQPage` s
 
 ---
 
-## `/corporate` — 16 questions
+## `/corporate`: 16 questions
 
 ### Section 1: Why training doesn't change behaviour
 
-#### C-U1 — Why doesn't corporate training change how people behave under pressure?
+#### C-U1: Why doesn't corporate training change how people behave under pressure?
 
 Most corporate training is built to transfer knowledge: frameworks, models, compliance content, slide decks. That works for what people _know_. It rarely works for what people _do_ when a customer pushes back, a deadline slips, or a direct report gets defensive.
 
@@ -20,7 +20,7 @@ The pattern has a name and a literature: Jeffrey Pfeffer and Robert Sutton's kno
 
 ---
 
-#### C-U3 — Why do sales reps know the discovery framework but still jump to pitch in live calls?
+#### C-U3: Why do sales reps know the discovery framework but still jump to pitch in live calls?
 
 Because knowing the framework and executing it when a buyer is impatient, sceptical, or mid-crisis are different skills. A rep can explain SPIN® Selling (Huthwaite International) or consultative selling frameworks in a classroom. On a live call, _the instinct to relieve tension often wins_: offer a discount, lead with the deck, skip to the product.
 
@@ -28,7 +28,7 @@ The workshop did not necessarily fail. The rep may never have _practised_ handli
 
 ---
 
-#### C-P1 — Why do managers avoid difficult feedback conversations even after training?
+#### C-P1: Why do managers avoid difficult feedback conversations even after training?
 
 Managers often leave training knowing the model: SBI (Center for Creative Leadership), feedforward frameworks, whatever your programme uses. The gap is not the model. It is the muscle: staying calm, leading with observation, letting the other person respond, holding silence when it gets uncomfortable.
 
@@ -36,7 +36,7 @@ _That muscle is hard to build in a group workshop_ where everyone is performing 
 
 ---
 
-#### C-P2 — Why does classroom role-play stop working once a team grows past 30 people?
+#### C-P2: Why does classroom role-play stop working once a team grows past 30 people?
 
 High-quality role-play needs time, attention, and a skilled facilitator for each participant. _Past roughly 30 people, the maths breaks down_: you move to group exercises where half the room watches, or you skip practice and hope the content sticks.
 
@@ -44,7 +44,7 @@ _Across geographies, quality becomes a postcode lottery_. Your best manager in o
 
 ---
 
-#### C-P3 — Why do adults underperform in peer role-plays, even when they know the framework?
+#### C-P3: Why do adults underperform in peer role-plays, even when they know the framework?
 
 Social risk. A mid-career sales manager will not fumble through a tough objection in front of colleagues. They default to something smooth and generic. The exercise looks polished; nobody actually stretched.
 
@@ -52,7 +52,7 @@ Altius™ removes the audience: each simulation is between the learner and the A
 
 ---
 
-#### C-P4 — How do L&D leaders prove to leadership that training improved performance, beyond smile sheets and attendance?
+#### C-P4: How do L&D leaders prove to leadership that training improved performance, beyond smile sheets and attendance?
 
 Leadership asks a fair question: _Did this change how people perform?_ Attendance registers and Level 1 feedback cannot answer it. What you need is behavioural evidence: how someone actually handled an objection, a negotiation, or a difficult conversation with a direct report, not just whether they attended.
 
@@ -62,7 +62,7 @@ Altius™ produces _transcript-backed coaching debriefs with per-criterion behav
 
 ### Section 2: How Altius is different
 
-#### C-S1 — How is Altius different from e-learning or a standard LMS module?
+#### C-S1: How is Altius different from e-learning or a standard LMS module?
 
 E-learning and LMS modules are strong at distributing content: videos, quizzes, completion tracking. They are passive. Finishing a module is not the same as handling a live customer or a defensive stakeholder.
 
@@ -70,7 +70,7 @@ Altius™ is active practice. The learner has a two-way conversation with a pers
 
 ---
 
-#### C-S2 — What happens after the simulation: is there a coaching debrief or just a score?
+#### C-S2: What happens after the simulation: is there a coaching debrief or just a score?
 
 A full coaching debrief, delivered by an L&D specialist. That is the point.
 
@@ -82,7 +82,7 @@ For large cohorts, ADA works with your L&D team to build internal debrief capabi
 
 ---
 
-#### C-S3 — Can Altius scenarios be customised for our industry, our stakeholders, and our rubric?
+#### C-S3: Can Altius scenarios be customised for our industry, our stakeholders, and our rubric?
 
 Yes. Every scenario is built for your context: the counterpart type, the stakes, the language, and the behaviours you want to measure. You describe the conversation and what "good" looks like; we design the persona, briefing, and rubric. You review and we iterate.
 
@@ -90,7 +90,7 @@ Scenarios are modular: persona, scene, briefing, and rubric are self-contained, 
 
 ---
 
-#### C-S4 — Is the AI persona just a chatbot, or does it actually react to how I handle the conversation?
+#### C-S4: Is the AI persona just a chatbot, or does it actually react to how I handle the conversation?
 
 It reacts. That is the product. The persona has a backstory, hidden concerns, and emotional triggers. It responds to what you say, how you say it, and what you leave out.
 
@@ -100,7 +100,7 @@ In a live deployment with a leading Indian automotive OEM, 40 managers practised
 
 ---
 
-#### C-X1 — What evidence shows Altius actually changes behaviour, beyond engagement metrics?
+#### C-X1: What evidence shows Altius actually changes behaviour, beyond engagement metrics?
 
 In a live deployment with a leading Indian automotive OEM, **40 managers** across Parts, Sales, and Service practised customer-centricity conversations and received individual specialist debriefs. **94% said they would recommend it to peers.** Rated **4.6/5** for programme relevance.
 
@@ -110,19 +110,19 @@ That figure follows from how the debrief process works: Altius™ generates per-
 
 ### Section 3: Getting started
 
-#### C-D1 — How long does it take to deploy an Altius simulation from brief to live?
+#### C-D1: How long does it take to deploy an Altius simulation from brief to live?
 
 Typically **one to two weeks** from brief to live scenario. You provide a description of the conversation, the counterpart, and the behaviours you want assessed; we build the persona, briefing, and rubric. You review; we iterate until it is right.
 
 ---
 
-#### C-D2 — Does Altius require an LMS integration or an app install?
+#### C-D2: Does Altius require an LMS integration or an app install?
 
 No. Learners need a phone or laptop with a browser. They receive a magic link by email, read the briefing, and start. No app download. No LMS integration required, though we can discuss it if your organisation wants one.
 
 ---
 
-#### C-D3 — How is Altius priced: per user, per cohort, or platform licence?
+#### C-D3: How is Altius priced: per user, per cohort, or platform licence?
 
 **Per trainee, from ₹999 a month.** Minimum 30 seats. Committing to 3, 6, or 12 months lowers the monthly rate. Each seat covers that month’s calendar scenario and one virtual group or train-the-trainer debrief for the cohort.
 
@@ -132,7 +132,7 @@ Full rates, the term ladder, and a quote you can forward sit on [the pricing pag
 
 ---
 
-#### C-D4 — Can a learner redo the simulation? Is repetition built in?
+#### C-D4: Can a learner redo the simulation? Is repetition built in?
 
 That depends on the programme design, and we have a recommendation.
 
@@ -142,7 +142,7 @@ From there, the progression moves across scenarios: a different counterpart, a h
 
 ---
 
-#### C-D5 — Is each simulation private, and can peers or managers see a participant's transcript?
+#### C-D5: Is each simulation private, and can peers or managers see a participant's transcript?
 
 During practice, there is no audience of peers watching a role-play. That is the psychological safety difference. The conversation is between the learner and the AI persona.
 
@@ -150,11 +150,11 @@ Organisation administrators (L&D, HRBP, functional leads you designate) can acce
 
 ---
 
-## `/education` — 19 questions
+## `/education`: 19 questions
 
 ### Section 1: The gap in professional education
 
-#### E-U1 — Why can students pass exams on communication or selling but still struggle in real conversations?
+#### E-U1: Why can students pass exams on communication or selling but still struggle in real conversations?
 
 Because exams and assignments test what students can _explain_: frameworks, definitions, structured answers. A sceptical customer, a defensive employee, or an anxious patient does not reward textbook language.
 
@@ -162,7 +162,7 @@ Put students in a live conversation and many freeze, default to jargon, or jump 
 
 ---
 
-#### E-U2 — What does the employability gap look like in practice, and what do recruiters say is missing?
+#### E-U2: What does the employability gap look like in practice, and what do recruiters say is missing?
 
 Placement cells hear it every year. Graduates know theory but struggle in professional conversations: discovery calls, client meetings, feedback sessions, negotiations. Recruiters want application under pressure, not just framework fluency on a CV.
 
@@ -170,7 +170,7 @@ Students spend hundreds of hours preparing for exams. They spend almost no time 
 
 ---
 
-#### E-U3 — How do I assess 60 students on communication skills without running 60 individual role-plays?
+#### E-U3: How do I assess 60 students on communication skills without running 60 individual role-plays?
 
 You cannot. Not with integrity, not in the time you have. Even at ten minutes per student, one exercise is ten hours of facilitation plus feedback. Group role-plays mean only two students practise while others watch, and the "customer" is another student who cannot push back convincingly.
 
@@ -178,7 +178,7 @@ Altius™ runs an adaptive, private conversation with every student in the same 
 
 ---
 
-#### E-P1 — What is CO/PO attainment evidence for soft skills, and why are written exams insufficient?
+#### E-P1: What is CO/PO attainment evidence for soft skills, and why are written exams insufficient?
 
 Outcome-Based Education requires you to show students _attained_ stated outcomes, not just sat through a course. For technical subjects, exams work. For outcomes like _"conduct a consultative sales conversation"_ or _"deliver constructive feedback,"_ written exams test whether students can _describe_ the skill, not _do_ it.
 
@@ -186,7 +186,7 @@ CO/PO attainment for soft skills needs direct assessment of behaviour under pres
 
 ---
 
-#### E-P2 — Why doesn't the case method develop students' ability to hold a real professional conversation?
+#### E-P2: Why doesn't the case method develop students' ability to hold a real professional conversation?
 
 Students learn to think _about_ a conversation. The case method rarely teaches them to _have_ one.
 
@@ -196,7 +196,7 @@ Altius™ is the layer that comes after: the briefing reads like a case, then th
 
 ---
 
-#### E-P3 — Why is internship evidence often thin when accreditation panels review experiential learning?
+#### E-P3: Why is internship evidence often thin when accreditation panels review experiential learning?
 
 Most SSR folders show participation: attendance logs, certificates, supervisor sign-offs. Panels increasingly ask whether experiential learning produced _competence_, not just exposure.
 
@@ -204,7 +204,7 @@ Internships are realistic but uncontrolled; evidence is often a subjective ratin
 
 ---
 
-#### E-P4 — What pedagogical innovation can an institution credibly claim if it deploys Altius?
+#### E-P4: What pedagogical innovation can an institution credibly claim if it deploys Altius?
 
 You can credibly claim **simulation-based, direct assessment of professional conversational competence**, with evidence panels can actually inspect. Not a buzzword in the Self-Study Report, but timestamped transcripts, per-criterion behaviour scores, and cohort analytics mapped to your Course Outcomes.
 
@@ -214,7 +214,7 @@ That sits between exams (rigorous but artificial) and internships (realistic but
 
 ### Section 2: Pedagogy, assessment, and accreditation
 
-#### E-S1 — Is Altius a replacement for the case method?
+#### E-S1: Is Altius a replacement for the case method?
 
 No. It complements it. Cases develop analytical thinking; Altius™ develops conversational competence. The student reads a contextual briefing (like a case), then enters a live conversation where the stakeholder responds to what they do.
 
@@ -222,7 +222,7 @@ Use cases to teach students to analyse the decision. Use Altius™ to make them 
 
 ---
 
-#### E-S2 — How does Altius differ from a viva voce or group presentation for assessing soft skills?
+#### E-S2: How does Altius differ from a viva voce or group presentation for assessing soft skills?
 
 A viva tests articulation in a controlled, faculty-dependent setting, hard to standardise across examiners.
 
@@ -232,7 +232,7 @@ Altius™ brings that dimension in. It is a two-way, adaptive conversation in wh
 
 ---
 
-#### E-S3 — How does Altius help generate NAAC accreditation evidence for experiential learning?
+#### E-S3: How does Altius help generate NAAC accreditation evidence for experiential learning?
 
 NAAC Criterion 2 (Teaching-Learning and Evaluation) and Criterion 5 (Student Support and Progression) expect evidence of innovative pedagogy and experiential learning, including outcomes, not just activity logs.
 
@@ -240,7 +240,7 @@ Altius™ provides simulation-based assessment with **timestamped transcripts**,
 
 ---
 
-#### E-S4 — Which accreditation frameworks does Altius map to? (NAAC, NBA, NEP 2020, AACSB, EQUIS, AMBA)
+#### E-S4: Which accreditation frameworks does Altius map to? (NAAC, NBA, NEP 2020, AACSB, EQUIS, AMBA)
 
 | Framework | What the framework asks for | What Altius™ provides | What still needs manual documentation |
 | :--- | :--- | :--- | :--- |
@@ -255,7 +255,7 @@ The table above maps Altius™ to each framework at a general level. Clause-leve
 
 ---
 
-#### E-S5 — Is the AI persona just a chatbot, or does it adapt to how the learner handles the conversation?
+#### E-S5: Is the AI persona just a chatbot, or does it adapt to how the learner handles the conversation?
 
 It adapts continuously, responding to each student's choices rather than matching preset keywords. The persona has a role, backstory, and hidden concerns. If a student acknowledges a crisis and probes root causes, the persona opens up. If they ignore context and pitch, it stays closed.
 
@@ -265,7 +265,7 @@ In a pilot with a business school cohort, students practised with Kabir Mehta, a
 
 ---
 
-#### E-S6 — Does every student get a unique conversation, or can they look up what someone else said?
+#### E-S6: Does every student get a unique conversation, or can they look up what someone else said?
 
 Every conversation is unique because the persona _responds_ to what each student says, how they say it, and what they leave out. There is no fixed script to memorise or share as "the right answers."
 
@@ -275,7 +275,7 @@ Students cannot look up a classmate's path and replay it; the dialogue branches 
 
 ### Section 3: Implementation
 
-#### E-D1 — How much faculty time is required to set up and run an Altius simulation?
+#### E-D1: How much faculty time is required to set up and run an Altius simulation?
 
 **Setup:** You describe the conversation, counterpart, and competences to assess, typically in one collaborative brief. We design the persona, briefing, and rubric; you review and iterate. Live in **one to two weeks**.
 
@@ -283,13 +283,13 @@ Students cannot look up a classmate's path and replay it; the dialogue branches 
 
 ---
 
-#### E-D2 — Do students need to install an app or log into our LMS to use Altius?
+#### E-D2: Do students need to install an app or log into our LMS to use Altius?
 
 No app install. Students use a browser on phone or laptop. They receive a magic link by email, read the briefing, and start. LMS integration is not required, though we can discuss it if your institution wants single sign-on or grade passback later.
 
 ---
 
-#### E-D3 — What does the accreditation evidence actually look like, and what goes into the SSR or IQAC folder?
+#### E-D3: What does the accreditation evidence actually look like, and what goes into the SSR or IQAC folder?
 
 Per student, Altius™ generates:
 
@@ -302,7 +302,7 @@ For attainment, you apply your threshold (e.g. ≥3/5 on mapped criteria) and ca
 
 ---
 
-#### E-D4 — Can Altius be used as a graded assignment, or is it only for practice?
+#### E-D4: Can Altius be used as a graded assignment, or is it only for practice?
 
 Both. Many programmes use it as a **graded assignment**: the simulation is the assessment; the debrief supplies formative detail; overall and criterion scores feed your gradebook. Others use it as low-stakes practice before a viva or live presentation.
 
@@ -310,7 +310,7 @@ You set the weighting, the threshold, and the number of attempts. The platform d
 
 ---
 
-#### E-D5 — What does the student experience look like from start to finish?
+#### E-D5: What does the student experience look like from start to finish?
 
 1. **Briefing:** Student opens the link and reads a contextual scenario brief (like prep before a real meeting).
 2. **Conversation:** 15–25 exchanges with an adaptive AI persona in a chat interface.
@@ -321,7 +321,7 @@ No passwords to remember (magic-link access). Typical session fits a class perio
 
 ---
 
-#### E-X1 — What evidence shows Altius actually changes behaviour, beyond engagement metrics?
+#### E-X1: What evidence shows Altius actually changes behaviour, beyond engagement metrics?
 
 In higher-education pilots, **94% of students** rated the simulation good or excellent, and **8 in 10** said it deepened their understanding more than a lecture alone. Rated **4.4/5** overall.
 

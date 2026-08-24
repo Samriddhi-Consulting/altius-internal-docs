@@ -4,7 +4,7 @@
 
 *For faculty, deans, programme directors, and accreditation teams who know that exams test what students remember, not what they can do.*
 
-*Canonical proof stats (ProofBar, schema): [altius_shared_blocks.md](./altius_shared_blocks.md#proofbar-copy-microsite) — education cohort n=201, 94% · 8 in 10 · 4.4/5. Live FAQs: [altius_faq_drafts.md](./altius_faq_drafts.md) → `landing-page/src/data/faqs/`.*
+*Canonical proof stats (ProofBar, schema): [altius_shared_blocks.md](./altius_shared_blocks.md#proofbar-copy-microsite). Education cohort n=201, 94% · 8 in 10 · 4.4/5. Live FAQs: [altius_faq_drafts.md](./altius_faq_drafts.md) → `landing-page/src/data/faqs/`.*
 
 ---
 
@@ -82,7 +82,7 @@ A case study is one-directional. The student reads, analyses, and presents. But 
 
 Altius is what happens when the case study talks back. The student reads a contextual briefing (like a case), then walks into a live conversation with an AI persona who responds differently depending on what the student does. Ask good questions, the persona opens up. Pitch too early, the persona shuts down. Show empathy, the persona engages. Ignore the context, the persona calls you out.
 
-This is not a replacement for cases. It's the layer that comes after: the part where students stop analysing the decision and start making it.
+Altius is the layer that comes after the case: the part where students stop analysing the decision and start making it.
 
 ### 3. The Faculty Bandwidth Problem
 
@@ -96,7 +96,7 @@ Altius scales the best possible counterpart to every student, individually, simu
 
 Placement cells hear it every year. Recruiters say: "Your students know theory but can't hold a conversation." HR managers from recruiting companies say: "They're strong on frameworks, weak on application."
 
-This is not a reflection of poor teaching. It's a reflection of what gets practised and what doesn't. Students spend hundreds of hours preparing for exams. They spend almost no time practising the conversations they'll have in their first job: a discovery call, a client meeting, a feedback session, a negotiation.
+That pattern tracks what gets practised and what does not. Students spend hundreds of hours preparing for exams. They spend almost no time practising the conversations they'll have in their first job: a discovery call, a client meeting, a feedback session, a negotiation.
 
 NAAC Criterion 5 (Student Support and Progression) and NBA Programme Outcomes both require evidence of professional competence. Altius debrief data is that evidence. Not a supervisor's subjective rating from a summer internship, but a structured, scored, transcript-backed assessment of what the student actually did in a realistic professional interaction.
 
@@ -161,7 +161,7 @@ Not every course needs Altius. The sweet spot is any course where a stated Cours
 | Subject area | Example courses | What students practise on Altius |
 | :--- | :--- | :--- |
 | **Sales and Distribution** | Sales Management, B2B Marketing, Channel Management | Discovery conversations, objection handling, account retention, channel negotiation |
-| **Communication** | Business Communication, Managerial Communication, Professional Skills | Persuasion, active listening, delivering bad news, presenting under pressure |
+| **Communication** | Business Communication, Managerial Communication, Professional Skills | Persuasion, active listening, bad-news conversations, presenting under pressure |
 | **Negotiation** | Negotiation and Conflict Resolution, ADR | Anchoring, concession strategy, multi-issue negotiation, handling aggressive counterparts |
 | **HRM and OB** | Human Resource Management, Organisational Behaviour, Talent Management, Industrial Relations | Conducting interviews, giving feedback, handling grievances, performance counselling |
 | **Entrepreneurship** | New Venture Creation, Entrepreneurial Marketing | Investor pitch conversations, customer discovery, co-founder negotiation |
@@ -170,7 +170,7 @@ Not every course needs Altius. The sweet spot is any course where a stated Cours
 | **Medical / Nursing** | Patient Communication, History-Taking Skills, Bioethics | Breaking bad news with empathy, building rapport with anxious patients, explaining next steps clearly, managing denial and resistance |
 | **Hospitality** | Front Office Management, Guest Relations, Food and Beverage Service | Complaint resolution, upselling, service recovery with demanding guests |
 
-On the live `/education` page, course-fit cards deep-link to `/demos?audience=education&topic=…` (Sales & Distribution → Flowbridge try URL — no education gallery cards carry a Sales topic yet). Full map: [docs/deep_link_matrix.md](./docs/deep_link_matrix.md).
+On the live `/education` page, course-fit cards deep-link to `/demos?audience=education&topic=…` (Sales & Distribution → Flowbridge try URL; no education gallery cards carry a Sales topic yet). Full map: [docs/deep_link_matrix.md](./docs/deep_link_matrix.md).
 
 ### Featured Scenarios
 
@@ -180,11 +180,11 @@ On the live `/education` page, course-fit cards deep-link to `/demos?audience=ed
 >
 > This is the future of the case method. Not reading about a decision, but making it in a live conversation.
 
-**Client Counselling (Law) — Eighteen Lakhs, No Reply (Live on Altius today)**
+**Client Counselling (Law): Eighteen Lakhs, No Reply (Live on Altius today)**
 
 > A law student plays a junior associate covering for a delayed partner. The client, Arjun Mehta, arrives composed with a folder squared to face them: eighteen lakhs, cheque bounce, former partner, file immediately. Underneath the paperwork is betrayal, conflicting goals, and a want for public reckoning the process is unlikely to deliver. The student must build trust, surface what the client actually needs, and deliver disappointing reality without rupture. Altius evaluates how the student communicates. Legal doctrine is not the scoring axis.
 
-**Patient Communication (Medical) — Just Borderline**
+**Patient Communication (Medical): Just Borderline**
 
 > A medical intern has to tell Manoj Patil, 44, that he has Type 2 diabetes. He came in for a routine medical so the bank would clear a loan for a third truck, expecting a clean chit, and he is the only earner in his family. He bargains: isn't it "just borderline," can't he manage it "with diet alone." The intern has to be honest without alarming him, make room for what the news means to him, check that he has actually understood, and leave him with a real next step. Altius evaluates the quality of the communication, not the clinical content. The medical knowledge is the student's. The simulation tests whether they can convey it with clarity and care.
 

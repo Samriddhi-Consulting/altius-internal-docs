@@ -106,7 +106,7 @@ It feels like messaging a real person. That's the point.
 
 ### Step 3: The Coaching Debrief
 
-The moment the conversation ends, the system generates a structured coaching evaluation. Not pass/fail. A nuanced, evidence-backed assessment.
+The moment the conversation ends, the system generates a structured coaching evaluation. Not pass/fail. An evidence-backed assessment that cites what the learner said.
 
 | What's Measured | Example |
 | :--- | :--- |

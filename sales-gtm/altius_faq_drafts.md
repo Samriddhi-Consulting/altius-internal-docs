@@ -124,7 +124,11 @@ No. Learners need a phone or laptop with a browser. They receive a magic link by
 
 #### C-D3 — How is Altius priced: per user, per cohort, or platform licence?
 
-**Per-scenario, per-cohort.** There is no platform licence and no multi-year lock-in required. You pay for the simulations you run with the cohorts you care about, not for shelfware. Annual arrangements are available if you prefer them, but they are not the default model.
+**Per trainee, from ₹999 a month.** Minimum 30 seats. Committing to 3, 6, or 12 months lowers the monthly rate. Each seat covers that month’s calendar scenario and one virtual group or train-the-trainer debrief for the cohort.
+
+Virtual one-to-one debriefs and exclusive scenarios are optional add-ons. Roster scenarios are free. There is no shelfware platform fee and no multi-year lock-in required.
+
+Full rates, the term ladder, and a quote you can forward sit on [the pricing page](https://altius.adegreeabove.org/pricing/).
 
 ---
 

@@ -245,7 +245,7 @@ This is what happens after you say yes: the operator path from first brief to co
 5. **Run.** People practise asynchronously. You see who has completed and can open transcripts for coaching QA.
 6. **Debrief & evidence.** An L&D specialist (ADA, or someone on your team we have trained) runs the coaching debrief from the Altius analysis: transcript, behaviour scores, what to fix next. You leave with individual scorecards and a cohort summary leadership can actually read.
 
-A typical first run is 20 to 30 people on one scenario.
+A typical first run is at least 30 people on one scenario.
 
 ## How It Works For You
 
@@ -257,7 +257,7 @@ A typical first run is 20 to 30 people on one scenario.
 | **Cohort management** | We invite your cohort by email. You track completion and transcripts. Cohort summary for leadership via the specialist debrief path. |
 | **Languages** | English first. Hindi and regional language support on the roadmap. |
 | **Data and privacy** | All data is organisation-isolated. You see only your team's data. We can discuss hosting and compliance needs. |
-| **Pricing** | Per-scenario, per-cohort. No platform licence. No multi-year lock-in. |
+| **Pricing** | From ₹999 per trainee per month, minimum 30 seats. Term discounts at 3, 6, and 12 months. One scenario a month; one virtual group debrief included. Full rates: [altius.adegreeabove.org/pricing](https://altius.adegreeabove.org/pricing/). |
 
 ---
 
@@ -268,7 +268,7 @@ This document isn't a proposal. It's a starting point. Here's what we'd explore 
 1. **Your capability challenge.** What's the one conversation your people need to get better at, and can't learn from a classroom alone?
 2. **A scenario that matters.** If you could put every person through one realistic practice conversation, what would look like? Who would they talk to? What would be hard about it?
 3. **What "good" looks like.** How do your best performers handle this situation differently from the average ones?
-4. **A pilot.** Would you be open to a two-week pilot with 20 to 30 participants on a single scenario, so you can see the data and decide from there?
+4. **A pilot.** Would you be open to a two-week pilot with at least 30 participants on a single scenario, so you can see the data and decide from there?
 
 On [the corporate page](https://altius.adegreeabove.org/corporate/), that enquiry is an on-page form (name, work email, organisation, optional team size and capability challenge). It posts to the marketing host. The footer email `connect@adegreeabove.org` remains as a fallback.
 

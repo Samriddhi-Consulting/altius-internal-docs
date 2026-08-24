@@ -264,7 +264,7 @@ A typical first run is one batch of 30 to 60 on a single scenario.
 | **Infrastructure** | None. Cloud-hosted. Works on any device with internet access. |
 | **Cohort management** | We invite the batch by email. You track completion and transcripts. Scores and debriefs support your assessment and accreditation file via the specialist or faculty coaching path. |
 | **Data and privacy** | Student data is institution-isolated. You see only your students' data. Transcripts and scores are stored securely and exportable for accreditation documentation. |
-| **Pricing** | Per-scenario, per-cohort. No platform licence. No annual contract unless you want one. |
+| **Pricing** | From ₹999 per student per month, minimum 30 seats. Same term discounts as corporate. One scenario a month; one virtual group debrief included. Full rates: [altius.adegreeabove.org/pricing](https://altius.adegreeabove.org/pricing/). |
 
 ---
 

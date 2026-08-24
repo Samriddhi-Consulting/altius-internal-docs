@@ -29,6 +29,7 @@
 > - **DIST-004** (2026-07-30) — `BaseLayout` forwards `ogType` / `noindex` / article author+publishedTime; site-wide `og:site_name`, `og:locale` (`en_IN`), `og:image:alt`, `twitter:site`.
 > - **DIST-001** (2026-07-30) — UTM convention (§6.1.1); `buildDemoUrl` attribution; gallery preserves inbound `utm_*`; try CTAs forward page UTMs.
 > - **LEGAL-002 / OPS-002** (2026-08-20) — `/privacy/` `/terms/` `/cookies/` from counsel pack; footer Manage cookies (Zaraz); app brochure 301s.
+> - **PRC-008 / SEO-009 `/pricing`** (2026-08-24) — `/pricing/` quote builder + 11 FAQs; hubs and explainers match seat rates; `#software` Offers = trial `0` + AggregateOffer 849–999; `llms.txt` pricing facts block. Remainder: `/pilot`, `/compare`.
 
 ---
 
@@ -169,7 +170,7 @@ Page Purpose
 /about **Shipped** — entity anchor; LinkedIn About copy, what we've built, AboutPage schema (`https://altius.adegreeabove.org/about`)
 /case-studies/ashok-leyland Only live proof point — must be a full page, not a stat in a ProofBar
 /pilot A dedicated "start a pilot" landing page with frictionless contact form
-/pricing Even a rough "per scenario, per cohort" page reduces sales friction
+/pricing **Shipped (PRC-008 / SEO-009 slice, 2026-08-24)** — seat rates by term, quote builder, included group debrief; `#software` Offers = trial + AggregateOffer 849–999
 /privacy **Shipped (LEGAL-002 / OPS-002, 2026-08-20)** — counsel Privacy Policy (indexable; Entra / grievance)
 /terms **Shipped (LEGAL-002 / OPS-002, 2026-08-20)** — counsel Terms & Conditions
 /cookies **Shipped (LEGAL-002, 2026-08-20)** — counsel Cookies Policy (Zaraz CMP purposes map)
@@ -229,6 +230,7 @@ Home (hub)
 │ ├── Blog posts link back to /education
 │ ├── /education/naac links to /education
 │ └── All accreditation pages link to /pilot
+├── /pricing — **shipped PRC-008 / SEO-009 slice (2026-08-24)**
 ├── /privacy · /terms · /cookies — **shipped LEGAL-002 / OPS-002 (2026-08-20)**
 └── /demos (hub)
 └── Each scenario links to the relevant corporate/education sub-page
@@ -318,11 +320,25 @@ Home page (/) — additional schema:
 "name": "Altius",
 "applicationCategory": ["EducationalApplication", "BusinessApplication"],
 "operatingSystem": "Browser-based (iOS, Android, Windows, macOS)",
-"offers": {
+"offers": [
+{
 "@type": "Offer",
-"description": "Per-scenario, per-cohort pricing. No platform licence.",
-"areaServed": "IN"
+"name": "Open trial",
+"price": "0",
+"priceCurrency": "INR",
+"description": "Try Altius scenarios. Fair-use limits apply."
 },
+{
+"@type": "AggregateOffer",
+"name": "Platform seat",
+"lowPrice": "849",
+"highPrice": "999",
+"priceCurrency": "INR",
+"url": "https://altius.adegreeabove.org/pricing/",
+"description": "From ₹999 per trainee per month (minimum 30). Term commitments of 3, 6, and 12 months lower the monthly rate. One virtual group debrief included per cohort-month.",
+"eligibleQuantity": { "@type": "QuantitativeValue", "minValue": 30, "unitText": "seats" }
+}
+],
 "featureList": [
 "AI-powered conversation simulations",
 "Custom AI personas with emotional range",
@@ -459,6 +475,8 @@ Follow the [llmstxt.org](https://llmstxt.org/) format (not free-form marketing p
 5. Final `## Optional` for secondary URLs (sitemap, robots, public docs mirror, contact)
 
 When proof points, routes, or entity URLs change, update `llms.txt` in the same change set as the page/schema edit.
+
+**Pricing facts (2026-08-24):** `llms.txt` now carries the locked seat model (list ₹999, term ladder, min 30, included group debrief, three scenario lanes, 1:1 / on-site add-ons). Do not invent a turn cap or a reset count; neither is published.
 
 5.2 AI Crawler Access Policy
 Update robots.txt to explicitly allow AI crawlers while keeping app paths blocked:
@@ -621,6 +639,7 @@ Google Business Profile (A Degree Above, service-area) — **done**
 Begin PR outreach (ET L&D beat, YourStory, HR Katha) anchored on Ashok Leyland story — **also the path back to Wikidata notability**
 HTML sitemap at /sitemap — **shipped SEO-010 (2026-07-26)**
 `/privacy` `/terms` `/cookies` — **shipped LEGAL-002 / OPS-002 (2026-08-20)**; counsel markdown in `docs/legal/published/`
+`/pricing` — **shipped PRC-008 / SEO-009 slice (2026-08-24)**; quote builder + FAQPage; remainder `/pilot` `/compare`
 Phase 5B evaluation: per-scenario pages — **shipped SEO-011 (2026-07-25)** as `/demos/[slug]/` for all live seeded scenarios (not gated on GSC wait)
 Part 8: Measurement
 What to track from Day 1:
@@ -635,7 +654,7 @@ Brand search volume GSC (filter by brand queries) Monthly
 AI citation check Manual Perplexity / ChatGPT query Monthly
 30-day milestones:
 
-All **5** core pages indexed (`/`, `/corporate`, `/education`, `/demos`, `/about`) with correct canonicals, OG tags, and schema (verify with Google Rich Results Test + LinkedIn/Facebook debugger)
+All **6** core pages indexed (`/`, `/corporate`, `/education`, `/demos`, `/about`, `/pricing`) with correct canonicals, OG tags, and schema (verify with Google Rich Results Test + LinkedIn/Facebook debugger)
 /sitemap-index.xml submitted to GSC ✓
 LinkedIn company page live + Altius showcase URL shared ✓
 First 4 LinkedIn posts — **in progress**

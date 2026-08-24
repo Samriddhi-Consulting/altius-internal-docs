@@ -270,6 +270,8 @@ This document isn't a proposal. It's a starting point. Here's what we'd explore 
 3. **What "good" looks like.** How do your best performers handle this situation differently from the average ones?
 4. **A pilot.** Would you be open to a two-week pilot with 20 to 30 participants on a single scenario, so you can see the data and decide from there?
 
+On [the corporate page](https://altius.adegreeabove.org/corporate/), that enquiry is an on-page form (name, work email, organisation, optional team size and capability challenge). It posts to the marketing host. The footer email `connect@adegreeabove.org` remains as a fallback.
+
 ---
 
 ## About A Degree Above™ (ADA)

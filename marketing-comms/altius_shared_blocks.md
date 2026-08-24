@@ -97,6 +97,8 @@ Canonical stat strings per page. Do not paraphrase. Sync to Astro `ProofBar.astr
 
 **Shareable scenario landings (SEO-011):** Every **live** scenario has an indexable teaser page at `/demos/{slug}/` (title, pitch, `hardCopy` prose, two logistics FAQs, skills/audience). Live gallery card **titles** link there; the card button still goes try → login. Do not put preread, withheld beats, traps, or rubric coaching on these pages. Aspirational gallery cards have no slug page.
 
+**Homepage featured schema (SEO-021):** DemoTeaser cards (`difficult-feedback`, `fmcg-distributor-negotiation`, `client-counselling-law`) feed the home JSON-LD featured ItemList via `HOME_FEATURED_SCENARIO_IDS` in `landing-page/src/lib/seo/schema.ts`. Keep those three IDs aligned when DemoTeaser changes. Ratings stay page-local on `#software`; do not invent Service nodes for cohort scores.
+
 ---
 
 ## Default OG image copy (`altius-practice-doing-difficult.png`)

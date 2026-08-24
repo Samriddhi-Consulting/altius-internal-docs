@@ -17,7 +17,7 @@
 >
 > **Implementation status (SEO infra):**
 > - **Phase 1 complete** (2026-06-23) — sitemap, `SeoHead`, `robots.txt`, `llms.txt`, benefit titles/meta, OG image, DemoGallery URL filters (`?topic=` / `?audience=` / `?function=`).
-> - **Phase 2 core complete** (2026-06-23) — `src/lib/seo/schema.ts` JSON-LD `@graph`, Tier 1 FAQs (14 corporate + 19 education) with `FAQPage` schema, `/about`, proof stats + `aggregateRating`/`review[]`, footer entity copy. **HowTo + ItemList shipped** (2026-07-09). **Operator HowTo on `/corporate` and `/education`** (SEO-018, 2026-07-10) — 6-step setup HowTo distinct from home learner HowTo; no new route. **Optional / deferred:** Service types on corporate/education.
+> - **Phase 2 core complete** (2026-06-23) — `src/lib/seo/schema.ts` JSON-LD `@graph`, Tier 1 FAQs (14 corporate + 19 education) with `FAQPage` schema, `/about`, proof stats + `aggregateRating`/`review[]`, footer entity copy. **HowTo + ItemList shipped** (2026-07-09). **Operator HowTo on `/corporate` and `/education`** (SEO-018, 2026-07-10) — 6-step setup HowTo distinct from home learner HowTo; no new route. **SEO-021 (2026-08-24):** trailing-slash WebPage urls; home `mainEntity` → `#software` + featured ItemList; demos ItemList → LearningResource `@id`; ratings stay page-local on `#software` (Service types for ratings **cancelled**). **Offers (PRC-008):** trial + AggregateOffer 849–999. **/demos query filters** are UX deep links only — not schema entities.
 > - **Phase 3 CWV (SEO-003) shipped** (2026-07-10) — Fraunces preload; `.bg-watermark` CLS fix; education `content-visibility`; demos conditional hydration.
 > - **`llms.txt` upgraded** (2026-07-10) — rewritten to [llmstxt.org](https://llmstxt.org/) (H1 + blockquote + curated H2 link lists); live at `/llms.txt`.
 > - **GSC:** `https://altius.adegreeabove.org/sitemap-index.xml` submitted (June 2026).
@@ -609,12 +609,12 @@ GSC sitemap submitted ✓
 Week 3–4 (Schema foundation + AEO) — **core done (2026-06-23); partial deferrals:**
 
 Site-wide Organization + WebSite + Brand JSON-LD ✓
-Home: WebApplication + aggregateRating (corporate cohort) ✓; HowTo ✓ (2026-07-09)
-Corporate + Education: FAQPage schema (14 + 19 Q&As) ✓; Service type optional
+Home: WebApplication + aggregateRating (corporate cohort) ✓; HowTo ✓ (2026-07-09); `mainEntity` → `#software` + featured ItemList ✓ (SEO-021, 2026-08-24)
+Corporate + Education: FAQPage schema (14 + 19 Q&As) ✓; page-local ratings on `#software` (Service types cancelled — SEO-021)
 Corporate + Education: operator HowTo (6-step setup) ✓ (SEO-018, 2026-07-10)
 /about entity page ✓
 Title/meta cleanup on core pages ✓
-Demos: ItemList schema ✓ (2026-07-09); live item URLs → `/demos/{slug}/` ✓ (SEO-011, 2026-07-25)
+Demos: ItemList schema ✓ (2026-07-09); live item URLs → `/demos/{slug}/` ✓ (SEO-011, 2026-07-25); live items → LearningResource `@id` + hub `mainEntity` → ItemList ✓ (SEO-021, 2026-08-24). Query filters (`audience`/`topic`/`function`/`q`) are UX only — not schema entities.
 Per-scenario pages `/demos/[slug]/` ✓ (SEO-011, 2026-07-25) — teaser depth + LearningResource + FAQPage; gate `validate:scenario-pages`
 
 Month 2 (Content architecture) — **pending:**

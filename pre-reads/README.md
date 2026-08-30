@@ -29,6 +29,7 @@ Learner-facing briefing for each live Altius scenario (same text as in-app pre-r
 | The Upgrade Dispute | corporate | `hospitality-guest-dispute-leap` | https://altius.adegreeabove.org/demos/hospitality-guest-dispute-leap/ |
 | Too Expensive | corporate | `sales-objection-handling-spin` | https://altius.adegreeabove.org/demos/sales-objection-handling-spin/ |
 | Transferred Twice | corporate | `customer-support-service-recovery-leap` | https://altius.adegreeabove.org/demos/customer-support-service-recovery-leap/ |
+| Twenty-Three Hours | corporate | `twenty-three-hours` | https://altius.adegreeabove.org/demos/twenty-three-hours/ |
 | Downstream | education | `accountability-under-pressure` | https://altius.adegreeabove.org/demos/accountability-under-pressure/ |
 | Eighteen Lakhs, No Reply | education | `client-counselling-law` | https://altius.adegreeabove.org/demos/client-counselling-law/ |
 | Just Borderline | education | `patient-communication` | https://altius.adegreeabove.org/demos/patient-communication/ |

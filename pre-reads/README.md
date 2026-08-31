@@ -37,6 +37,7 @@ Learner-facing briefing for each live Altius scenario (same text as in-app pre-r
 | The Digital Disconnect | education | `flowbridge-discovery` | https://altius.adegreeabove.org/demos/flowbridge-discovery/ |
 | The First Session | education | `clinical-rapport-first-consult` | https://altius.adegreeabove.org/demos/clinical-rapport-first-consult/ |
 | The Fourteenth Stay | education | `hospitality-loyalty-recognition-appreciative-inquiry` | https://altius.adegreeabove.org/demos/hospitality-loyalty-recognition-appreciative-inquiry/ |
+| The Market Launch Reset | education | `market-launch-reset` | https://altius.adegreeabove.org/demos/market-launch-reset/ |
 | The Midnight Ticket | education | `hospitality-fb-service-recovery-latte` | https://altius.adegreeabove.org/demos/hospitality-fb-service-recovery-latte/ |
 | The Pigment Squeeze | education | `negotiation-simulation` | https://altius.adegreeabove.org/demos/negotiation-simulation/ |
 | The Quiet Exit | education | `quiet-exit-retention` | https://altius.adegreeabove.org/demos/quiet-exit-retention/ |

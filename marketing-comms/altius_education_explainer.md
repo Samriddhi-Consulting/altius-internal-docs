@@ -277,7 +277,7 @@ This document is a starting point. Here's what we'd explore on a 30-minute call:
 3. **Your accreditation reality.** Which cycle are you in? What evidence do you currently have for experiential learning and CO/PO attainment of skills-based outcomes? Where is it thinnest?
 4. **A pilot.** Would you be open to running a single simulation with one batch of 30 to 60 students, so you can see the data, the debriefs, and the accreditation artefacts before committing further?
 
-On [the education page](https://altius.adegreeabove.org/education/), that enquiry is an on-page form (name, work email, institution, optional programme and cohort size). It posts to the marketing host. The footer email `connect@adegreeabove.org` remains as a fallback.
+On [the education page](https://altius.adegreeabove.org/education/), the decision band (`#pilot-form`) pairs a named **Try a scenario** with a slim enquiry form (required: work email, institution, message, consent; optional: name, programme, cohort size; hidden `scenario` when deep-linked from a demo slug). It posts to the marketing host. The footer email `connect@adegreeabove.org` remains as a fallback.
 
 ---
 

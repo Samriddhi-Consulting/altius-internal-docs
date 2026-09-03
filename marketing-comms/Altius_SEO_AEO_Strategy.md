@@ -27,7 +27,9 @@
 > - **SEO-010** (2026-07-26) — HTML `/sitemap/` + footer link.
 > - **SEO-020** (2026-07-26) — IndexNow key at marketing root; content-hash diff submit after Pages deploy (Bing/partners; not Google). XML `<lastmod>` from git of page sources.
 > - **DIST-004** (2026-07-30) — `BaseLayout` forwards `ogType` / `noindex` / article author+publishedTime; site-wide `og:site_name`, `og:locale` (`en_IN`), `og:image:alt`, `twitter:site`.
+> - **SeoHead** (2026-09-03) — `twitter:image:alt`; indexable `robots` extras (`max-image-preview:large, max-snippet:-1`); `og:image:type` / `secure_url`; optional `socialTitle` + `articleModifiedTime`.
 > - **DIST-001** (2026-07-30) — UTM convention (§6.1.1); `buildDemoUrl` attribution; gallery preserves inbound `utm_*`; try CTAs forward page UTMs.
+> - **DIST-003** (2026-09-03) — marketing click events `try_scenario_click` / `mailto_click` via Zaraz (§6.1.2); Zaraz→GA4 dashboard wire pending.
 > - **LEGAL-002 / OPS-002** (2026-08-20) — `/privacy/` `/terms/` `/cookies/` from counsel pack; footer Manage cookies (Zaraz); app brochure 301s.
 > - **PRC-008 / SEO-009 `/pricing`** (2026-08-24) — `/pricing/` quote builder + 11 FAQs; hubs and explainers match seat rates; `#software` Offers = trial `0` + AggregateOffer 849–999; `llms.txt` pricing facts block. Remainder: `/pilot`, `/compare`.
 
@@ -247,7 +249,7 @@ These remain valid and unchanged:
 Issue Fix
 Title double-suffix bug Remove "Altius |" prefix from page title props; layout appends | Altius by A Degree Above
 Missing home description Write dedicated 150–160 char description using ProofBar proof points
-Missing OG/Twitter tags SeoHead.astro + BaseLayout prop forward (**DIST-004 done 2026-07-30** — site_name, locale, image:alt, twitter:site; article props reachable for SEO-005)
+Missing OG/Twitter tags SeoHead.astro + BaseLayout prop forward (**DIST-004 done 2026-07-30** — site_name, locale, image:alt, twitter:site; article props reachable for SEO-005). **2026-09-03:** `twitter:image:alt`; indexable `robots` extras (`max-image-preview:large, max-snippet:-1`); `og:image:type` / `secure_url`; optional `socialTitle` + `articleModifiedTime`
 Missing canonical Emit on every page
 theme-color #003f88
 DemoGallery URL params Fix ?audience= and ?function= params
@@ -567,6 +569,17 @@ All **try → app** links go through `buildDemoUrl()` / `featuredDemoUrl()` in `
 **Campaign object:** `buildDemoUrl(slug, { source: 'linkedin', medium: 'social', campaign: 'knowing-doing-gap', content: 'vidhi' })`.
 
 **Inbound preserve:** `/demos/?utm_*` survives gallery filter / search / Clear (DemoGallery). Page `utm_*` also forward onto try links (`data-try-scenario` + ScenarioCard). Do not invent UTMs on sticky "Try a scenario" → `/demos/` browse links.
+
+### 6.1.2 Click events (DIST-003 — code 2026-09-03; Zaraz→GA4 wire pending)
+
+Marketing host only (`BaseLayout.astro` + `lib/outbound-click-events.ts` document click delegation). App host stays tag-free.
+
+| Event | When | Properties |
+|-------|------|------------|
+| `try_scenario_click` | Unmodified primary click on app-login CTA (`PUBLIC_APP_URL` origin + `/login?next=/pre-read/{id}`) | `scenario_id`, `utm_source`, `utm_medium`, `utm_campaign`, `utm_content` (from link href after DIST-001 forward), `page_path`, `link_text` |
+| `mailto_click` | Click on `mailto:connect@adegreeabove.org` (prefix match; FAQ markdown covered) | `page_path`, `link_text`, plus page `utm_*` from `location.search` |
+
+**Ops:** Register both as Zaraz custom events → **GA4 only** (Analytics purpose, not LinkedIn). Verify with the DIST-003 steps in [app/infra/cloudflare/README.md](./app/infra/cloudflare/README.md). Gallery cards use `utm_content=demos-gallery`.
 
 Twitter/X — Secondary. Thought leadership only.
 

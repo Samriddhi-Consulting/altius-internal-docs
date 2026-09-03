@@ -18,7 +18,7 @@ The copy dictates the design. Short sentences require different layouts than lon
 ## 3. Microcopy Rules
 - **No Filler:** Ban phrases like "Click here" or "Learn more."
 - **Specific Verbs:** Use exact, descriptive verbs for all CTAs.
-- **CTA verb:** site-wide **"Try a scenario"** (hero, FAQ, ProofBar, browse-all), not "Try a demo", "Try a simulation", "Try the demo". On a **named-scenario card** (one slug already chosen), use **"Try this scenario"**.
+- **CTA verb:** site-wide **"Try a scenario"** (hero, FAQ, ProofBar, browse-all), not "Try a demo", "Try a simulation", "Try the demo". On a **named-scenario card** (one slug already chosen), use **"Try this scenario"**. **Try a scenario** may land on `/demos/` (choose first). Do not promise instant sign-in (“Takes 60 seconds”) next to a gallery hop; that line belongs beside a named try URL.
 - **Eyebrows:** Eyebrow labels above headlines should be written for `SMALL CAPS`. These fit the editorial tone perfectly.
 
 ### 3.1 Altius value loop (benefits, not features)

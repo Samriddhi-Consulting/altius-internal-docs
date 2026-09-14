@@ -32,6 +32,7 @@
 > - **DIST-003** (2026-09-03) — marketing click events `try_scenario_click` / `mailto_click` via Zaraz (§6.1.2); Zaraz→GA4 dashboard wire pending.
 > - **LEGAL-002 / OPS-002** (2026-08-20) — `/privacy/` `/terms/` `/cookies/` from counsel pack; footer Manage cookies (Zaraz); app brochure 301s.
 > - **PRC-008 / SEO-009 `/pricing`** (2026-08-24) — `/pricing/` quote builder + 11 FAQs; hubs and explainers match seat rates; `#software` Offers = trial `0` + AggregateOffer 849–999; `llms.txt` pricing facts block. Remainder: `/pilot`, `/compare`.
+> - **DIST-007** (2026-09-14) — per-hub Open Graph sell posters for `/`, `/corporate`, `/education`, `/demos`, `/about`, `/pricing` (`public/og/hub-*.png`); complementary `description` + `ogImageAlt`; generator in `docs/og-cards/`. Supersedes SEO-012. Default SeoHead PNG remains for legal / `/demos/[slug]` until DIST-006.
 
 ---
 
@@ -249,7 +250,7 @@ These remain valid and unchanged:
 Issue Fix
 Title double-suffix bug Remove "Altius |" prefix from page title props; layout appends | Altius by A Degree Above
 Missing home description Write dedicated 150–160 char description using ProofBar proof points
-Missing OG/Twitter tags SeoHead.astro + BaseLayout prop forward (**DIST-004 done 2026-07-30** — site_name, locale, image:alt, twitter:site; article props reachable for SEO-005). **2026-09-03:** `twitter:image:alt`; indexable `robots` extras (`max-image-preview:large, max-snippet:-1`); `og:image:type` / `secure_url`; optional `socialTitle` + `articleModifiedTime`
+Missing OG/Twitter tags SeoHead.astro + BaseLayout prop forward (**DIST-004 done 2026-07-30** — site_name, locale, image:alt, twitter:site; article props reachable for SEO-005). **2026-09-03:** `twitter:image:alt`; indexable `robots` extras (`max-image-preview:large, max-snippet:-1`); `og:image:type` / `secure_url`; optional `socialTitle` + `articleModifiedTime`. **DIST-007 (2026-09-14):** distinct hub `og:image` + `og:image:alt`; remainder = DIST-006 per-scenario cards.
 Missing canonical Emit on every page
 theme-color #003f88
 DemoGallery URL params Fix ?audience= and ?function= params

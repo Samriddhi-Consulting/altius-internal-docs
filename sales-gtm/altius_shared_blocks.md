@@ -101,9 +101,28 @@ Canonical stat strings per page. Do not paraphrase. Sync to Astro `ProofBar.astr
 
 ---
 
+## Hub Open Graph cards (`public/og/hub-*.png`)
+
+1200×630 PNGs for the six marketing hubs. **Source of truth for art + locked meta:** [`docs/og-cards/_build-cards.mjs`](../docs/og-cards/_build-cards.mjs). Regenerate HTML: `node docs/og-cards/_build-cards.mjs`. Rasterise: `node docs/og-cards/_shot-previews.mjs` (writes `docs/og-cards/png/` and `landing-page/public/og/`).
+
+Design: charcoal sell posters, Δltius lockup, Fraunces punch, soft Δ watermark, trademark footer. Yellow only in the lockup °. No fake CTA chips. Image sells the funnel stage; page `description` / `og:description` sharpen without repeating the punch. Cohort LIVE only on Home, Corporate, Education, Demos (never merge n=20 with n=201).
+
+| Hub | `ogImage` | Image owns | Meta description owns |
+|-----|-----------|------------|------------------------|
+| `/` | `/og/hub-home.png` | Knowing–doing punch + 90% LIVE | Practise → debrief → change next time |
+| `/corporate` | `/og/hub-corporate.png` | Framework-under-pressure punch + 94% LIVE | Evidence L&D can show leadership |
+| `/education` | `/og/hub-education.png` | Tidy cases vs real conversations + 8-in-10 LIVE | Placement/viva practise + accreditation evidence |
+| `/demos` | `/og/hub-demos.png` | Pick a scenario + sign-in subline | Browse catalog + coaching feedback |
+| `/about` | `/og/hub-about.png` | Thesis punch (no LIVE) | Named builders + Ashok Leyland |
+| `/pricing` | `/og/hub-pricing.png` | Two decisions framing (no LIVE; rates stay out of art) | Seat rate floor + inclusions |
+
+Each hub also sets `ogImageAlt` to describe what is in the image (not a caption). Legal / sitemap / `/demos/[slug]` keep the default SeoHead image until **DIST-006**.
+
+---
+
 ## Default OG image copy (`altius-practice-doing-difficult.png`)
 
-1200×630 PNG. **Source:** [`altius-practice-doing-difficult.png`](./altius-practice-doing-difficult.png) → copy to `landing-page/public/`. Do not edit `public/` by hand.
+Fallback for non-hub pages until per-scenario cards ship. 1200×630 PNG. **Source:** [`altius-practice-doing-difficult.png`](./altius-practice-doing-difficult.png) → copy to `landing-page/public/`. Do not edit `public/` by hand.
 
 | Element | Copy |
 |---------|------|
@@ -112,7 +131,7 @@ Canonical stat strings per page. Do not paraphrase. Sync to Astro `ProofBar.astr
 | Social proof | ● LIVE · 90% changed their approach after one session |
 | CTA | Try a scenario · 60 seconds |
 
-Subline is benefit-only (no AI, no process). Social proof and trial deepen on the site.
+Subline is benefit-only (no AI, no process). Social proof and trial deepen on the site. Hub home uses the matching sell poster in `public/og/hub-home.png` instead of this file.
 
 ---
 

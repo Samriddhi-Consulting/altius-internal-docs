@@ -1,7 +1,7 @@
 # Altius — Public Docs
 
 <!-- sync-timestamp -->
-**Last synced:** 17 Sep 2026, 12:43 UTC · [View workflow](https://github.com/Samriddhi-Consulting/ADA-Learning-Simulator/actions/workflows/sync-public-docs.yml)
+**Last synced:** 17 Sep 2026, 12:58 UTC · [View workflow](https://github.com/Samriddhi-Consulting/ADA-Learning-Simulator/actions/workflows/sync-public-docs.yml)
 <!-- /sync-timestamp -->
 
 Auto-synced from the Altius private product repo on every merge to `main`.

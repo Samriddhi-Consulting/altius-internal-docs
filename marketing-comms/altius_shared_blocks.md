@@ -118,6 +118,20 @@ Design: charcoal sell posters, Δltius lockup, Fraunces punch, soft Δ watermark
 
 Each hub also sets `ogImageAlt` to describe what is in the image (not a caption). Legal / sitemap keep the default SeoHead image. Scenario slug pages use per-scenario cards (**DIST-006**).
 
+### New hub / marketing page (required)
+
+Do **not** auto-ship a custom hub poster. Source of truth for classification: [`landing-page/scripts/og-route-policy.mjs`](./landing-page/scripts/og-route-policy.mjs). Gate: `npm run validate:og-routes` after build.
+
+1. Propose **three** options (same charcoal shell; DIST-007 partition: image owns punch; meta complements; LIVE only when cohort-correct; yellow only in °):
+   - **A — Punch + LIVE**
+   - **B — Punch, no LIVE**
+   - **C — Framing** (decision frame; fragile numbers stay in meta)
+2. User picks A/B/C → draft in `docs/og-cards/`, rasterise, commit `public/og/hub-{name}.png`, wire `ogImage` / `ogImageAlt`, add path to `DESIGNED_ROUTES`.
+3. User declines → omit `ogImage` (SeoHead default) and add path to `DEFAULT_OK_ROUTES` in the same PR.
+4. Never leave a new top-level route unclassified (CI fails).
+
+Agent rule: [`.cursor/rules/og-route-policy.mdc`](../.cursor/rules/og-route-policy.mdc).
+
 ---
 
 ## Scenario Open Graph cards (`public/og/scenarios/{id}.png`)

@@ -29,11 +29,12 @@
 > - **DIST-004** (2026-07-30) — `BaseLayout` forwards `ogType` / `noindex` / article author+publishedTime; site-wide `og:site_name`, `og:locale` (`en_IN`), `og:image:alt`, `twitter:site`.
 > - **SeoHead** (2026-09-03) — `twitter:image:alt`; indexable `robots` extras (`max-image-preview:large, max-snippet:-1`); `og:image:type` / `secure_url`; optional `socialTitle` + `articleModifiedTime`.
 > - **DIST-001** (2026-07-30) — UTM convention (§6.1.1); `buildDemoUrl` attribution; gallery preserves inbound `utm_*`; try CTAs forward page UTMs.
-> - **DIST-003** (2026-09-03) — marketing click events `try_scenario_click` / `mailto_click` via Zaraz (§6.1.2); Zaraz→GA4 dashboard wire pending.
+> - **DIST-003** (2026-09-17) — marketing click events `try_scenario_click` / `mailto_click` via Zaraz → GA4 (§6.1.2); code shipped 2026-09-03.
 > - **LEGAL-002 / OPS-002** (2026-08-20) — `/privacy/` `/terms/` `/cookies/` from counsel pack; footer Manage cookies (Zaraz); app brochure 301s.
 > - **PRC-008 / SEO-009 `/pricing`** (2026-08-24) — `/pricing/` quote builder + 11 FAQs; hubs and explainers match seat rates; `#software` Offers = trial `0` + AggregateOffer 849–999; `llms.txt` pricing facts block. Remainder: `/pilot`, `/compare`.
 > - **DIST-007** (2026-09-14) — per-hub Open Graph sell posters for `/`, `/corporate`, `/education`, `/demos`, `/about`, `/pricing` (`public/og/hub-*.png`); complementary `description` + `ogImageAlt`; generator in `docs/og-cards/`. Supersedes SEO-012. Default SeoHead PNG remains for legal and other non-hub / non-scenario routes.
 > - **DIST-006** (2026-09-17) — per-scenario Open Graph cards for every live `/demos/[slug]/` (`public/og/scenarios/{id}.png`); Claude Design art (skills + optional industry; no title on canvas); `learningResourceNode.image` matches; `validate:scenario-pages` asserts file + meta.
+> - **OG route policy (2026-09-17)** — `validate:og-routes`: every built route is designed hub PNG, intentional `DEFAULT_OK` default, or a scenario slug. New hubs: propose 3 options → pick or decline (no silent default).
 
 ---
 
@@ -251,7 +252,7 @@ These remain valid and unchanged:
 Issue Fix
 Title double-suffix bug Remove "Altius |" prefix from page title props; layout appends | Altius by A Degree Above
 Missing home description Write dedicated 150–160 char description using ProofBar proof points
-Missing OG/Twitter tags SeoHead.astro + BaseLayout prop forward (**DIST-004 done 2026-07-30** — site_name, locale, image:alt, twitter:site; article props reachable for SEO-005). **2026-09-03:** `twitter:image:alt`; indexable `robots` extras (`max-image-preview:large, max-snippet:-1`); `og:image:type` / `secure_url`; optional `socialTitle` + `articleModifiedTime`. **DIST-007 (2026-09-14):** distinct hub `og:image` + `og:image:alt`. **DIST-006 (2026-09-17):** per-scenario `og:image` + LearningResource `image` for all live slug pages.
+Missing OG/Twitter tags SeoHead.astro + BaseLayout prop forward (**DIST-004 done 2026-07-30** — site_name, locale, image:alt, twitter:site; article props reachable for SEO-005). **2026-09-03:** `twitter:image:alt`; indexable `robots` extras (`max-image-preview:large, max-snippet:-1`); `og:image:type` / `secure_url`; optional `socialTitle` + `articleModifiedTime`. **DIST-007 (2026-09-14):** distinct hub `og:image` + `og:image:alt`. **DIST-006 (2026-09-17):** per-scenario `og:image` + LearningResource `image` for all live slug pages. **OG route policy (2026-09-17):** `validate:og-routes` classifies designed vs defaultOk vs scenario slug.
 Missing canonical Emit on every page
 theme-color #003f88
 DemoGallery URL params Fix ?audience= and ?function= params
@@ -574,7 +575,7 @@ All **try → app** links go through `buildDemoUrl()` / `featuredDemoUrl()` in `
 
 **Inbound preserve:** `/demos/?utm_*` survives gallery filter / search / Clear (DemoGallery). Page `utm_*` also forward onto try links (`data-try-scenario` + ScenarioCard). Do not invent UTMs on sticky "Try a scenario" → `/demos/` browse links.
 
-### 6.1.2 Click events (DIST-003 — code 2026-09-03; Zaraz→GA4 wire pending)
+### 6.1.2 Click events (DIST-003 — done 2026-09-17; code 2026-09-03)
 
 Marketing host only (`BaseLayout.astro` + `lib/outbound-click-events.ts` document click delegation). App host stays tag-free.
 
@@ -583,7 +584,7 @@ Marketing host only (`BaseLayout.astro` + `lib/outbound-click-events.ts` documen
 | `try_scenario_click` | Unmodified primary click on app-login CTA (`PUBLIC_APP_URL` origin + `/login?next=/pre-read/{id}`) | `scenario_id`, `utm_source`, `utm_medium`, `utm_campaign`, `utm_content` (from link href after DIST-001 forward), `page_path`, `link_text` |
 | `mailto_click` | Click on `mailto:connect@adegreeabove.org` (prefix match; FAQ markdown covered) | `page_path`, `link_text`, plus page `utm_*` from `location.search` |
 
-**Ops:** Register both as Zaraz custom events → **GA4 only** (Analytics purpose, not LinkedIn). Verify with the DIST-003 steps in [app/infra/cloudflare/README.md](./app/infra/cloudflare/README.md). Gallery cards use `utm_content=demos-gallery`.
+**Ops:** Both events registered as Zaraz custom events → **GA4 only** (Analytics purpose, not LinkedIn). Verify matrix in [app/infra/cloudflare/README.md](./app/infra/cloudflare/README.md). Gallery cards use `utm_content=demos-gallery`.
 
 Twitter/X — Secondary. Thought leadership only.
 

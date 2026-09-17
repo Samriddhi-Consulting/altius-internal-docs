@@ -32,7 +32,8 @@
 > - **DIST-003** (2026-09-03) — marketing click events `try_scenario_click` / `mailto_click` via Zaraz (§6.1.2); Zaraz→GA4 dashboard wire pending.
 > - **LEGAL-002 / OPS-002** (2026-08-20) — `/privacy/` `/terms/` `/cookies/` from counsel pack; footer Manage cookies (Zaraz); app brochure 301s.
 > - **PRC-008 / SEO-009 `/pricing`** (2026-08-24) — `/pricing/` quote builder + 11 FAQs; hubs and explainers match seat rates; `#software` Offers = trial `0` + AggregateOffer 849–999; `llms.txt` pricing facts block. Remainder: `/pilot`, `/compare`.
-> - **DIST-007** (2026-09-14) — per-hub Open Graph sell posters for `/`, `/corporate`, `/education`, `/demos`, `/about`, `/pricing` (`public/og/hub-*.png`); complementary `description` + `ogImageAlt`; generator in `docs/og-cards/`. Supersedes SEO-012. Default SeoHead PNG remains for legal / `/demos/[slug]` until DIST-006.
+> - **DIST-007** (2026-09-14) — per-hub Open Graph sell posters for `/`, `/corporate`, `/education`, `/demos`, `/about`, `/pricing` (`public/og/hub-*.png`); complementary `description` + `ogImageAlt`; generator in `docs/og-cards/`. Supersedes SEO-012. Default SeoHead PNG remains for legal and other non-hub / non-scenario routes.
+> - **DIST-006** (2026-09-17) — per-scenario Open Graph cards for every live `/demos/[slug]/` (`public/og/scenarios/{id}.png`); Claude Design art (skills + optional industry; no title on canvas); `learningResourceNode.image` matches; `validate:scenario-pages` asserts file + meta.
 
 ---
 
@@ -250,7 +251,7 @@ These remain valid and unchanged:
 Issue Fix
 Title double-suffix bug Remove "Altius |" prefix from page title props; layout appends | Altius by A Degree Above
 Missing home description Write dedicated 150–160 char description using ProofBar proof points
-Missing OG/Twitter tags SeoHead.astro + BaseLayout prop forward (**DIST-004 done 2026-07-30** — site_name, locale, image:alt, twitter:site; article props reachable for SEO-005). **2026-09-03:** `twitter:image:alt`; indexable `robots` extras (`max-image-preview:large, max-snippet:-1`); `og:image:type` / `secure_url`; optional `socialTitle` + `articleModifiedTime`. **DIST-007 (2026-09-14):** distinct hub `og:image` + `og:image:alt`; remainder = DIST-006 per-scenario cards.
+Missing OG/Twitter tags SeoHead.astro + BaseLayout prop forward (**DIST-004 done 2026-07-30** — site_name, locale, image:alt, twitter:site; article props reachable for SEO-005). **2026-09-03:** `twitter:image:alt`; indexable `robots` extras (`max-image-preview:large, max-snippet:-1`); `og:image:type` / `secure_url`; optional `socialTitle` + `articleModifiedTime`. **DIST-007 (2026-09-14):** distinct hub `og:image` + `og:image:alt`. **DIST-006 (2026-09-17):** per-scenario `og:image` + LearningResource `image` for all live slug pages.
 Missing canonical Emit on every page
 theme-color #003f88
 DemoGallery URL params Fix ?audience= and ?function= params
@@ -480,6 +481,8 @@ Follow the [llmstxt.org](https://llmstxt.org/) format (not free-form marketing p
 When proof points, routes, or entity URLs change, update `llms.txt` in the same change set as the page/schema edit.
 
 **Pricing facts (2026-08-24):** `llms.txt` now carries the locked seat model (list ₹999, term ladder, min 30, included group debrief, three scenario lanes, 1:1 / on-site add-ons). Do not invent a turn cap or a reset count; neither is published.
+
+**Entity naming (2026-09-15):** `llms.txt` and `/about` body copy name Altius + A Degree Above only. Samriddhi Consulting is trademark proprietor (site footer / shared_blocks legal line), not the operator string in `llms.txt`.
 
 5.2 AI Crawler Access Policy
 Update robots.txt to explicitly allow AI crawlers while keeping app paths blocked:

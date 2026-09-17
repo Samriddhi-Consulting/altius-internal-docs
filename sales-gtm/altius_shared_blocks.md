@@ -116,13 +116,36 @@ Design: charcoal sell posters, Δltius lockup, Fraunces punch, soft Δ watermark
 | `/about` | `/og/hub-about.png` | Thesis punch (no LIVE) | Named builders + Ashok Leyland |
 | `/pricing` | `/og/hub-pricing.png` | Two decisions framing (no LIVE; rates stay out of art) | Seat rate floor + inclusions |
 
-Each hub also sets `ogImageAlt` to describe what is in the image (not a caption). Legal / sitemap / `/demos/[slug]` keep the default SeoHead image until **DIST-006**.
+Each hub also sets `ogImageAlt` to describe what is in the image (not a caption). Legal / sitemap keep the default SeoHead image. Scenario slug pages use per-scenario cards (**DIST-006**).
+
+---
+
+## Scenario Open Graph cards (`public/og/scenarios/{id}.png`)
+
+1200×630 charcoal cards for every live `getScenarioPageEntries()` slug. **Art lock:** [`docs/og-cards/DIST-006.md`](../docs/og-cards/DIST-006.md). Generators: [`_build-scenario-cards.mjs`](../docs/og-cards/_build-scenario-cards.mjs) → [`_shot-scenario-previews.mjs`](../docs/og-cards/_shot-scenario-previews.mjs) (writes `docs/og-cards/png/scenarios/` and `landing-page/public/og/scenarios/`). Commit the PNGs; do not run Playwright in the Pages build.
+
+### Partition (image vs meta)
+
+| Surface | Owns |
+|---|---|
+| **`og:image`** | Skills (Fraunces), optional industry, brand strip, legal. **No scenario title. No function.** |
+| **`og:title`** | `${title}: ${topic[0]} practice` |
+| **`og:description`** | `scenario.description` (pressure blurb). Do not repeat skills. |
+| **`og:image:alt`** | Picture description (hub style), via `scenarioOgImageAlt()`. |
+
+### Data rules
+
+- **Skills:** `tags.slice(0, 3)` in source order. Not `topic`, not `function`.
+- **Industry:** drop `Cross-industry`; if more than one remains, drop `Education`; keep ≤2; join with `  ·  `; omit the row when empty.
+- **Yellow** only in `°` (kicker, industry, lockup i-dot).
+
+Helpers: `scenarioOgImagePath(id)`, `scenarioOgImageAlt(scenario)` in `landing-page/src/data/scenarios.ts`. `learningResourceNode.image` uses the same path.
 
 ---
 
 ## Default OG image copy (`altius-practice-doing-difficult.png`)
 
-Fallback for non-hub pages until per-scenario cards ship. 1200×630 PNG. **Source:** [`altius-practice-doing-difficult.png`](./altius-practice-doing-difficult.png) → copy to `landing-page/public/`. Do not edit `public/` by hand.
+Fallback for legal and other non-hub / non-scenario routes. 1200×630 PNG. **Source:** [`altius-practice-doing-difficult.png`](./altius-practice-doing-difficult.png) → copy to `landing-page/public/`. Do not edit `public/` by hand.
 
 | Element | Copy |
 |---------|------|

@@ -206,6 +206,25 @@ We work with faculty and programme leaders, not instead of them. You bring the d
 
 ---
 
+## Missing page
+
+Unknown marketing URLs (`src/pages/404.astro`). Not a hub. `noindex`. No ProofBar. Do not paraphrase.
+
+| Slot | Copy |
+|------|------|
+| Document title | Page not found |
+| Description | This address is not a page on Altius. |
+| H1 | This page does not exist. |
+| Body | The address is wrong, or the page was removed. Scenarios are listed on Demos. |
+| Search label | Search scenarios |
+| Placeholder | Search by capability, industry, or keyword... |
+| Submit | Search |
+| Link | All scenarios → `/demos/` |
+
+The form is `GET /demos/?q=`. Leave the field empty. Do not copy the missing path into it.
+
+---
+
 ## Off-site entity log (SEO / knowledge graph)
 
 Maintain with [Altius SEO + AEO Strategy.md](./Altius%20SEO%20+%20AEO%20Strategy.md) Part 4.4 when listings go live.

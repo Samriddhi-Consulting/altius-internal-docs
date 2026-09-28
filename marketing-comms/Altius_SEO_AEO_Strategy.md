@@ -36,6 +36,7 @@
 > - **DIST-006** (2026-09-17) — per-scenario Open Graph cards for every live `/demos/[slug]/` (`public/og/scenarios/{id}.png`); Claude Design art (skills + optional industry; no title on canvas); `learningResourceNode.image` matches; `validate:scenario-pages` asserts file + meta.
 > - **OG route policy (2026-09-17)** — `validate:og-routes`: every built route is designed hub PNG, intentional `DEFAULT_OK` default, or a scenario slug. New hubs: propose 3 options → pick or decline (no silent default).
 > - **SEO-011 situation depth (2026-09-28)** — same `/demos/[slug]/` URLs and schema types (LearningResource, FAQPage, ItemList). Deeper body: cast, opening line, situation, three binds, module turn cap. FAQPage is four questions (two specific, two shared). `timeRequired` stays `PT20M`. Scenario OG PNGs unchanged unless tags or industry change. `llms.txt` may state a scenario turn cap; the trial turn limit and reset count stay unpublished.
+> - **Marketing 404 (2026-09-28)** — `src/pages/404.astro` → `dist/404.html`. Unknown URLs return HTTP 404 with `noindex`. Not in the sitemap. Default OG. Scenario search is `GET /demos/?q=`. Stops Cloudflare Crawler Hints from IndexNowing scanner paths that previously soft-200'd the homepage. Purge the Pages cache once after deploy (those URLs were cached `200` / `max-age=31536000`).
 
 ---
 
@@ -223,6 +224,10 @@ Disallow: /admin/
 Disallow: /internal/
 Sitemap: https://altius.adegreeabove.org/sitemap-index.xml
 Note: include specific bot permissions if needed for GPTBot, ClaudeBot, PerplexityBot (for AEO — see Part 5).
+
+Unknown URLs
+
+**Shipped (2026-09-28):** `dist/404.html` is the Cloudflare Pages not-found document (HTTP 404, `noindex`, default OG, not in the XML sitemap). A search form submits to `/demos/?q=`. Do not serve `index.html` at status 200 for missing paths: Crawler Hints IndexNows non-error cache misses, which is how scanner names (`/backup.zip`, `/credentials.csv`) reached Bing.
 
 Internal Linking Architecture
 This is where most sites fail. Every blog post and sub-page must link to adjacent content and up to the primary product page. The hub-and-spoke model:

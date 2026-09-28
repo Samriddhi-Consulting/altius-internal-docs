@@ -95,7 +95,7 @@ Canonical stat strings per page. Do not paraphrase. Sync to Astro `ProofBar.astr
 - **Microsite eyebrows (Wave B / BR-007):** `/education` and `/corporate` hero labels use shared `.section-eyebrow` (not page-local `hero__eyebrow`).
 - **Attribution (DIST-001):** Try → app links use `buildDemoUrl()` / `featuredDemoUrl()` with optional UTM params. Convention: [Altius SEO + AEO Strategy §6.1.1](./Altius%20SEO%20+%20AEO%20Strategy.md). Do not put UTMs on internal `/demos/` browse or title links.
 
-**Shareable scenario landings (SEO-011):** Every **live** scenario has an indexable teaser page at `/demos/{slug}/` (title, pitch, `hardCopy` prose, two logistics FAQs, skills/audience). Live gallery card **titles** link there; the card button still goes try → login. Do not put preread, withheld beats, traps, or rubric coaching on these pages. Aspirational gallery cards have no slug page.
+**Shareable scenario landings (SEO-011):** Every **live** scenario has an indexable page at `/demos/{slug}/` (title, pitch, cast, opening line, situation, three binds, skills, turn cap, four FAQs). Live gallery card **titles** link there; the card button still goes try → login. The in-page try link is ghost. Do not put preread, withheld beats, traps, winning moves, or rubric coaching on these pages. Aspirational gallery cards have no slug page.
 
 **Homepage featured schema (SEO-021):** DemoTeaser cards (`difficult-feedback`, `fmcg-distributor-negotiation`, `client-counselling-law`) feed the home JSON-LD featured ItemList via `HOME_FEATURED_SCENARIO_IDS` in `landing-page/src/lib/seo/schema.ts`. Keep those three IDs aligned when DemoTeaser changes. Ratings stay page-local on `#software`; do not invent Service nodes for cohort scores.
 

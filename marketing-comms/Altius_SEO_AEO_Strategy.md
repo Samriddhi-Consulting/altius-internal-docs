@@ -35,6 +35,7 @@
 > - **DIST-007** (2026-09-14) — per-hub Open Graph sell posters for `/`, `/corporate`, `/education`, `/demos`, `/about`, `/pricing` (`public/og/hub-*.png`); complementary `description` + `ogImageAlt`; generator in `docs/og-cards/`. Supersedes SEO-012. Default SeoHead PNG remains for legal and other non-hub / non-scenario routes.
 > - **DIST-006** (2026-09-17) — per-scenario Open Graph cards for every live `/demos/[slug]/` (`public/og/scenarios/{id}.png`); Claude Design art (skills + optional industry; no title on canvas); `learningResourceNode.image` matches; `validate:scenario-pages` asserts file + meta.
 > - **OG route policy (2026-09-17)** — `validate:og-routes`: every built route is designed hub PNG, intentional `DEFAULT_OK` default, or a scenario slug. New hubs: propose 3 options → pick or decline (no silent default).
+> - **SEO-011 situation depth (2026-09-28)** — same `/demos/[slug]/` URLs and schema types (LearningResource, FAQPage, ItemList). Deeper body: cast, opening line, situation, three binds, module turn cap. FAQPage is four questions (two specific, two shared). `timeRequired` stays `PT20M`. Scenario OG PNGs unchanged unless tags or industry change. `llms.txt` may state a scenario turn cap; the trial turn limit and reset count stay unpublished.
 
 ---
 
@@ -180,7 +181,7 @@ Page Purpose
 /terms **Shipped (LEGAL-002 / OPS-002, 2026-08-20)** — counsel Terms & Conditions
 /cookies **Shipped (LEGAL-002, 2026-08-20)** — counsel Cookies Policy (Zaraz CMP purposes map)
 /compare Comparison with alternatives (classroom training, generic AI chatbots, video role-play platforms)
-/scenarios (expanded) **Shipped as `/demos/[slug]/` (SEO-011, 2026-07-25)** — one indexable teaser page per live seeded scenario; aspirational stay gallery-only
+/scenarios (expanded) **Shipped as `/demos/[slug]/` (SEO-011, 2026-07-25; situation depth 2026-09-28)** — one indexable page per live seeded scenario (same URL, deeper body, four FAQs); aspirational stay gallery-only
 Part 3: Technical SEO Foundation
 3.1 Core Web Vitals (India 4G Priority)
 This is non-negotiable given the brand guidelines' Indian 4G, mid-range Android target. Lighthouse mobile 90+ is the standard.
@@ -633,7 +634,7 @@ Corporate + Education: operator HowTo (6-step setup) ✓ (SEO-018, 2026-07-10)
 /about entity page ✓
 Title/meta cleanup on core pages ✓
 Demos: ItemList schema ✓ (2026-07-09); live item URLs → `/demos/{slug}/` ✓ (SEO-011, 2026-07-25); live items → LearningResource `@id` + hub `mainEntity` → ItemList ✓ (SEO-021, 2026-08-24). Query filters (`audience`/`topic`/`function`/`q`) are UX only — not schema entities.
-Per-scenario pages `/demos/[slug]/` ✓ (SEO-011, 2026-07-25) — teaser depth + LearningResource + FAQPage; gate `validate:scenario-pages`
+Per-scenario pages `/demos/[slug]/` ✓ (SEO-011, 2026-07-25; situation depth 2026-09-28) — same URLs and schema types, deeper body, four FAQPage questions; gate `validate:scenario-pages`
 
 Month 2 (Content architecture) — **pending:**
 

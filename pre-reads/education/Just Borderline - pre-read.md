@@ -56,9 +56,9 @@ You cannot, not today. Whether he gets his fitness certificate, and on what term
 
 When it lands, he will not go quiet. He will bargain.
 
-He will try to shrink it. "Borderline only, na?" He will offer you the smallest possible version of the problem so he can accept that one instead. "Just diet, I'll cut the sugar in my tea and it's finished." He may decide the report is mixed up, because he feels completely fine, and feeling fine is the only evidence his body has given him.
+He will try to shrink it. "Borderline only, right?" He will offer you the smallest possible version of the problem so he can accept that one instead. "Just diet, I'll cut the sugar in my tea and it's finished." He may decide the report is mixed up, because he feels completely fine, and feeling fine is the only evidence his body has given him.
 
-Watch for the other thing too, the quieter failure: the nod. If you bury him in numbers and complications and long words, he will not argue. He will say "haan haan, theek hai doctor," agree with all of it, check his watch, and absorb none of it. A patient who agrees with everything has often understood nothing. The certificate-and-signature version of this conversation is easy and useless. He leaves polite. He also leaves unchanged.
+Watch for the other thing too, the quieter failure: the nod. If you bury him in numbers and complications and long words, he will not argue. He will say "yes yes, okay doctor," agree with all of it, check his watch, and absorb none of it. A patient who agrees with everything has often understood nothing. The certificate-and-signature version of this conversation is easy and useless. He leaves polite. He also leaves unchanged.
 
 ---
 
